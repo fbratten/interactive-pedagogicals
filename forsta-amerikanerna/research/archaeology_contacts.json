@@ -1,0 +1,1314 @@
+{
+ "agent": "archaeology_contacts",
+ "generated": "2026-11-21T13:41:26+00:00",
+ "events": [
+  {
+   "id": "white-sands-fotspar",
+   "kind": "arkeologi",
+   "status": "omstritt",
+   "title_sv": "Fotspår vid White Sands",
+   "place_sv": "New Mexico, USA",
+   "lat": 32.8,
+   "lon": -106.3,
+   "age_bp": {
+    "from": 23000,
+    "to": 20700,
+    "show": 23000
+   },
+   "ce": null,
+   "summary_sv": "I gamla sjösediment i White Sands nationalpark har man hittat mänskliga fotspår, bland annat av barn och ungdomar. Frön (2021), pollen och ljusdatering (2023) och 2025 även själva leran runt spåren ger åldrar på ungefär 23 000-20 700 år, alltså mitt under istidens kallaste skede.",
+   "debate_sv": "Kritiker har länge menat att vattenväxternas frön kan ge för höga åldrar och att inga redskap eller boplatser hittats i samma lager. De nya dateringarna av lera, pollen och frön stämmer överens, men frågan om varför spåren saknar fynd är fortfarande obesvarad.",
+   "why_sv": "Om dateringen håller fanns människor söder om inlandsisarna tusentals år före Clovis.",
+   "illustration": "fotspar",
+   "sources": [
+    {
+     "label": "Bennett et al. 2021, Science",
+     "url": "https://doi.org/10.1126/science.abg7586",
+     "kind": "primar"
+    },
+    {
+     "label": "Holliday et al. 2025, Science Advances",
+     "url": "https://doi.org/10.1126/sciadv.adv4951",
+     "kind": "primar"
+    },
+    {
+     "label": "Pigati et al. 2023, Science",
+     "url": "https://doi.org/10.1126/science.adh5007",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Bennett et al. 2021 Science 373:1528-1531 DOI 10.1126/science.abg7586 (UArizona experts page); Pigati et al. 2023 Science 382:73-75 DOI 10.1126/science.adh5007 (USGS pubs: pollen + OSL support 23-21 ka); Holliday et al. 2025 Sci Adv DOI 10.1126/sciadv.adv4951, mud 20,700-22,400 yr (UArizona news, 18 Jun 2025). Critique on seeds and lack of artifacts per UArizona news."
+  },
+  {
+   "id": "monte-verde",
+   "kind": "arkeologi",
+   "status": "omstritt",
+   "title_sv": "Monte Verde - ålder ifrågasatt",
+   "place_sv": "Los Lagos, Chile",
+   "lat": -41.5,
+   "lon": -73.2,
+   "age_bp": {
+    "from": 14500,
+    "to": 4200,
+    "show": 14500
+   },
+   "ce": null,
+   "summary_sv": "Monte Verde II i södra Chile har i snart 30 år räknats som ett säkert bevis för människor i Sydamerika för omkring 14 500 år sedan, med bevarade trärester, växter och sjögräs. I mars 2026 hävdade en grupp ledd av Todd Surovell att lagren i stället är 4 200-8 200 år gamla och att det gamla träet har spolats dit av en bäck.",
+   "debate_sv": "Surovells grupp pekar på ett cirka 11 000 år gammalt vulkaniskt asklager under fyndlagret och på omlagrat istida trä. Ett trettiotal forskare, bland dem utgrävarna kring Tom Dillehay, svarade 2026 att proverna tagits utanför själva platsen, att askan är feltolkad och att den höga åldern står sig; Surovells grupp står fast vid sin tolkning.",
+   "why_sv": "Monte Verde var platsen som fick forskarvärlden att överge tanken på Clovis som de första amerikanerna, så en yngre ålder skulle rubba en hörnsten men inte hela bilden.",
+   "illustration": "lager",
+   "sources": [
+    {
+     "label": "Surovell et al. 2026, Science",
+     "url": "https://doi.org/10.1126/science.adw9217",
+     "kind": "primar"
+    },
+    {
+     "label": "Monte Verde-teamets svar 2026, PaleoAmerica",
+     "url": "https://doi.org/10.1080/20555563.2026.2699017",
+     "kind": "primar"
+    },
+    {
+     "label": "Waters, Dillehay och Meltzer m.fl. 2026, tre eLetters i Science (samlad PDF)",
+     "url": "https://liberalarts.tamu.edu/csfa/wp-content/uploads/sites/14/2026/05/Three-Critiques.pdf",
+     "kind": "oversikt"
+    }
+   ],
+   "verified": "EurekAlert: Surovell et al., Science 19 Mar 2026, DOI 10.1126/science.adw9217, 4,200-8,200 yr, Lepue tephra ~11 ka, redeposited wood, surface formed after ~8,600 yr. CSFA PDF: eLetters by Waters et al. (5 May 2026), Dillehay et al. (4 May), Meltzer et al. (4 May). Live Science 12 May 2026: 30 researchers, no new excavation in critiques. Reuters 31 Aug 2026: defenses in PaleoAmerica; search result gives PaleoAmerica DOI 10.1080/20555563.2026.2699017 (title 'Archaeological and Geological Evidence at Monte Verde II, Chile, Supports a Human Occupation at ~14,500 Years Ago'; full text not fetched). UWyo June 2026: Surovell team replied in eLetters. Wikipedia: MV-II coords 41.505 S 73.204 W; CMN rejected permit complaint 8 Apr 2026. NOT verified: a new independent excavation reaffirming early dates (Science news 20 Oct 2026 'Archaeology fight reopens wounds...' exists in search results but could not be opened)."
+  },
+  {
+   "id": "santa-elina",
+   "kind": "arkeologi",
+   "status": "omstritt",
+   "title_sv": "Santa Elina - smycken av jättesengångare",
+   "place_sv": "Mato Grosso, Brasilien",
+   "lat": -15.5,
+   "lon": -56.8,
+   "age_bp": {
+    "from": 27400,
+    "to": 25100,
+    "show": 27000
+   },
+   "ce": null,
+   "summary_sv": "I klipphålan Santa Elina i centrala Brasilien har man funnit benplattor från en utdöd jättesengångare med borrade hål, polering och slitspår. Forskarna tolkar dem som hängsmycken eller prydnader gjorda av människor för omkring 27 000-25 000 år sedan.",
+   "debate_sv": "Skeptiker frågar om hålen och slitaget kan ha uppstått naturligt, till exempel av gnag eller tramp, och om benen kan ha hamnat i yngre lager. Fynden accepteras av en del forskare men ingår inte i de flesta säkra kronologier.",
+   "why_sv": "Om tolkningen håller fanns människor djupt inne i Sydamerika långt före den senaste istidens slut.",
+   "illustration": "ben",
+   "sources": [
+    {
+     "label": "Pansani et al. 2023, Proceedings of the Royal Society B",
+     "url": "https://doi.org/10.1098/rspb.2023.0316",
+     "kind": "primar"
+    },
+    {
+     "label": "Sci.News 2023",
+     "url": "https://www.sci.news/archaeology/giant-sloth-pendants-12095.html",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "Sci.News: Proc R Soc B, DOI 10.1098/rspb.2023.0316, Glossotherium osteoderms, ~25,100-27,400 yr. Critique wording is general (not a specific paper checked). Coordinates approximate."
+  },
+  {
+   "id": "chiquihuite",
+   "kind": "arkeologi",
+   "status": "omstritt",
+   "title_sv": "Chiquihuite-grottan",
+   "place_sv": "Zacatecas, Mexiko",
+   "lat": 24.6,
+   "lon": -101.4,
+   "age_bp": {
+    "from": 33000,
+    "to": 13000,
+    "show": 31000
+   },
+   "ce": null,
+   "summary_sv": "Högt uppe i bergen i norra Mexiko har en forskargrupp grävt fram stora mängder kalkstensbitar som de tolkar som redskap, i lager som daterats ända ned till cirka 33 000-31 000 år sedan. Grottan skulle då ha besökts under mycket lång tid, fram till omkring 13 000 år sedan.",
+   "debate_sv": "En grupp på ett tjugotal forskare menade 2021 att stenarna snarast är naturligt sprängda kalkstensflisor, så kallade geofakter. Utgrävarna svarade 2022 med nya slitspårsanalyser, men frågan är olöst.",
+   "why_sv": "Om stenarna är redskap skulle människor ha nått Nordamerika före den senaste istidens höjdpunkt.",
+   "illustration": "grotta",
+   "sources": [
+    {
+     "label": "Ardelean et al. 2020, Nature",
+     "url": "https://doi.org/10.1038/s41586-020-2509-0",
+     "kind": "primar"
+    },
+    {
+     "label": "Chatters et al. 2021, PaleoAmerica",
+     "url": "https://doi.org/10.1080/20555563.2021.1940441",
+     "kind": "primar"
+    },
+    {
+     "label": "Ardelean et al. 2022, PaleoAmerica (svar)",
+     "url": "https://doi.org/10.1080/20555563.2021.1985063",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Wikipedia Chiquihuite page and MSU news: Nature 584:87-92 DOI 10.1038/s41586-020-2509-0; up to 33 ka, 33-31 ka dispersal; Chatters 2021 geofact critique DOI; Ardelean 2022 reply DOI. Coordinates approximate."
+  },
+  {
+   "id": "bluefish-caves",
+   "kind": "arkeologi",
+   "status": "omstritt",
+   "title_sv": "Bluefish-grottorna",
+   "place_sv": "Yukon, Kanada",
+   "lat": 67.15,
+   "lon": -140.75,
+   "age_bp": {
+    "from": 24000,
+    "to": 12000,
+    "show": 24000
+   },
+   "ce": null,
+   "summary_sv": "I små grottor i norra Yukon finns djurben med skärmärken. En ny datering 2017 gav en hästkäke med snittspår en ålder på ungefär 24 000 år, vilket tolkades som att människor fanns i östra Beringia redan under istidens höjdpunkt.",
+   "debate_sv": "Kritiker menar att märkena kan komma från rovdjur, tramp eller naturliga processer och att säkra stenredskap från samma tid saknas. Platsen ses därför ofta som möjlig men inte bevisad.",
+   "why_sv": "Platsen stöder idén att människor kan ha väntat i Beringia innan vägen söderut öppnades.",
+   "illustration": "ben",
+   "sources": [
+    {
+     "label": "Bourgeon, Burke & Higham 2017, PLOS ONE",
+     "url": "https://doi.org/10.1371/journal.pone.0169486",
+     "kind": "primar"
+    }
+   ],
+   "verified": "PMC5218561: PLOS ONE 12(1) e0169486, horse mandible ~24,000 cal BP, coordinates 67 09 N 140 45 W. Younger bound 12 ka is approximate (site used later); critique wording general."
+  },
+  {
+   "id": "coopers-ferry",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Cooper's Ferry",
+   "place_sv": "Idaho, USA",
+   "lat": 45.6,
+   "lon": -116.4,
+   "age_bp": {
+    "from": 16560,
+    "to": 15280,
+    "show": 16500
+   },
+   "ce": null,
+   "summary_sv": "Vid Salmonfloden i västra Idaho har man funnit stenredskap, en eldstad och ben från utdöd häst i lager som daterats till omkring 16 500-15 300 år sedan. Redskapen liknar äldre fynd från nordöstra Asien, särskilt Japan.",
+   "debate_sv": null,
+   "why_sv": "Platsen är äldre än en isfri landkorridor genom Kanada, vilket talar för en tidig väg längs Stillahavskusten.",
+   "illustration": "spets",
+   "sources": [
+    {
+     "label": "Davis et al. 2019, Science",
+     "url": "https://doi.org/10.1126/science.aax9830",
+     "kind": "primar"
+    },
+    {
+     "label": "Archaeology Magazine 2019",
+     "url": "https://archaeology.org/news/2019/08/30/190830-idaho-cooper-s-ferry/",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "Sci.News: Science 365:891-897 DOI 10.1126/science.aax9830, ~16,000 yr, Japan similarity. Archaeology.org: 16,560-15,280 yr, horse, hearth. Coordinates approximate."
+  },
+  {
+   "id": "page-ladson",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Page-Ladson, mastodont i floden",
+   "place_sv": "Florida, USA",
+   "lat": 30.2,
+   "lon": -83.9,
+   "age_bp": {
+    "from": 14550,
+    "to": 14200,
+    "show": 14550
+   },
+   "ce": null,
+   "summary_sv": "På nio meters djup i ett slukhål i Aucillafloden har dykande arkeologer hittat stenredskap och en mastodontbete med spår av slakt. Över 70 kol-14-dateringar visar att människor fanns där för cirka 14 550 år sedan, vid en damm som då låg på torra land.",
+   "debate_sv": null,
+   "why_sv": "Ett tydligt fynd från tiden före Clovis i sydöstra Nordamerika, som visar att människor spridit sig långt österut tidigt.",
+   "illustration": "mammut",
+   "sources": [
+    {
+     "label": "Halligan et al. 2016, Science Advances",
+     "url": "https://doi.org/10.1126/sciadv.1600375",
+     "kind": "primar"
+    }
+   ],
+   "verified": "PMC4928949: Sci Adv 2(5) e1600375, ~14,550 cal BP, 71 radiocarbon ages, Aucilla River sinkhole under 9 m water. Coordinates approximate."
+  },
+  {
+   "id": "paisley-caves",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Paisley-grottorna",
+   "place_sv": "Oregon, USA",
+   "lat": 42.7,
+   "lon": -120.5,
+   "age_bp": {
+    "from": 14500,
+    "to": 13000,
+    "show": 14300
+   },
+   "ce": null,
+   "summary_sv": "I grottor i Oregons öken har man hittat fossil avföring med mänskligt DNA som är äldre än 14 000 år. I samma lager finns spetsar av typen Western Stemmed, som är lika gamla som eller äldre än Clovis.",
+   "debate_sv": null,
+   "why_sv": "Visar att det fanns flera tidiga redskapstraditioner i Nordamerika samtidigt, inte en enda Clovisrot.",
+   "illustration": "grotta",
+   "sources": [
+    {
+     "label": "Jenkins et al. 2012, Science",
+     "url": "https://doi.org/10.1126/science.1218443",
+     "kind": "primar"
+    },
+    {
+     "label": "Archaeology Magazine 2014",
+     "url": "https://archaeology.org/issues/september-october-2014/collection/peopling-the-americas-paisely-caves/america-in-the-beginning/",
+     "kind": "oversikt"
+    }
+   ],
+   "verified": "USF repository abstract: Science 337, DOI 10.1126/science.1218443, coprolites from 12,450 14C BP, WST points 11,070-11,340 14C BP, blind-lab DNA confirmation. Archaeology.org: five coprolites >14,000 yr. Note some contamination debate existed (not re-checked). Coordinates approximate."
+  },
+  {
+   "id": "friedkin-gault",
+   "kind": "arkeologi",
+   "status": "antytt",
+   "title_sv": "Buttermilk Creek (Friedkin och Gault)",
+   "place_sv": "Texas, USA",
+   "lat": 30.89,
+   "lon": -97.71,
+   "age_bp": {
+    "from": 15500,
+    "to": 13200,
+    "show": 15500
+   },
+   "ce": null,
+   "summary_sv": "Vid Buttermilk Creek i Texas ligger tusentals stenredskap under ett Clovislager. Ljusdatering (OSL) av sedimenten ger åldrar på ungefär 15 500-13 200 år, och den närliggande Gaultplatsen har liknande äldre lager.",
+   "debate_sv": "Kritiker påpekar att lerjordar som sväller och spricker kan ha flyttat föremål mellan lager, och att OSL-åldrarna har stora felmarginaler.",
+   "why_sv": "Ett stort redskapsmaterial som tyder på att Clovis växte fram ur äldre lokala traditioner.",
+   "illustration": "spets",
+   "sources": [
+    {
+     "label": "Waters et al. 2011, Science",
+     "url": "https://doi.org/10.1126/science.1201855",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Wikipedia Buttermilk Creek complex: 13,200-15,500 BP OSL, DOI 10.1126/science.1201855, coordinates 30.892 -97.710, vertisol and OSL-error critique (Morrow et al. 2012), Gault 250 m upstream."
+  },
+  {
+   "id": "swan-point",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Swan Point, äldst i östra Beringia",
+   "place_sv": "Alaska, USA",
+   "lat": 64.4,
+   "lon": -146.0,
+   "age_bp": {
+    "from": 14200,
+    "to": 13800,
+    "show": 14200
+   },
+   "ce": null,
+   "summary_sv": "Swan Point i Tananadalen är den äldsta väldaterade boplatsen i Alaska, med spår av människor från omkring 14 200 år sedan. Där finns mikroblad, en teknik med rötter i Sibirien, och bearbetad mammutelfenben.",
+   "debate_sv": null,
+   "why_sv": "Visar att människor fanns i Beringia, porten till Amerika, samtidigt som de första säkra platserna söderut.",
+   "illustration": "mammut",
+   "sources": [
+    {
+     "label": "Reuther et al. 2023, Radiocarbon",
+     "url": "https://doi.org/10.1017/RDC.2023.30",
+     "kind": "primar"
+    },
+    {
+     "label": "Gauvrit Roux et al. 2024, American Antiquity",
+     "url": "https://doi.org/10.1017/aaq.2024.10",
+     "kind": "primar"
+    }
+   ],
+   "verified": "UArizona experts page: Reuther et al. 2023 Radiocarbon DOI 10.1017/RDC.2023.30, site dates to 14,200 cal BP. Wikipedia: microblades, mammoth ivory ~14,000 cal BP. Younger bound approximate; coordinates approximate."
+  },
+  {
+   "id": "cerutti-mastodont",
+   "kind": "arkeologi",
+   "status": "omstritt",
+   "title_sv": "Prolog: Cerutti-mastodonten",
+   "place_sv": "Kalifornien, USA",
+   "lat": 32.7,
+   "lon": -117.0,
+   "age_bp": {
+    "from": 140100,
+    "to": 121300,
+    "show": 130000
+   },
+   "ce": null,
+   "summary_sv": "Vid ett vägbygge nära San Diego hittades krossade mastodontben tillsammans med stora stenar. Forskarna daterade benen med uran-torium-metoden till ungefär 130 000 år och menade att någon okänd människoart slagit sönder dem för att komma åt märgen.",
+   "debate_sv": "De flesta arkeologer avvisar tolkningen. Kritiker visar att liknande benbrott finns på platser där människor aldrig funnits och att stenarna kan ha spolats dit naturligt.",
+   "why_sv": "Ett exempel på hur extraordinära påståenden kräver extraordinära bevis, och därför bara en prolog till berättelsen.",
+   "illustration": "mammut",
+   "sources": [
+    {
+     "label": "Holen et al. 2017, Nature",
+     "url": "https://doi.org/10.1038/nature22065",
+     "kind": "primar"
+    },
+    {
+     "label": "Baylor University 2018 om kritiken i Nature",
+     "url": "https://news.web.baylor.edu/news/story/2018/baylor-universitys-institute-archaeology-casts-doubts-early-humans-california",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "USGS pubs record: Nature 544:479-483, DOI 10.1038/nature22065, 230Th/U age 130.7 +/- 9.4 ka; Baylor news: critique 'Contesting early archaeology in California', Nature Feb 2018 (natural damage, cobbles washed in). Coordinates approximate (San Diego)."
+  },
+  {
+   "id": "arroyo-del-vizcaino",
+   "kind": "arkeologi",
+   "status": "omstritt",
+   "title_sv": "Arroyo del Vizcaíno",
+   "place_sv": "Canelones, Uruguay",
+   "lat": -34.6,
+   "lon": -56.0,
+   "age_bp": {
+    "from": 32300,
+    "to": 31200,
+    "show": 31500
+   },
+   "ce": null,
+   "summary_sv": "I en uttorkad bäckfåra i södra Uruguay ligger tusentals ben av jättesengångare och andra stora istidsdjur. Ett fyrtiotal ben har märken som liknar snitt från stenredskap, och lagret har daterats till cirka 32 000-31 000 kalenderår sedan.",
+   "debate_sv": "Även upphovsmännen kallar beläggen antydande. Märkena kan ha andra förklaringar, som tramp, och nästan inga säkra redskap har hittats.",
+   "why_sv": "En av flera sydamerikanska platser som, om de håller, skulle innebära människor långt före istidens höjdpunkt.",
+   "illustration": "ben",
+   "sources": [
+    {
+     "label": "Fariña et al. 2014, Proceedings of the Royal Society B",
+     "url": "https://doi.org/10.1098/rspb.2013.2211",
+     "kind": "primar"
+    }
+   ],
+   "verified": "PMC3843831: Proc R Soc B 281:20132211, DOI 10.1098/rspb.2013.2211, pooled 29 14C ka = ~32.3-31.2 cal ka, ~40 cut-marked elements, authors call evidence suggestive, trampling noted. Coordinates approximate (near Sauce)."
+  },
+  {
+   "id": "glyptodont-reconquista",
+   "kind": "arkeologi",
+   "status": "omstritt",
+   "title_sv": "Slaktad glyptodont, 21 000 år",
+   "place_sv": "Buenos Aires-provinsen, Argentina",
+   "lat": -34.6,
+   "lon": -58.8,
+   "age_bp": {
+    "from": 21500,
+    "to": 20500,
+    "show": 21000
+   },
+   "ce": null,
+   "summary_sv": "Vid Reconquistafloden nära Buenos Aires har man hittat ben av en glyptodont, ett jättelikt pansardjur, med skärmärken på bäcken, svans och pansar. Märkenas placering tyder på styckning, och benen är omkring 21 000 år gamla (fynd publicerat 2024).",
+   "debate_sv": "Fyndet saknar stenredskap, och skärmärken på ben är svåra att skilja från naturliga skador. Det har ännu inte prövats lika hårt som äldre platser.",
+   "why_sv": "Ett av flera nya fynd som pekar mot människor i Sydamerika under istidens höjdpunkt.",
+   "illustration": "ben",
+   "sources": [
+    {
+     "label": "Del Papa et al. 2024, PLOS ONE",
+     "url": "https://doi.org/10.1371/journal.pone.0304956",
+     "kind": "primar"
+    },
+    {
+     "label": "Sci.News 2024",
+     "url": "https://www.sci.news/archaeology/stone-tool-marks-glyptodont-bones-argentina-13106.html",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "Sci.News 17 Jul 2024: PLOS ONE 19(7), DOI 10.1371/journal.pone.0304956, Neosclerocalyptus, ~21,000 yr, Reconquista River. Age bounds +/-500 are my approximation; debate wording general (no specific rebuttal checked). Coordinates approximate."
+  },
+  {
+   "id": "huaca-prieta",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Huaca Prieta vid Perus kust",
+   "place_sv": "La Libertad, Peru",
+   "lat": -7.9,
+   "lon": -79.3,
+   "age_bp": {
+    "from": 15000,
+    "to": 9000,
+    "show": 15000
+   },
+   "ce": null,
+   "summary_sv": "Vid Perus nordkust har ett lag kring Tom Dillehay funnit enkla stenredskap, fiskben, sjölejon och växtrester från minst 15 000 år sedan. Platsen användes länge, och senare lager innehåller bland annat korgar och färgad bomull.",
+   "debate_sv": null,
+   "why_sv": "Visar att tidiga människor utnyttjade kustens och våtmarkernas resurser i Sydamerika mycket tidigt.",
+   "illustration": "kelp",
+   "sources": [
+    {
+     "label": "Dillehay et al. 2017, Science Advances",
+     "url": "https://doi.org/10.1126/sciadv.1602778",
+     "kind": "primar"
+    },
+    {
+     "label": "Sci.News 2017",
+     "url": "https://www.sci.news/archaeology/peru-early-americans-04891.html",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "Sci.News: Sci Adv 3(5) e1602778, DOI 10.1126/sciadv.1602778, at least 15,000 yr, occupation to ~9,000 yr, no fishhooks or boats. Coordinates approximate (Chicama valley mouth). Same lead excavator as Monte Verde; not independently re-examined in sources I checked."
+  },
+  {
+   "id": "calvert-fotspar",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Fotspår på Calvert Island",
+   "place_sv": "British Columbia, Kanada",
+   "lat": 51.6,
+   "lon": -128.1,
+   "age_bp": {
+    "from": 13317,
+    "to": 12633,
+    "show": 13000
+   },
+   "ce": null,
+   "summary_sv": "Under sanden på en strand på Calvert Island har arkeologer friläggt 29 fotspår efter minst tre personer, varav några barn. Trä i leran ger en ålder på omkring 13 300-12 600 år, när havsytan där låg bara några meter lägre än i dag.",
+   "debate_sv": null,
+   "why_sv": "Ett direkt spår av människor längs Stillahavskusten, den väg många forskare tror att de första amerikanerna följde.",
+   "illustration": "fotspar",
+   "sources": [
+    {
+     "label": "McLaren et al. 2018, PLOS ONE",
+     "url": "https://doaj.org/article/963e6ca7f0724864bc44a3c9750fdc72",
+     "kind": "primar"
+    },
+    {
+     "label": "Science News 2018",
+     "url": "https://www.sciencenews.org/article/footprints-put-people-canada-west-coast-13000-years-ago",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "DOAJ record: PLOS ONE 13(3) e0193522, 29 footprints, >=3 sizes, ~13,000-yr paleosol, sea level 2-3 m lower. Science News: wood dated 13,317-12,633 yr. DOI not shown on page (so DOAJ URL used). Coordinates approximate."
+  },
+  {
+   "id": "arlington-springs",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Arlington Springs - båt till ön",
+   "place_sv": "Santa Rosa Island, Kalifornien",
+   "lat": 34.0,
+   "lon": -120.1,
+   "age_bp": {
+    "from": 13100,
+    "to": 12900,
+    "show": 13000
+   },
+   "ce": null,
+   "summary_sv": "Ett lårben som hittades på Santa Rosa Island 1959 har daterats till omkring 13 000 kalenderår och hör till de äldsta människoresterna i Amerika. Ön låg redan då ute i havet, så människorna måste ha kommit dit med båt.",
+   "debate_sv": null,
+   "why_sv": "Visar att båtar användes längs Kaliforniens kust, vilket gör en kustväg söderut trovärdig.",
+   "illustration": "kanot",
+   "sources": [
+    {
+     "label": "National Park Service, Channel Islands",
+     "url": "https://www.nps.gov/chis/learn/historyculture/arlington.htm",
+     "kind": "oversikt"
+    }
+   ],
+   "verified": "NPS page: femur fragment found 1959 by Phil Orr, ~13,000 calendar years, watercraft in use. No primary dating paper fetched; +/-100 bounds are my approximation. Coordinates approximate."
+  },
+  {
+   "id": "holzman-alaska",
+   "kind": "arkeologi",
+   "status": "antytt",
+   "title_sv": "Holzman - elfenbensverkstad i Alaska",
+   "place_sv": "Tananadalen, Alaska",
+   "lat": 64.3,
+   "lon": -146.3,
+   "age_bp": {
+    "from": 14000,
+    "to": 13700,
+    "show": 14000
+   },
+   "ce": null,
+   "summary_sv": "På Holzmanplatsen i centrala Alaska finns lager från omkring 14 000 och 13 700 år sedan med eldstäder, stenredskap och bearbetat mammutelfenben, bland annat en nästan hel bete. Forskarna publicerade 2026 att elfenbensstavarna tillverkats på ett sätt som liknar Clovis.",
+   "debate_sv": "Att Clovis teknik skulle ha sina rötter här är en tolkning byggd på likheter i hantverket. Forskarna själva påpekar att det inte utesluter tidigare människor söderut, och att DNA och mer klimatdata behövs.",
+   "why_sv": "Kan vara en länk mellan istidens jägare i Beringia och Clovis längre söderut.",
+   "illustration": "mammut",
+   "sources": [
+    {
+     "label": "Wygal et al. 2026, Quaternary International",
+     "url": "https://doi.org/10.1016/j.quaint.2025.110087",
+     "kind": "primar"
+    },
+    {
+     "label": "Archaeology Magazine, feb 2026",
+     "url": "https://archaeology.org/news/2026/02/03/did-ancestors-of-the-clovis-people-camp-in-central-alaska/",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "ScienceAlert 6 Feb 2026 gives DOI 10.1016/j.quaint.2025.110087 (Wygal et al.); Archaeology.org 3 Feb 2026: layers ~14,000 and ~13,700 yr, ivory, quartz tools, Clovis-like rod making. Publication year shown as 2026 in news; DOI suggests 2025 online. Coordinates approximate."
+  },
+  {
+   "id": "clovis",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Clovis - och slutet för Clovis först",
+   "place_sv": "Nordamerika (typplats New Mexico)",
+   "lat": 34.3,
+   "lon": -103.3,
+   "age_bp": {
+    "from": 13050,
+    "to": 12750,
+    "show": 13050
+   },
+   "ce": null,
+   "summary_sv": "Clovis är en jägarkultur med karaktäristiska räfflade spjutspetsar som spreds över stora delar av Nordamerika. Nya dateringar av tio platser visar att den bara varade i ungefär 300 år, mellan 13 050 och 12 750 år sedan.",
+   "debate_sv": null,
+   "why_sv": "Länge trodde man att Clovis var de första amerikanerna, men många äldre platser visar nu att människor kom tidigare.",
+   "illustration": "spets",
+   "sources": [
+    {
+     "label": "Waters et al. 2020, Science Advances",
+     "url": "https://doi.org/10.1126/sciadv.aaz0455",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Sci.News: 'The age of Clovis - 13,050 to 12,750 cal yr B.P.', Sci Adv 6(43) eaaz0455, DOI 10.1126/sciadv.aaz0455, 10 sites, ~300 years. Coordinates: Blackwater Draw type site near Clovis NM, approximate."
+  },
+  {
+   "id": "fells-cave",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Fell-grottan och fisksjärtsspetsar",
+   "place_sv": "Magallanes, Chile",
+   "lat": -52.0,
+   "lon": -70.0,
+   "age_bp": {
+    "from": 12800,
+    "to": 12100,
+    "show": 12800
+   },
+   "ce": null,
+   "summary_sv": "I Fell-grottan nära Magellans sund definierades den typ av spjutspets som formats som en fiskstjärt. Nya dateringar av eldstäderna visar att spetsarna tillverkades för cirka 12 800-12 100 år sedan, och samma typ finns på andra platser i Sydamerikas södra del.",
+   "debate_sv": null,
+   "why_sv": "Visar att människor nått Sydamerikas sydspets ungefär samtidigt som Clovis fanns i norr.",
+   "illustration": "spets",
+   "sources": [
+    {
+     "label": "Waters, Amorosi & Stafford 2015, American Antiquity",
+     "url": "https://doi.org/10.7183/0002-7316.80.2.376",
+     "kind": "primar"
+    }
+   ],
+   "verified": "USF repository: American Antiquity 80(2), DOI 10.7183/0002-7316.80.2.376, Fishtail ~12,800-12,100 cal BP, type site for Fishtail point, matches other Southern Cone sites. Coordinates approximate."
+  },
+  {
+   "id": "kennewick",
+   "kind": "arkeologi",
+   "status": "belagt",
+   "title_sv": "Kennewickmannen, Den forntida",
+   "place_sv": "Washington, USA",
+   "lat": 46.2,
+   "lon": -119.2,
+   "age_bp": {
+    "from": 9200,
+    "to": 8340,
+    "show": 8800
+   },
+   "ce": null,
+   "summary_sv": "Ett skelett som hittades vid Columbiafloden 1996 har daterats till ungefär 9 200-8 300 år sedan. Hans arvsmassa visar att han står närmare dagens ursprungsamerikaner än någon annan befolkning, särskilt stammar i samma region.",
+   "debate_sv": null,
+   "why_sv": "Genomet avgjorde en lång strid om hans ursprung och visar kontinuitet i regionen i minst 8 000 år.",
+   "illustration": "none",
+   "sources": [
+    {
+     "label": "Rasmussen et al. 2015, Nature",
+     "url": "https://doi.org/10.1038/nature14625",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Illinois experts page: Nature 523:455-458, DOI 10.1038/nature14625, 8,340-9,200 cal BP, closer to Native Americans than any other population, Colville. 'Ancient One' name used by tribes (general knowledge). Coordinates approximate."
+  },
+  {
+   "id": "paleo-inuit-ankomst",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Paleo-inuiter korsar Berings sund",
+   "place_sv": "Alaska, USA",
+   "lat": 66.0,
+   "lon": -163.0,
+   "age_bp": {
+    "from": 5000,
+    "to": 4000,
+    "show": 5000
+   },
+   "ce": null,
+   "summary_sv": "För omkring 5 000 år sedan kom en ny grupp från Sibirien till Alaska, de så kallade paleo-inuiterna eller paleo-eskimåerna, med små fint slagna stenredskap. De blandade sig snart med folk som redan bodde där, och deras arv finns i dag bland annat hos na-dene-talande folk.",
+   "debate_sv": null,
+   "why_sv": "Visar att invandringen till Amerika inte var en enda händelse utan fortsatte i flera vågor.",
+   "illustration": "umiak",
+   "sources": [
+    {
+     "label": "Flegontov et al. 2019, Nature",
+     "url": "https://doi.org/10.1038/s41586-019-1251-y",
+     "kind": "primar"
+    },
+    {
+     "label": "Max Planck-institutet, pressmeddelande 2019",
+     "url": "https://www.shh.mpg.de/1333290/arctic-hunter-gatherer",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "MPI SHH release: Flegontov et al. 2019 Nature 570:236-240, DOI 10.1038/s41586-019-1251-y, arrival ~5,000 yr ago, admixture 5,000-4,000 yr, Na-Dene link. Paleo-Inuit Wikipedia: ASTt source in East Siberia. Coordinates approximate (Seward Peninsula)."
+  },
+  {
+   "id": "saqqaq-gronland",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Saqqaq - de första på Grönland",
+   "place_sv": "Diskobukten, Grönland",
+   "lat": 68.8,
+   "lon": -51.0,
+   "age_bp": {
+    "from": 4500,
+    "to": 2750,
+    "show": 4500
+   },
+   "ce": null,
+   "summary_sv": "Ättlingar till de paleo-inuitiska invandrarna nådde Grönland för omkring 4 500 år sedan och bildade Saqqaqkulturen. Arvsmassan från en 4 000 år gammal Saqqaqman visar släktskap med folk i nordöstra Sibirien. Senare följde Dorsetkulturen, som fanns kvar i Arktis till omkring 1300-1400-talet.",
+   "debate_sv": null,
+   "why_sv": "Saqqaq är inte förfäder till dagens grönländare, vilket visar att Arktis befolkades i flera omgångar.",
+   "illustration": "umiak",
+   "sources": [
+    {
+     "label": "Rasmussen et al. 2010, Nature",
+     "url": "https://doi.org/10.1038/nature08835",
+     "kind": "primar"
+    },
+    {
+     "label": "Raghavan et al. 2014, Science",
+     "url": "https://doi.org/10.1126/science.1255832",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Wikipedia Saqqaq: c. 2500-800 BCE, genome of 'Inuk' ~4,000 yr (Rasmussen 2010 Nature DOI 10.1038/nature08835), NE Siberian affinity, not ancestors of Kalaallit; Raghavan 2014 Science DOI 10.1126/science.1255832. Paleo-Inuit Wikipedia: Greenland reached by 4,500 yr; Dorset 500 BCE-1400 CE (intro says ~1500), replaced by Thule by 1300 CE."
+  },
+  {
+   "id": "thule-inuit",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Thulefolket sprids österut",
+   "place_sv": "Kanadas Arktis till Grönland",
+   "lat": 70.0,
+   "lon": -110.0,
+   "age_bp": {
+    "from": 750,
+    "to": 650,
+    "show": 750
+   },
+   "ce": {
+    "from": 1200,
+    "to": 1300
+   },
+   "summary_sv": "Dagens inuiters förfäder, Thulefolket, kom från Berings sund-området och spred sig mycket snabbt över hela den kanadensiska Arktis till Grönland. Dateringar av tidiga boplatser tyder på att vandringen skedde på 1200-talet, och omkring år 1300 hade de ersatt de äldre paleo-inuiterna.",
+   "debate_sv": null,
+   "why_sv": "Den sista stora invandringen till Amerika före européerna, och den som gav upphov till dagens inuiter.",
+   "illustration": "umiak",
+   "sources": [
+    {
+     "label": "Friesen & Arnold 2008, American Antiquity",
+     "url": "https://doi.org/10.1017/s0002731600046850",
+     "kind": "primar"
+    },
+    {
+     "label": "Raghavan et al. 2014, Science",
+     "url": "https://doi.org/10.1126/science.1255832",
+     "kind": "primar"
+    }
+   ],
+   "verified": "OpenPolar abstract: Friesen & Arnold 2008, early Thule sites no earlier than 13th century AD, rapid migration (replacing AD 1000 view). Paleo-Inuit Wikipedia (citing Raghavan 2014): by 1300 CE Paleo-Eskimos replaced. Exact Greenland arrival year not verified; coordinates are a central marker."
+  },
+  {
+   "id": "norrona-gronland",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Nordbor på Grönland",
+   "place_sv": "Sydvästra Grönland",
+   "lat": 61.15,
+   "lon": -45.5,
+   "age_bp": {
+    "from": 965,
+    "to": 500,
+    "show": 965
+   },
+   "ce": {
+    "from": 985,
+    "to": 1450
+   },
+   "summary_sv": "Efter att ha bosatt Island från omkring år 877 grundade nordbor kolonier på Grönland omkring 985. Västra bygden övergavs runt 1350 och Östra bygden ungefär hundra år senare, kring mitten av 1400-talet.",
+   "debate_sv": null,
+   "why_sv": "Grönland var språngbrädan som gjorde de första kända europeiska resorna till Nordamerika möjliga.",
+   "illustration": "knarr",
+   "sources": [
+    {
+     "label": "Borreggine et al. 2023, PNAS",
+     "url": "https://doi.org/10.1073/pnas.2209615120",
+     "kind": "primar"
+    },
+    {
+     "label": "Schmid et al. 2017, Quaternary Geochronology (Island, landnamsaskan)",
+     "url": "https://www.pure.ed.ac.uk/ws/files/27977230/27977131._AAM._Schmidt_et_al_2016.pdf",
+     "kind": "primar"
+    }
+   ],
+   "verified": "PMC10151458: Borreggine et al. 2023 PNAS DOI 10.1073/pnas.2209615120: arrival ~985 CE, Western Settlement abandoned ~1350, Eastern mid-15th century. Schmid et al. 2017 Quat Geochron 40:56-66 (Edinburgh AAM PDF): Landnam tephra AD 877 +/- 1, a few SW sites predate it. Causes of abandonment debated (sea level, drought, trade) but not part of event."
+  },
+  {
+   "id": "lanse-aux-meadows",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "L'Anse aux Meadows år 1021",
+   "place_sv": "Newfoundland, Kanada",
+   "lat": 51.6,
+   "lon": -55.53,
+   "age_bp": {
+    "from": 929,
+    "to": 929,
+    "show": 929
+   },
+   "ce": {
+    "from": 1021,
+    "to": 1021
+   },
+   "summary_sv": "Vid L'Anse aux Meadows på Newfoundland finns resterna av en nordisk boplats. Tre träbitar som huggits med metallverktyg, som urbefolkningen i området inte använde, har daterats på året med hjälp av en topp i kol-14 från en kosmisk strålningshändelse år 993: träden fälldes år 1021.",
+   "debate_sv": null,
+   "why_sv": "Det äldsta säkert daterade beviset för européer i Amerika, nästan 500 år före Columbus.",
+   "illustration": "knarr",
+   "sources": [
+    {
+     "label": "Kuitems et al. 2021, Nature",
+     "url": "https://doi.org/10.1038/s41586-021-03972-8",
+     "kind": "primar"
+    }
+   ],
+   "verified": "PMC8770119: Nature 601:388-391, DOI 10.1038/s41586-021-03972-8, three wood items converge on AD 1021 felling via AD 993 radiocarbon anomaly; very brief occupation. Archaeology.org 20 Oct 2021: wood cut with metal tools, which Norse used but local Indigenous people did not; sagas written down in 13th century."
+  },
+  {
+   "id": "lapita-tonga",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Lapitafolket når Tonga",
+   "place_sv": "Tongatapu, Tonga",
+   "lat": -21.1,
+   "lon": -175.1,
+   "age_bp": {
+    "from": 2846,
+    "to": 2830,
+    "show": 2838
+   },
+   "ce": null,
+   "summary_sv": "Polynesiernas förfäder, Lapitafolket, nådde Tonga för omkring 2 840 år sedan, enligt mycket exakta dateringar av koraller vid boplatsen Nukuleka. Därifrån och från Samoa skulle senare resorna österut över Stilla havet utgå.",
+   "debate_sv": null,
+   "why_sv": "Bakgrunden till den polynesiska sjöfart som långt senare nådde Amerikas närhet.",
+   "illustration": "kanot",
+   "sources": [
+    {
+     "label": "Burley et al. 2012, PLOS ONE",
+     "url": "https://doi.org/10.1371/journal.pone.0048769",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Sci.News: Burley et al. 2012 PLOS ONE 7(11) e48769, DOI 10.1371/journal.pone.0048769, founder event 2838 +/- 8 BP (2,830-2,846). Sci.News headline says 826 BC, inconsistent with its BP figures; use BP. 'Corals' = U/Th dating (title 'High precision U/Th dating')."
+  },
+  {
+   "id": "ostpolynesien",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Östpolynesien befolkas",
+   "place_sv": "Sällskapsöarna, Franska Polynesien",
+   "lat": -17.5,
+   "lon": -149.8,
+   "age_bp": {
+    "from": 925,
+    "to": 660,
+    "show": 925
+   },
+   "ce": {
+    "from": 1025,
+    "to": 1290
+   },
+   "summary_sv": "Efter ett långt uppehåll i västra Polynesien seglade människor österut och nådde Sällskapsöarna omkring 1025-1120. Inom ett par hundra år, ungefär 1190-1290, hade de nått även de mest avlägsna öarna, som Hawaii och Rapa Nui. Genetiska studier pekar på en kedja via Cooköarna, Tuamotu och Marquesas.",
+   "debate_sv": null,
+   "why_sv": "Denna snabba utvidgning förde polynesiska seglare så långt österut att en kontakt med Amerika blev möjlig.",
+   "illustration": "kanot",
+   "sources": [
+    {
+     "label": "Wilmshurst et al. 2011, PNAS",
+     "url": "https://doi.org/10.1073/pnas.1015876108",
+     "kind": "primar"
+    },
+    {
+     "label": "Ioannidis et al. 2021, Nature",
+     "url": "https://doi.org/10.1038/s41586-021-03902-8",
+     "kind": "primar"
+    }
+   ],
+   "verified": "ANU portal: Wilmshurst 2011 PNAS 108(5):1815-1820, DOI 10.1073/pnas.1015876108, Society Is. AD 1025-1120, remote East Polynesia AD 1190-1290. Oxford CHG page + ANID record: Ioannidis 2021 Nature 597, DOI 10.1038/s41586-021-03902-8, sequence Samoa-Rarotonga-Society-Tuamotu/Austral-Marquesas/Raivavae/Rapa Nui (~AD 1200). Dates differ between methods (genetic vs radiocarbon)."
+  },
+  {
+   "id": "aotearoa",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Aotearoa / Nya Zeeland bosätts",
+   "place_sv": "Nya Zeeland",
+   "lat": -41.0,
+   "lon": 174.0,
+   "age_bp": {
+    "from": 700,
+    "to": 650,
+    "show": 700
+   },
+   "ce": {
+    "from": 1250,
+    "to": 1300
+   },
+   "summary_sv": "Nya Zeeland, eller Aotearoa på maori, var en av de sista stora landmassorna som människor nådde. Det allmänt accepterade datumet för de första polynesiska bosättarna är 1250-1300, och tidiga spår av råttor dyker upp först efter 1250.",
+   "debate_sv": null,
+   "why_sv": "Visar hur sent och hur snabbt de polynesiska resorna fyllde ut hela Stilla havet, samtidigt som kontakten med Amerika.",
+   "illustration": "kanot",
+   "sources": [
+    {
+     "label": "Te Ara, Encyclopedia of New Zealand",
+     "url": "https://www.teara.govt.nz/en/node/18737",
+     "kind": "oversikt"
+    },
+    {
+     "label": "Wilmshurst et al. 2011, PNAS",
+     "url": "https://doi.org/10.1073/pnas.1015876108",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Te Ara: 'generally accepted date of 1250-1300'; rat-gnawed snail shells only after 1250. Wilmshurst 2011 includes NZ in remote East Polynesia 1190-1290."
+  },
+  {
+   "id": "polynesien-amerika-dna",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "DNA visar möte runt år 1200",
+   "place_sv": "Östra Polynesien",
+   "lat": -10.0,
+   "lon": -139.0,
+   "age_bp": {
+    "from": 800,
+    "to": 700,
+    "show": 750
+   },
+   "ce": {
+    "from": 1150,
+    "to": 1250
+   },
+   "summary_sv": "En analys av arvsmassan hos över 800 personer från Polynesien och Amerikas Stillahavskust visade 2020 spår av en enda kontakt med en ursprungsamerikansk grupp runt år 1200. Källgruppen är närmast släkt med ursprungsbefolkningen i dagens Colombia, och spåren finns på flera östpolynesiska öar.",
+   "debate_sv": null,
+   "why_sv": "Det första starka beviset för att Amerikas folk och polynesier möttes långt före européerna.",
+   "illustration": "kanot",
+   "sources": [
+    {
+     "label": "Ioannidis et al. 2020, Nature",
+     "url": "https://doi.org/10.1038/s41586-020-2487-2",
+     "kind": "primar"
+    }
+   ],
+   "verified": "PubMed 32641827: Nature 583:572-577, DOI 10.1038/s41586-020-2487-2, 807 individuals, 17 island + 15 Native American groups, single contact ~AD 1200 in eastern Polynesia before Rapa Nui settlement, source closest to Colombia. ce range 1150-1250 is my bracket around 'AD 1200'. Where the meeting took place (America or Polynesia) is not known; summary avoids claiming."
+  },
+  {
+   "id": "batat-kumara",
+   "kind": "kontakt",
+   "status": "antytt",
+   "title_sv": "Sötpotatisen i Polynesien",
+   "place_sv": "Mangaia, Cooköarna",
+   "lat": -21.9,
+   "lon": -157.9,
+   "age_bp": {
+    "from": 962,
+    "to": 795,
+    "show": 960
+   },
+   "ce": {
+    "from": 988,
+    "to": 1155
+   },
+   "summary_sv": "Sötpotatis, kumara, är en amerikansk växt som odlades i Polynesien långt före européernas ankomst. De äldsta resterna, från Mangaia på Cooköarna, är daterade till ungefär 988-1155, och det polynesiska ordet kumara anses härstamma från ett ord i quechua.",
+   "debate_sv": "Många forskare ser växten och ordet som tecken på mänsklig kontakt med Sydamerika. En genetisk studie 2018 hävdade i stället naturlig spridning över havet långt före människan, men kritiker menar att den byggde på ett enda skadat herbarieprov från 1769.",
+   "why_sv": "Grödan var det klassiska indiciet på kontakt, långt innan DNA kunde testa frågan.",
+   "illustration": "batata",
+   "sources": [
+    {
+     "label": "Hather & Kirch 1991, Antiquity",
+     "url": "https://doi.org/10.1017/S0003598X00080613",
+     "kind": "primar"
+    },
+    {
+     "label": "Muñoz-Rodríguez et al. 2018, Current Biology",
+     "url": "https://doi.org/10.1016/j.cub.2018.03.020",
+     "kind": "primar"
+    },
+    {
+     "label": "Science Media Centre NZ 2018, expertreaktioner",
+     "url": "https://www.sciencemediacentre.co.nz/2018/04/13/when-did-sweet-potatoes-arrive-in-the-pacific-expert-reaction/",
+     "kind": "nyhet"
+    }
+   ],
+   "verified": "Wikipedia 'Sweet potato cultivation in Polynesia': Mangaia fragments dated 988-1155 AD (Hather & Kirch 1991 Antiquity DOI 10.1017/S0003598X00080613); Munoz-Rodriguez 2018 Curr Biol DOI 10.1016/j.cub.2018.03.020, Banks 1769 specimen, divergence >=111,500 yr, natural dispersal. SMC NZ: Matisoo-Smith & Knapp criticise degraded single herbarium specimen, aDNA methods, and note kumara derives from a Quechuan word."
+  },
+  {
+   "id": "rapa-nui-genom",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Rapa Nui-genom: kontakt 1250-1430",
+   "place_sv": "Rapa Nui (Påskön), Chile",
+   "lat": -27.1,
+   "lon": -109.35,
+   "age_bp": {
+    "from": 700,
+    "to": 520,
+    "show": 700
+   },
+   "ce": {
+    "from": 1250,
+    "to": 1430
+   },
+   "summary_sv": "Arvsmassan från 15 rapanui som levde mellan 1670 och 1950 visar att omkring 10 procent av deras anor kom från ursprungsamerikaner. Blandningen skedde enligt beräkningarna mellan cirka 1250 och 1430, alltså före européernas ankomst. Studien fann heller inga spår av den befolkningskollaps på 1600-talet som länge antagits.",
+   "debate_sv": null,
+   "why_sv": "Bekräftar oberoende av 2020 års studie att människor från Amerika och Polynesien möttes före Columbus.",
+   "illustration": "kanot",
+   "sources": [
+    {
+     "label": "Moreno-Mayar et al. 2024, Nature",
+     "url": "https://doi.org/10.1038/s41586-024-07881-4",
+     "kind": "primar"
+    }
+   ],
+   "verified": "Univie portal: Nature 633:389-397, 12 Sep 2024, DOI 10.1038/s41586-024-07881-4, 15 individuals 1670-1950 CE, ~10% Native American ancestry, admixture ~1250-1430 CE, no severe 1600s bottleneck."
+  },
+  {
+   "id": "columbus-1492",
+   "kind": "kontakt",
+   "status": "belagt",
+   "title_sv": "Slutmarkör: Columbus 1492",
+   "place_sv": "Bahamas",
+   "lat": 24.05,
+   "lon": -74.5,
+   "age_bp": {
+    "from": 458,
+    "to": 458,
+    "show": 458
+   },
+   "ce": {
+    "from": 1492,
+    "to": 1492
+   },
+   "summary_sv": "Den 12 oktober 1492 nådde Columbus expedition en ö i Bahamas som invånarna kallade Guanahani. Exakt vilken ö det var är omstritt, men San Salvador anses oftast troligast. Händelsen markerar slutet på den period som sidan beskriver.",
+   "debate_sv": null,
+   "why_sv": "Början på en varaktig kontakt mellan kontinenterna, med enorma följder för Amerikas ursprungsfolk.",
+   "illustration": "none",
+   "sources": [
+    {
+     "label": "Encyclopaedia Britannica, Columbus: The first voyage",
+     "url": "https://www.britannica.com/biography/Christopher-Columbus/The-first-voyage",
+     "kind": "oversikt"
+    }
+   ],
+   "verified": "Britannica: departure 3 Aug 1492 from Palos, landfall 12 Oct 1492, Guanahani hotly disputed, San Salvador (Watlings) generally preferred. Coordinates San Salvador approximate."
+  }
+ ],
+ "routes": [
+  {
+   "id": "paleo-inuit",
+   "label_sv": "Paleo-inuiter: Sibirien till Grönland",
+   "status": "belagt",
+   "waypoints": [
+    {
+     "lat": 62.0,
+     "lon": 130.0,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Östsibirien (ursprungsområde)"
+    },
+    {
+     "lat": 66.0,
+     "lon": -169.0,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Berings sund"
+    },
+    {
+     "lat": 66.0,
+     "lon": -163.0,
+     "bp": 5000,
+     "ce": null,
+     "name_sv": "Alaska"
+    },
+    {
+     "lat": 70.0,
+     "lon": -105.0,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Kanadas Arktis"
+    },
+    {
+     "lat": 68.8,
+     "lon": -51.0,
+     "bp": 4500,
+     "ce": null,
+     "name_sv": "Västgrönland (Saqqaq)"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Flegontov et al. 2019, Nature",
+     "url": "https://doi.org/10.1038/s41586-019-1251-y",
+     "kind": "primar"
+    },
+    {
+     "label": "Raghavan et al. 2014, Science",
+     "url": "https://doi.org/10.1126/science.1255832",
+     "kind": "primar"
+    }
+   ]
+  },
+  {
+   "id": "thule",
+   "label_sv": "Thule/inuiter: Berings sund till Grönland",
+   "status": "belagt",
+   "waypoints": [
+    {
+     "lat": 65.5,
+     "lon": -168.0,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Berings sund-området"
+    },
+    {
+     "lat": 71.0,
+     "lon": -156.8,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Nordalaska"
+    },
+    {
+     "lat": 70.0,
+     "lon": -123.0,
+     "bp": 750,
+     "ce": 1200,
+     "name_sv": "Beauforthavet och Amundsenviken (1200-talet)"
+    },
+    {
+     "lat": 69.0,
+     "lon": -95.0,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Centrala kanadensiska Arktis"
+    },
+    {
+     "lat": 77.5,
+     "lon": -69.0,
+     "bp": 650,
+     "ce": 1300,
+     "name_sv": "Nordvästgrönland (senast omkring 1300)"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Friesen & Arnold 2008, American Antiquity",
+     "url": "https://doi.org/10.1017/s0002731600046850",
+     "kind": "primar"
+    }
+   ]
+  },
+  {
+   "id": "norse",
+   "label_sv": "Nordbor: Norge, Island, Grönland, Vinland",
+   "status": "belagt",
+   "waypoints": [
+    {
+     "lat": 61.0,
+     "lon": 5.0,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Västnorge"
+    },
+    {
+     "lat": 64.1,
+     "lon": -21.9,
+     "bp": 1073,
+     "ce": 877,
+     "name_sv": "Island (landnam omkring 877)"
+    },
+    {
+     "lat": 61.15,
+     "lon": -45.5,
+     "bp": 965,
+     "ce": 985,
+     "name_sv": "Östra bygden, Grönland (omkring 985)"
+    },
+    {
+     "lat": 51.6,
+     "lon": -55.53,
+     "bp": 929,
+     "ce": 1021,
+     "name_sv": "L'Anse aux Meadows, Newfoundland (1021)"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Schmid et al. 2017, Quaternary Geochronology",
+     "url": "https://www.pure.ed.ac.uk/ws/files/27977230/27977131._AAM._Schmidt_et_al_2016.pdf",
+     "kind": "primar"
+    },
+    {
+     "label": "Borreggine et al. 2023, PNAS",
+     "url": "https://doi.org/10.1073/pnas.2209615120",
+     "kind": "primar"
+    },
+    {
+     "label": "Kuitems et al. 2021, Nature",
+     "url": "https://doi.org/10.1038/s41586-021-03972-8",
+     "kind": "primar"
+    }
+   ]
+  },
+  {
+   "id": "polynesia-east",
+   "label_sv": "Polynesiska seglare österut",
+   "status": "belagt",
+   "waypoints": [
+    {
+     "lat": -21.1,
+     "lon": -175.1,
+     "bp": 2838,
+     "ce": null,
+     "name_sv": "Tonga (Lapita)"
+    },
+    {
+     "lat": -13.8,
+     "lon": -172.0,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Samoa"
+    },
+    {
+     "lat": -21.2,
+     "lon": -159.8,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Rarotonga, Cooköarna"
+    },
+    {
+     "lat": -17.5,
+     "lon": -149.8,
+     "bp": 925,
+     "ce": 1025,
+     "name_sv": "Sällskapsöarna (1025-1120)"
+    },
+    {
+     "lat": -16.0,
+     "lon": -145.0,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Tuamotu"
+    },
+    {
+     "lat": -9.0,
+     "lon": -139.5,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Marquesas"
+    },
+    {
+     "lat": 20.0,
+     "lon": -155.5,
+     "bp": 760,
+     "ce": 1190,
+     "name_sv": "Hawaii (1190-1290)"
+    },
+    {
+     "lat": -23.1,
+     "lon": -134.97,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Mangareva"
+    },
+    {
+     "lat": -27.1,
+     "lon": -109.35,
+     "bp": 750,
+     "ce": 1200,
+     "name_sv": "Rapa Nui (omkring 1200)"
+    },
+    {
+     "lat": -41.0,
+     "lon": 174.0,
+     "bp": 700,
+     "ce": 1250,
+     "name_sv": "Aotearoa (1250-1300)"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wilmshurst et al. 2011, PNAS",
+     "url": "https://doi.org/10.1073/pnas.1015876108",
+     "kind": "primar"
+    },
+    {
+     "label": "Ioannidis et al. 2021, Nature",
+     "url": "https://doi.org/10.1038/s41586-021-03902-8",
+     "kind": "primar"
+    },
+    {
+     "label": "Burley et al. 2012, PLOS ONE",
+     "url": "https://doi.org/10.1371/journal.pone.0048769",
+     "kind": "primar"
+    }
+   ]
+  },
+  {
+   "id": "polynesia-americas-contact",
+   "label_sv": "Kontakt Polynesien och Sydamerika",
+   "status": "antytt",
+   "waypoints": [
+    {
+     "lat": 4.0,
+     "lon": -77.5,
+     "bp": null,
+     "ce": null,
+     "name_sv": "Stillahavskusten, Colombia (närmast släkt med källgruppen)"
+    },
+    {
+     "lat": -10.0,
+     "lon": -139.0,
+     "bp": 750,
+     "ce": 1200,
+     "name_sv": "Östra Polynesien (kontakt omkring 1200)"
+    },
+    {
+     "lat": -27.1,
+     "lon": -109.35,
+     "bp": 700,
+     "ce": 1250,
+     "name_sv": "Rapa Nui (inblandning 1250-1430)"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Ioannidis et al. 2020, Nature",
+     "url": "https://doi.org/10.1038/s41586-020-2487-2",
+     "kind": "primar"
+    },
+    {
+     "label": "Moreno-Mayar et al. 2024, Nature",
+     "url": "https://doi.org/10.1038/s41586-024-07881-4",
+     "kind": "primar"
+    }
+   ]
+  }
+ ],
+ "unverified": [
+  "Monte Verde, Science news 20 Oct 2026: the article exists (title seen in search results) but could not be opened; I found no evidence of a NEW INDEPENDENT EXCAVATION reaffirming the early dates. Verified rebuttals are eLetters (May 2026) and PaleoAmerica papers (Aug 2026) by the original team and allies, based on existing data. Do not claim a new excavation unless the page author verifies the Science news text.",
+  "Pedra Furada / Serra da Capivara, Brazil: not researched (time); Arroyo del Vizcaino used for item 4 instead.",
+  "Taima-Taima, Venezuela: not researched (time); Huaca Prieta used for item 13.",
+  "Triquet Island, BC and Broken Mammoth, Alaska: not researched (time).",
+  "Paisley Caves: the requested '~14.3 ka' figure was not seen as a calibrated number; sources seen give coprolites from 12,450 14C BP and 'older than 14,000 years'. age_bp show=14300 is a convenience value.",
+  "Exact year of Thule/Inuit arrival in Greenland: not found as a single sourced year; used '13th century migration' (Friesen & Arnold 2008) and 'replacement by ~1300 CE' (Wikipedia citing Raghavan 2014).",
+  "Marquesas and Hawaii individual settlement dates: only the regional range 1190-1290 CE (Wilmshurst 2011) was verified, not island-specific dates.",
+  "Anzick-1 Clovis diet study (Science Advances, Dec 2024, DOI 10.1126/sciadv.adr3814, mammoth main protein source) verified but left out as off-topic; can be added as a Clovis detail."
+ ],
+ "notes": "1) Monte Verde is now genuinely disputed (2026): treat 14 500 BP as the long-held age and 4 200-8 200 BP as the challenge; age_bp spans both on purpose; status set to omstritt. Experts on both sides note that pre-Clovis presence does not hinge on Monte Verde alone (Page-Ladson, Cooper's Ferry, Paisley, Friedkin). 2) Pre-LGM claims (Cerutti 130 ka, Chiquihuite 33-31 ka, Arroyo del Vizcaino ~32 ka, Santa Elina ~27 ka, Bluefish ~24 ka, White Sands ~23-21 ka, Reconquista glyptodont ~21 ka) are all omstritt; White Sands is the strongest of these after 2023 and 2025 dating but still lacks artifacts. Cerutti is a prologue only; most archaeologists reject it. 3) Some age_bp bounds are my brackets around a single published figure (noted in each 'verified'); coordinates marked approximate are rounded from general geographic knowledge, not from the sources. 4) For CE events age_bp = 1950 - CE. Arctic and Norse dates in CE; Polynesian dates mix radiocarbon (Wilmshurst 2011) and genetic estimates (Ioannidis 2021), which differ slightly. 5) Sensitivity: Kennewick Man is called the Ancient One by the claimant tribes (incl. Colville); prefer that name or both. Avoid framing Indigenous peoples as late arrivals or Columbus as 'discovery'; 1492 is used only as an end marker. Rapa Nui genome work was framed by its authors as relevant to repatriation; the 'ecocide' collapse narrative is not supported by the 2024 genomes. 6) Polynesian-American contact: the genetic signal (2020, 2024) is strong, but where the meeting happened (in America or in Polynesia) and who traveled is unknown; the contact route is therefore status antytt and its first waypoint only marks the closest-related source population. 7) All Swedish text is original; no en/em dashes; numbers use space thousands separators in prose."
+}

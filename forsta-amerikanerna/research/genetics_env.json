@@ -1,0 +1,972 @@
+{
+  "agent": "genetics_env",
+  "generated": "2026-11-21T14:50:00+01:00",
+  "events": [
+    {
+      "id": "ana-split-from-east-asians",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Förfäderna skiljs från östasiater",
+      "place_sv": "Nordöstra Asien",
+      "lat": null,
+      "lon": null,
+      "age_bp": {"from": 37500, "to": 25000, "show": 36000},
+      "ce": null,
+      "summary_sv": "Genommodeller från spädbarnet USR1 i Alaska tyder på att den befolkning som blev ursprungsamerikanernas förfäder började skilja sig från östasiater för ungefär 36 000 år sedan. Utbytet av gener mellan grupperna fortsatte dock fram till omkring 25 000 år sedan, så separationen var gradvis snarare än ett skarpt brott.",
+      "debate_sv": "Datumen kommer från populationsgenetiska modeller med antagen mutationshastighet och generationstid, inte från fynd. Nyare arbeten (Castro e Silva m.fl. 2026, Potter m.fl. 2026) betonar i stället att den egentliga ursprungsamerikanska befolkningen formades först kring 25 000 år sedan.",
+      "why_sv": "Det sätter en bortre gräns för när en särskild ursprungsamerikansk anorlinje kan ha funnits alls.",
+      "sources": [
+        {"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"}
+      ],
+      "verified": "Abstract via nature.com: split from East Asians ~36 +/- 1.5 ka, gene flow until ~25 +/- 1.1 ka."
+    },
+    {
+      "id": "yana-ancient-north-siberians",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Yana: de forntida nordsibirierna",
+      "place_sv": "Yana, nordöstra Sibirien",
+      "lat": 70.7,
+      "lon": 135.4,
+      "age_bp": {"from": 32000, "to": 31000, "show": 31600},
+      "ce": null,
+      "summary_sv": "Två mjölktänder från Yana långt norr om polcirkeln gav arvsmassa från en tidigare okänd befolkning, de forntida nordsibirierna, för omkring 31 600 år sedan. Gruppen var avlägset släkt med tidiga västeurasiska jägare och samlare och ersattes senare till stor del av östasiatiskt besläktade folk.",
+      "debate_sv": null,
+      "why_sv": "Visar att människor levde i arktiska Sibirien långt före istidens kallaste skede och att en nordlig anorkomponent fanns på plats innan amerikanernas förfäder formades.",
+      "sources": [
+        {"label": "Sikora et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1279-z", "kind": "primar"}
+      ],
+      "verified": "PubMed abstract (ANS, Ancient Palaeo-Siberians, Neo-Siberians; genomes 31 000-600 ya); bioRxiv full text: Yana ~31.6 kya, ANS diverged ~38 kya from West Eurasians. Coordinates approximate."
+    },
+    {
+      "id": "malta-ane-contribution",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Mal'ta-pojken och nordeurasiskt arv",
+      "place_sv": "Mal'ta, nära Bajkalsjön",
+      "lat": 52.8,
+      "lon": 103.5,
+      "age_bp": {"from": 24500, "to": 23500, "show": 24000},
+      "ce": null,
+      "summary_sv": "Arvsmassan från en pojke i Mal'ta i södra Sibirien, omkring 24 000 år gammal, visade att en del av ursprungsamerikanernas anor kommer från en forntida nordeurasisk befolkning som också är släkt med västeurasier. Forskarna uppskattade att 14 till 38 procent av den ursprungsamerikanska anorn kan härröra från genflöde från denna grupp.",
+      "debate_sv": null,
+      "why_sv": "Förklarar varför ursprungsamerikaner genetiskt inte är rent östasiatiska utan bär ett dubbelt arv.",
+      "sources": [
+        {"label": "Raghavan et al. 2014, Nature", "url": "https://doi.org/10.1038/nature12736", "kind": "primar"}
+      ],
+      "verified": "Abstract via nature.com: MA-1 ~24 000 years, 14-38% of Native American ancestry via gene flow from this population. Coordinates approximate."
+    },
+    {
+      "id": "ana-formation-beringia-25ka",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Ursprungsamerikanska anor formas",
+      "place_sv": "Beringia och nordöstra Sibirien",
+      "lat": 65.0,
+      "lon": -170.0,
+      "age_bp": {"from": 26000, "to": 20000, "show": 25000},
+      "ce": null,
+      "summary_sv": "Omkring 25 000 år sedan, under den kallaste delen av istiden, formades den befolkning som nästan alla nu levande ursprungsamerikaner härstammar från, någonstans i eller nära Beringia. Den bar både östasiatiskt och äldre nordeurasiskt arv och delade sig snart i flera grenar, bland dem forntida beringier och okända så kallade spöklinjer.",
+      "debate_sv": "Var blandningen och väntetiden skedde, i själva Beringia eller längre västerut i Sibirien, går inte att avgöra med dagens data. Kartpunkten är därför bara ungefärlig.",
+      "why_sv": "Det är utgångspunkten för hela den genetiska berättelsen om de första amerikanerna.",
+      "sources": [
+        {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"},
+        {"label": "Potter, Hay, Singh & Raff 2026, Curr. Opin. Genet. Dev.", "url": "https://doi.org/10.1016/j.gde.2026.102534", "kind": "oversikt"}
+      ],
+      "verified": "Nature 2026 PDF (iris.unica.it repository copy): formation ~25 ka in/around Beringia. Live Science summary of Potter 2026: ~25 ka split into ancestral Native American, Ancient Beringian and ghost lineages."
+    },
+    {
+      "id": "beringian-standstill",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Väntetiden i Beringia",
+      "place_sv": "Beringia",
+      "lat": 64.0,
+      "lon": -165.0,
+      "age_bp": {"from": 25000, "to": 16000, "show": 22000},
+      "ce": null,
+      "summary_sv": "Mitokondrie-DNA visade 2007 att amerikanernas grundarlinjer skilde sig från sina asiatiska syskonlinjer under en paus någonstans i Beringia, följd av en snabb spridning söderut. Senare helgenomstudier passar med en sådan lång period av isolering mellan genflödets slut och spridningen in i Amerika.",
+      "debate_sv": "Hur länge pausen varade och om den skedde i Beringia eller i Sibirien är omdiskuterat. Tamm m.fl. anger inga datum; tidsspannet här är härlett ur genomdateringarna och bör visas som osäkert.",
+      "why_sv": "Förklarar hur en asiatisk befolkning kunde bli genetiskt unikt amerikansk innan den nådde kontinenten.",
+      "sources": [
+        {"label": "Tamm et al. 2007, PLoS ONE", "url": "https://doi.org/10.1371/journal.pone.0000829", "kind": "primar"},
+        {"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"}
+      ],
+      "verified": "DOAJ abstract of Tamm 2007 (pause in Beringia, founder lineages differentiated, swift southward migration; no dates). Nature 2018 abstract: results consistent with the Beringian standstill model. Age range is the agent's inference from Moreno-Mayar 2018 dates."
+    },
+    {
+      "id": "ancient-beringians-split",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Forntida beringier går egen väg",
+      "place_sv": "Beringia",
+      "lat": 64.0,
+      "lon": -160.0,
+      "age_bp": {"from": 22000, "to": 18100, "show": 20900},
+      "ce": null,
+      "summary_sv": "En gren som kallas forntida beringier skildes från övriga ursprungsamerikanska förfäder för ungefär 22 000 till 18 000 år sedan och stannade i norr. Grenen är bara känd från gamla genom i Alaska och har inga kända nu levande ättlingar.",
+      "debate_sv": "Tidpunkten är modellberoende; översikten av Potter m.fl. 2026 anger omkring 20 900 år sedan. Om splittringen skedde i Beringia eller i Sibirien är oklart.",
+      "why_sv": "Visar att den första befolkningen redan var uppdelad i flera grupper innan någon gick söderut.",
+      "sources": [
+        {"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"},
+        {"label": "Potter, Hay, Singh & Raff 2026, Curr. Opin. Genet. Dev.", "url": "https://doi.org/10.1016/j.gde.2026.102534", "kind": "oversikt"}
+      ],
+      "verified": "Nature 2018 abstract: Ancient Beringians split ~22-18.1 ka. ScienceDirect page of Potter 2026: Ancient Beringians ~20.9 kya."
+    },
+    {
+      "id": "genetic-entry-window-potter-2026",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Genetikens tidsfönster för ankomst",
+      "place_sv": "Nordamerika söder om isarna",
+      "lat": null,
+      "lon": null,
+      "age_bp": {"from": 21000, "to": 15500, "show": 20000},
+      "ce": null,
+      "summary_sv": "En översikt från 2026 av samtliga publicerade gamla genom drar slutsatsen att förfäderna till dagens ursprungsfolk delade upp sig i olika linjer tidigast för 21 000 år sedan. Eftersom norra och södra grenen skildes söder om isarna strax före 15 500 år sedan måste ankomsten ha skett däremellan, troligen mot slutet av istidens maximum.",
+      "debate_sv": "Arkeologiska fynd som fotspåren i White Sands, daterade till omkring 23 000 år sedan, pekar på tidigare närvaro. Genetiken kan bara se befolkningar som lämnat ättlingar, så en tidig grupp utan ättlingar skulle vara osynlig i DNA.",
+      "why_sv": "Det är den tydligaste punkten där genetik och arkeologi i dag ger olika svar.",
+      "sources": [
+        {"label": "Potter, Hay, Singh & Raff 2026, Curr. Opin. Genet. Dev.", "url": "https://doi.org/10.1016/j.gde.2026.102534", "kind": "oversikt"},
+        {"label": "Live Science 2026-10-02", "url": "https://www.livescience.com/archaeology/americas/the-ancestors-of-todays-indigenous-people-arrived-in-the-americas-during-the-coldest-part-of-the-last-ice-age-study-suggests", "kind": "nyhet"}
+      ],
+      "verified": "ScienceDirect page: vol 101, art. 102534, online 2026-09-23; lineage diversification no earlier than 21 kya; NNA/SNA split shortly before ~15.5 kya. Live Science: White Sands ~23 ka, no significant genetic contribution detected, possibly sampling gaps. The '20-14 ka, likely before 15 ka' wording from the brief was not seen verbatim."
+    },
+    {
+      "id": "nna-sna-split",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Norra och södra grenen delas",
+      "place_sv": "Söder om inlandsisarna, Nordamerika",
+      "lat": 45.0,
+      "lon": -115.0,
+      "age_bp": {"from": 17500, "to": 14600, "show": 15700},
+      "ce": null,
+      "summary_sv": "Den ursprungsamerikanska anorlinjen delades i en nordlig gren (NNA, bland annat förfäder till algonkin- och na-dene-talande folk) och en sydlig gren (SNA, förfäder till de flesta folk i Mellan- och Sydamerika). Splittringen dateras till ungefär 17 500 till 14 600 år sedan och skedde troligen söder om isarna.",
+      "debate_sv": "Olika studier ger något olika punktvärden, från strax före 15 500 till omkring 16 000 år sedan. Platsen är en slutsats ur modellerna och inte belagd med fynd; kartpunkten är bara illustrativ.",
+      "why_sv": "Om splittringen skedde söder om isarna måste människor ha passerat isarna före omkring 15 000 år sedan.",
+      "sources": [
+        {"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"},
+        {"label": "Potter, Hay, Singh & Raff 2026, Curr. Opin. Genet. Dev.", "url": "https://doi.org/10.1016/j.gde.2026.102534", "kind": "oversikt"}
+      ],
+      "verified": "Nature 2018 abstract: NNA/SNA split ~17.5-14.6 ka, probably south of the North American ice sheets. Potter 2026 page: split shortly before ~15.5 kya. Live Science on Potter 2026: ~16 000 ya."
+    },
+    {
+      "id": "anzick-1-genome",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Anzick-1: Clovisbarnet",
+      "place_sv": "Anzick, Montana",
+      "lat": 46.0,
+      "lon": -110.6,
+      "age_bp": {"from": 12707, "to": 12556, "show": 12600},
+      "ce": null,
+      "summary_sv": "Ett litet barn som begravts tillsammans med Clovisredskap i Montana för omkring 12 600 år sedan har gett det äldsta hela genomet från Amerika söder om isarna. Barnet var närmare släkt med alla nu levande ursprungsamerikaner än med någon annan grupp, och närmast med folk i Mellan- och Sydamerika.",
+      "debate_sv": null,
+      "why_sv": "Kopplar Clovisfolket direkt till dagens ursprungsfolk och avfärdar idéer om att Clovis kom från Europa.",
+      "sources": [
+        {"label": "Rasmussen et al. 2014, Nature", "url": "https://doi.org/10.1038/nature13025", "kind": "primar"}
+      ],
+      "verified": "Nature 2014 page: 12 707-12 556 cal BP (10 705 +/- 35 14C BP), directly associated with Clovis tools, closest to Central/Southern Native Americans. Live Science on Potter 2026: still the oldest sampled genome. Coordinates approximate."
+    },
+    {
+      "id": "usr1-upward-sun-river",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "USR1: spädbarnet vid Upward Sun River",
+      "place_sv": "Upward Sun River, Alaska",
+      "lat": 64.4,
+      "lon": -146.9,
+      "age_bp": {"from": 11600, "to": 11400, "show": 11500},
+      "ce": null,
+      "summary_sv": "Två spädbarn som begravdes vid Upward Sun River i inre Alaska för omkring 11 500 år sedan gav det första genomet från gruppen forntida beringier. Analysen visade att de tillhörde en egen gren av den grundande befolkningen, skild från alla nu levande ursprungsamerikaner.",
+      "debate_sv": null,
+      "why_sv": "USR1 är nyckelfyndet bakom dagens modell med en grundande befolkning som delade sig tidigt.",
+      "sources": [
+        {"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"}
+      ],
+      "verified": "Nature 2018 abstract: two infants ~11.5 ka. Coordinates approximate (Tanana valley)."
+    },
+    {
+      "id": "rapid-dispersal-spirit-cave-lagoa-santa",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Snabb spridning söderut",
+      "place_sv": "Spirit Cave (Nevada) och Lagoa Santa (Brasilien)",
+      "lat": -19.6,
+      "lon": -43.9,
+      "age_bp": {"from": 10700, "to": 10400, "show": 10500},
+      "ce": null,
+      "summary_sv": "Genom från Spirit Cave i Nevada, cirka 10 600 år, och Lagoa Santa i Brasilien, cirka 10 400 år, är nära släkt med varandra trots tusentals kilometers avstånd. Det tyder på att den sydliga grenen spreds över båda kontinenterna på kort tid, och att tidiga sydamerikaner med avvikande skallformer ändå hörde till samma folk.",
+      "debate_sv": null,
+      "why_sv": "Visar att spridningen från Nordamerika till Sydamerika gick fort och avfärdar idén om ett separat, äldre folk bakom de tidiga skallarna.",
+      "sources": [
+        {"label": "Moreno-Mayar et al. 2018, Science", "url": "https://prp.usp.br/wp-content/uploads/sites/802/2019/02/Moreno-Mayar-2018-Early-human-dispersal-within-the-Americas.pdf", "kind": "primar"},
+        {"label": "EurekAlert 2018 (Cambridge)", "url": "https://www.eurekalert.org/news-releases/917730", "kind": "nyhet"}
+      ],
+      "verified": "EurekAlert release: Spirit Cave ~10 600 yrs, Lagoa Santa ~10 400 yrs, rapid dispersal, Lagoa Santa closer to Native Americans than to any other group. DOI of the Science paper not seen, so the PDF URL from search is used."
+    },
+    {
+      "id": "sa-second-stream-9ka",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Ny folkström in i Sydamerika",
+      "place_sv": "Mellanamerika och Sydamerika",
+      "lat": -10.0,
+      "lon": -70.0,
+      "age_bp": {"from": 9500, "to": 8000, "show": 9000},
+      "ce": null,
+      "summary_sv": "Från omkring 9 000 år sedan ersattes stora delar av den äldsta sydamerikanska anorn, den som delas med Anzick-1, av en annan gren inom den sydliga linjen. Flera oberoende studier ser samma mönster, och därefter syns lång kontinuitet i många regioner.",
+      "debate_sv": null,
+      "why_sv": "Visar att Sydamerika inte befolkades i en enda våg utan att senare rörelser formade dagens folk.",
+      "sources": [
+        {"label": "Posth et al. 2018, Cell", "url": "https://doi.org/10.1016/j.cell.2018.10.027", "kind": "primar"},
+        {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"},
+        {"label": "Potter, Hay, Singh & Raff 2026, Curr. Opin. Genet. Dev.", "url": "https://doi.org/10.1016/j.gde.2026.102534", "kind": "oversikt"}
+      ],
+      "verified": "Posth 2018 abstract: 49 individuals >= ~9 ka, replacement began at least 9 000 ya, gene flow to Central Andes by ~4 200 ya. Potter 2026: ~9 kya second SNA-related lineage without Anzick association entered South America. Nature 2026: second dispersal arriving ~9 000 ya. Moreno-Mayar 2018 Science release: movement from Mesoamerica ~8 000 ya."
+    },
+    {
+      "id": "population-y-ypykuera",
+      "kind": "genetik",
+      "status": "omstritt",
+      "title_sv": "Population Y: australasisk signal",
+      "place_sv": "Amazonas och Stillahavskusten, Sydamerika",
+      "lat": -10.0,
+      "lon": -63.0,
+      "age_bp": {"from": 10400, "to": 0, "show": 10400},
+      "ce": null,
+      "summary_sv": "Vissa folk i Amazonas, och enligt senare studier även vid Stillahavskusten, delar något fler genvarianter med folk i Australien, Nya Guinea och på Andamanerna än andra ursprungsamerikaner. Signalen utgör omkring 1 till 3 procent av arvsmassan och finns redan hos en 10 400 år gammal individ från Lagoa Santa. Forskarna bakom Nature-studien 2026 tolkar den som spår av en okänd asiatisk befolkning, kallad Ypykuéra, och inte som någon resa över Stilla havet.",
+      "debate_sv": "Hur signalen uppstod är okänt, och den syns inte i alla dataset; en exomstudie 2020 fann den bara svagt och utan statistisk säkerhet och höll artefakt för möjlig. Den är inte belägg för en tidig sjöresa från Australasien.",
+      "why_sv": "Antyder att grundarbefolkningen var mer varierad än en enda enhetlig grupp.",
+      "sources": [
+        {"label": "Skoglund et al. 2015, Nature", "url": "https://doi.org/10.1038/nature14895", "kind": "primar"},
+        {"label": "Castro e Silva et al. 2021, PNAS", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8040822", "kind": "primar"},
+        {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"}
+      ],
+      "verified": "ADS abstract of Skoglund 2015 (some Amazonians closer to Australians/New Guineans/Andamanese; absent in Clovis genome). EurekAlert 2021 release on Castro e Silva PNAS (signal also on Pacific coast; entered via Pacific coastal route). Nature 2026 PDF: ~1-3%, comparable to 10 400-yr Sumidouro, Ypykuera. Frontiers in Genetics 2020 (Ribeiro-dos-Santos et al.): weak, not significant, artefact possible. PNAS 2021 DOI not seen; PMC URL from search used."
+    },
+    {
+      "id": "sa-lineages-split-gusareva-2025",
+      "kind": "genetik",
+      "status": "omstritt",
+      "title_sv": "Fyra sydamerikanska grenar",
+      "place_sv": "Nordvästra Sydamerika",
+      "lat": 8.0,
+      "lon": -77.0,
+      "age_bp": {"from": 13900, "to": 10000, "show": 13900},
+      "ce": null,
+      "summary_sv": "En stor studie av 1 537 nu levande personer från 139 folkgrupper i Sydamerika och Nordostasien fann att människor nådde Sydamerikas nordvästra hörn kring 14 000 år sedan. Där delades de i fyra grenar, i Amazonas, Anderna, Chaco och Patagonien, för omkring 13 900 till 10 000 år sedan.",
+      "debate_sv": "Nature-studien 2026 ser i stället att de flesta sydamerikanska grupper skildes åt mycket senare, för 5 000 till 3 000 år sedan, och nämner de äldre siffrorna som en oberoende men avvikande skattning.",
+      "why_sv": "Visar hur snabbt kontinenten delades upp i regionala befolkningar och hur osäkra sådana dateringar är.",
+      "sources": [
+        {"label": "Gusareva et al. 2025, Science", "url": "https://doi.org/10.1126/science.adk5081", "kind": "primar"},
+        {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"}
+      ],
+      "verified": "ScienceDaily (NTU release, 2025-05-16): 1 537 individuals, 139 groups, NW South America ~14 000 ya, four groups. SCELSE-hosted article and Dispatches blog quoting the summary: split ~13 900-10 000 ya. Nature 2026 PDF: cross-coalescence 5 000-3 000 ya, contrasts with 13 900-10 000. Science page itself could not be opened."
+    },
+    {
+      "id": "sa-population-declines",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Krympande befolkningar i Sydamerika",
+      "place_sv": "Sydamerika",
+      "lat": -15.0,
+      "lon": -60.0,
+      "age_bp": {"from": 10000, "to": 0, "show": 6000},
+      "ce": null,
+      "summary_sv": "Genomen visar att den effektiva befolkningsstorleken i de sydamerikanska grenarna har minskat kraftigt under de senaste 10 000 åren, enligt olika studier med 38 till 90 procent. Därtill syns en tydlig flaskhals under de senaste fem århundradena, efter den europeiska koloniseringen, med inavelsspår hos bland andra suruí och karitiana.",
+      "debate_sv": "Effektiv befolkningsstorlek är ett modellmått och inte samma sak som antalet människor. Nature-studien 2026 ser också perioder av tillväxt, till exempel i låglandet för 1 500 till 500 år sedan.",
+      "why_sv": "Förklarar varför den genetiska mångfalden hos dagens ursprungsfolk är mindre än den en gång var.",
+      "sources": [
+        {"label": "Gusareva et al. 2025, Science", "url": "https://doi.org/10.1126/science.adk5081", "kind": "primar"},
+        {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"}
+      ],
+      "verified": "Dispatches blog quoting Gusareva summary: declines 38-80% in all four lineages. Nature 2026 PDF: Ne declined 40-90% over past 10 000 years, post-contact bottleneck, precolonial expansions, lowland Ne exceeding Mesoamerica ~1 500-500 ya. FAPESP release: inbreeding in Sirionó, Suruí, Karitiana."
+    },
+    {
+      "id": "back-gene-flow-koryak-inuit",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Genflöde tillbaka mot Asien",
+      "place_sv": "Kamtjatka, Tjukotka och Arktis",
+      "lat": 62.0,
+      "lon": 168.0,
+      "age_bp": {"from": 5100, "to": 700, "show": 5100},
+      "ce": null,
+      "summary_sv": "Samma studie som kartlade de sydamerikanska grenarna fann att korjaker i nordöstra Sibirien bär omkring 5 procent och inuiter omkring 28 procent ursprungsamerikansk anor. Inblandningen dateras till mellan 5 100 och 700 år sedan, vilket visar att rörelserna över Berings sund gick åt båda hållen.",
+      "debate_sv": "Siffrorna kommer från en enda studie och har lästs via sammanfattningar, inte via själva artikeln. Hur de förhåller sig till paleo-inuiternas och inuiternas historia är inte utrett här.",
+      "why_sv": "Påminner om att Beringia inte var en enkelriktad port.",
+      "sources": [
+        {"label": "Gusareva et al. 2025, Science", "url": "https://doi.org/10.1126/science.adk5081", "kind": "primar"},
+        {"label": "Dispatches From Turtle Island (blogg), maj 2025", "url": "https://dispatchesfromturtleisland.blogspot.com/2025/05/", "kind": "nyhet"}
+      ],
+      "verified": "Dispatches blog quotes the Science summary: Koryaks and Inuit 5% and 28% Native American ancestry, gene flow 700-5 100 ya. Not confirmed on science.org (fetch failed). Coordinates approximate."
+    },
+    {
+      "id": "saqqaq-genome",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Saqqaq: första forntida genomet",
+      "place_sv": "Västgrönland",
+      "lat": 68.6,
+      "lon": -51.0,
+      "age_bp": {"from": 4200, "to": 3800, "show": 4000},
+      "ce": null,
+      "summary_sv": "Ett hårtest från en man i Saqqaqkulturen på Grönland, omkring 4 000 år gammalt och bevarat i permafrost, blev 2010 det första nästan fullständiga genomet från en forntida människa. Det visade att paleo-inuiterna kom från Sibirien i en egen vandring för omkring 5 500 år sedan, oberoende av förfäderna till dagens ursprungsamerikaner och inuiter.",
+      "debate_sv": null,
+      "why_sv": "Inledde eran av forntida genom och visade att Arktis befolkades i flera separata vågor.",
+      "sources": [
+        {"label": "Rasmussen et al. 2010, Nature", "url": "https://doi.org/10.1038/nature08835", "kind": "primar"}
+      ],
+      "verified": "IDEAS/RePEc abstract: ~4 000-year-old permafrost hair, first culture to settle Greenland, migration from Siberia ~5 500 ya independent of Native Americans and Inuit. 'First ancient genome' wording from Live Science (first ancient Indigenous genome, 2010). Coordinates approximate (Disko Bay area)."
+    },
+    {
+      "id": "paleo-inuit-na-dene",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Paleo-inuitiskt arv hos na-dene",
+      "place_sv": "Alaska och nordvästra Kanada",
+      "lat": 63.0,
+      "lon": -140.0,
+      "age_bp": {"from": 5000, "to": 700, "show": 5000},
+      "ce": null,
+      "summary_sv": "Paleo-inuiter befolkade stora delar av amerikanska Arktis för omkring 5 000 år sedan. En studie med 48 forntida individer från Tjukotka och östra Sibirien visade att anor besläktade med paleo-inuiterna finns hos alla na-dene-talande folk samt hos aleuter, yupik och inuiter.",
+      "debate_sv": null,
+      "why_sv": "Förklarar varför na-dene-talande folk genetiskt skiljer sig från andra nordliga ursprungsamerikaner.",
+      "sources": [
+        {"label": "Flegontov et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1251-y", "kind": "primar"}
+      ],
+      "verified": "IDEAS/RePEc abstract: American Arctic first settled 5 000 ya by Palaeo-Eskimos; Palaeo-Eskimo-related ancestry ubiquitous among Na-Dene and Eskimo-Aleut speakers; 48 ancient individuals; single Palaeo-Eskimo-related Siberian source. Exact admixture date not in abstract; window is 5 000 ya to ~700 ya when Paleo-Inuit vanished."
+    },
+    {
+      "id": "inuit-replace-paleo-inuit",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Inuiterna ersätter paleo-inuiterna",
+      "place_sv": "Kanadensiska Arktis och Grönland",
+      "lat": 70.0,
+      "lon": -85.0,
+      "age_bp": {"from": 1000, "to": 650, "show": 700},
+      "ce": {"from": 1000, "to": 1300},
+      "summary_sv": "Paleo-inuiterna levde nästan isolerade som en sammanhängande befolkning i mer än 4 000 år och försvann för omkring 700 år sedan. De ersattes av en ny befolkning, förfäderna till dagens inuiter, som spred sig österut från Alaska.",
+      "debate_sv": null,
+      "why_sv": "Visar ett tydligt genetiskt befolkningsutbyte i sen tid, långt efter de första vandringarna.",
+      "sources": [
+        {"label": "Raghavan et al. 2014, Science", "url": "https://doi.org/10.1126/science.1255832", "kind": "primar"},
+        {"label": "Flegontov et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1251-y", "kind": "primar"}
+      ],
+      "verified": "PSU portal abstract of Raghavan 2014: single Paleo-Eskimo metapopulation >4 000 years in near-isolation, vanished ~700 ya, replaced by ancestors of Inuit, with evidence of past gene flow. Flegontov 2019: displaced ~1 000 ya by Inuit and Yup'ik ancestors. CE range is the agent's rounding of 'around 1 000' and '~700 years ago'."
+    },
+    {
+      "id": "colombia-altiplano-turnover",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Bogotáslätten: en försvunnen linje",
+      "place_sv": "Altiplano Cundiboyacense, Colombia",
+      "lat": 5.0,
+      "lon": -73.9,
+      "age_bp": {"from": 6000, "to": 2000, "show": 2000},
+      "ce": null,
+      "summary_sv": "Genom från jägare och samlare på högslätten vid Bogotá, omkring 6 000 år gamla, tillhör en tidigare okänd linje som saknar ättlingar i senare grupper. Omkring 2 000 år sedan syns ett fullständigt befolkningsutbyte, då anor kopplade till chibcha-talande folk från Mellanamerika dyker upp.",
+      "debate_sv": "Studien bygger på 21 genom från fem platser, och exakt när och hur utbytet skedde är oklart. Primärartikelns DOI har inte kontrollerats.",
+      "why_sv": "Visar att även sena förhistoriska skeden kunde innebära att hela befolkningar ersattes.",
+      "sources": [
+        {"label": "Live Science 2025 (om Science Advances-studie)", "url": "https://www.livescience.com/archaeology/ancient-dna-reveals-mysterious-indigenous-group-from-colombia-that-disappeared-2-000-years-ago", "kind": "nyhet"}
+      ],
+      "verified": "Live Science: Checua ~6 000 yrs (7 genomes), Herrera ~2 000 yrs, Muisca 1 200-500, Guane ~530; complete exchange; Chibchan-related markers from ~2 000 ya; Science Advances, 2025. Primary DOI not seen."
+    },
+    {
+      "id": "southern-cone-holocene-2026",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "Pampas och Patagonien i rörelse",
+      "place_sv": "Pampas, Patagonien och Uruguay",
+      "lat": -37.0,
+      "lon": -61.0,
+      "age_bp": {"from": 8200, "to": 150, "show": 5500},
+      "ce": null,
+      "summary_sv": "En studie från 2026 av 52 individer från 31 platser i Argentina och Uruguay visar att minst tre genetiska linjer levde sida vid sida i pampas för 8 200 till 4 200 år sedan. En linje med okänt ursprung hade spridit sig i regionen för omkring 5 500 år sedan och blev vanligare under senare tid.",
+      "debate_sv": "Var den nya linjen kom ifrån är okänt, och hur mycket rörelserna förklarar kulturförändringar är fortfarande omdebatterat.",
+      "why_sv": "Visar att även kontinentens sydligaste delar påverkades av senare folkrörelser.",
+      "sources": [
+        {"label": "Krettek, Posth et al. 2026, Current Biology", "url": "https://doi.org/10.1016/j.cub.2026.03.081", "kind": "primar"},
+        {"label": "Ancient Pages 2026-04-27", "url": "https://www.ancientpages.com/2026/04/27/ancient-people-of-the-southern-cone-dna-reveals-south-americas-human-history/", "kind": "nyhet"}
+      ],
+      "verified": "Ancient Pages: DOI 10.1016/j.cub.2026.03.081, 52 individuals, 31 sites, 6 000-150 yrs, three lineages 8 200-4 200 ya, lineage spread by ~5 500 ya. Cell.com page could not be opened."
+    },
+    {
+      "id": "third-dispersal-1300",
+      "kind": "genetik",
+      "status": "antytt",
+      "title_sv": "En tredje våg från Mesoamerika",
+      "place_sv": "Mesoamerika, Sydamerika och Karibien",
+      "lat": 10.0,
+      "lon": -75.0,
+      "age_bp": {"from": 1300, "to": 500, "show": 1300},
+      "ce": {"from": 650, "to": 1450},
+      "summary_sv": "Nature-studien 2026 med 128 nysekvenserade genom från 45 ursprungsfolk fann spår av minst tre spridningsvågor in i Sydamerika. Den tredje, som syns från minst 1 300 år sedan, kopplas till Mesoamerika och nådde både Sydamerika och Karibien.",
+      "debate_sv": "Källbefolkningen är okänd och vågen saknar ännu direkta belägg i forntida DNA från dess ursprung, vilket utomstående forskare påpekat. Studien bygger främst på nu levande personer.",
+      "why_sv": "Om det stämmer har sena rörelser format dagens sydamerikanska folk mer än man trott.",
+      "sources": [
+        {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"},
+        {"label": "EurekAlert 2026 (IBE/CSIC-UPF)", "url": "https://www.eurekalert.org/news-releases/1124930", "kind": "nyhet"}
+      ],
+      "verified": "Nature 2026 PDF: at least three dispersals, third >= 1 300 ya. EurekAlert and FAPESP releases: third wave ~1 300 ya from Mesoamerica to South America and Caribbean. Portside (2026-04-27): Cosimo Posth caveat on missing source population. CE range = agent's conversion of 1 300-500 BP."
+    },
+    {
+      "id": "polynesia-native-american-contact",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Kontakt mellan Polynesien och Amerika",
+      "place_sv": "Östra Polynesien (södra Marquesasöarna)",
+      "lat": -10.5,
+      "lon": -138.7,
+      "age_bp": {"from": 750, "to": 570, "show": 750},
+      "ce": {"from": 1200, "to": 1380},
+      "summary_sv": "Genom från 807 personer på 17 polynesiska öar och längs Amerikas Stillahavskust visar ett enda tidigt kontakttillfälle mellan polynesier och en ursprungsamerikansk grupp närmast besläktad med folk i dagens Colombia. Kontakten dateras till omkring år 1200, och på Rapa Nui syns inblandningen omkring år 1380. Var mötet skedde och vem som reste är fortfarande en öppen fråga.",
+      "debate_sv": null,
+      "why_sv": "Det enda belagda genetiska mötet mellan Amerika och Oceanien före européerna.",
+      "sources": [
+        {"label": "Ioannidis et al. 2020, Nature", "url": "https://doi.org/10.1038/s41586-020-2487-2", "kind": "primar"},
+        {"label": "Smithsonian Magazine 2020", "url": "https://www.smithsonianmag.com/science-nature/native-americans-polynesians-meet-180975269/", "kind": "nyhet"}
+      ],
+      "verified": "IDEAS abstract: single contact in eastern Polynesia ~AD 1200, before Rapa Nui settlement, source closest to present-day Colombia. Stanford news: 807 participants, 17 islands, 15 Native American groups. Smithsonian: South Marquesas ~1200, Rapa Nui ~1380, direction disputed. The 1150-1230 range in the brief was not seen."
+    },
+    {
+      "id": "rapa-nui-genomes-2024",
+      "kind": "genetik",
+      "status": "belagt",
+      "title_sv": "Rapa Nui: ingen kollaps",
+      "place_sv": "Rapa Nui (Påskön)",
+      "lat": -27.1,
+      "lon": -109.35,
+      "age_bp": {"from": 700, "to": 520, "show": 650},
+      "ce": {"from": 1250, "to": 1430},
+      "summary_sv": "Femton radiokolsdaterade individer från Rapa Nui, levande mellan 1670 och 1950, fick sina hela genom sekvenserade. De visar ingen kraftig befolkningskrasch på 1600-talet, och omkring 10 procent ursprungsamerikansk anor som blandades in någon gång mellan 1250 och 1430, alltså före européernas ankomst.",
+      "debate_sv": null,
+      "why_sv": "Bekräftar oberoende den förkoloniala kontakten med Amerika och ifrågasätter berättelsen om en självförvållad kollaps.",
+      "sources": [
+        {"label": "Moreno-Mayar et al. 2024, Nature", "url": "https://doi.org/10.1038/s41586-024-07881-4", "kind": "primar"}
+      ],
+      "verified": "Univie portal abstract: Nature 633, 389-397; 15 individuals 1670-1950 CE; no severe 1600s bottleneck; ~10% Native American admixture dated ~1250-1430 CE."
+    },
+    {
+      "id": "bering-land-bridge-emerges",
+      "kind": "miljo",
+      "status": "antytt",
+      "title_sv": "Beringbron dyker upp",
+      "place_sv": "Berings sund",
+      "lat": 65.8,
+      "lon": -168.9,
+      "age_bp": {"from": 36000, "to": 35000, "show": 35700},
+      "ce": null,
+      "summary_sv": "Kväveisotoper i plankton från havsbottenkärnor tyder på att landbryggan mellan Sibirien och Alaska blev torrlagd först för omkring 35 700 år sedan, mindre än 10 000 år före istidens maximum. Det innebär att isarna växte snabbt och sent under den sista istiden.",
+      "debate_sv": "Äldre rekonstruktioner antog att bryggan låg torr betydligt längre. Resultatet bygger på en ny metod och tre kärnor.",
+      "why_sv": "Ju senare bryggan uppstod, desto kortare tid fanns mellan dess tillkomst och de första amerikanernas förfäder i området.",
+      "sources": [
+        {"label": "Farmer, Pico et al. 2022 (publ. dec 2022), PNAS", "url": "https://doi.org/10.1073/pnas.2206742119", "kind": "primar"},
+        {"label": "UC Santa Cruz News 2022", "url": "https://news.ucsc.edu/2022/12/bering-strait/", "kind": "nyhet"}
+      ],
+      "verified": "UCSC news: Farmer (first) and Pico (corresponding), PNAS week of 2022-12-26, DOI 10.1073/pnas.2206742119, emergence ~35 700 ya, three cores. Note: the brief cited 'Pico et al. 2020'; the paper found is Farmer et al. 2022/2023."
+    },
+    {
+      "id": "last-glacial-maximum",
+      "kind": "miljo",
+      "status": "belagt",
+      "title_sv": "Istidens maximum",
+      "place_sv": "Norra halvklotet",
+      "lat": null,
+      "lon": null,
+      "age_bp": {"from": 26500, "to": 19000, "show": 21000},
+      "ce": null,
+      "summary_sv": "Nästan alla inlandsisar nådde sin största utbredning omkring 26 500 år sedan och låg kvar där till ungefär 20 000 till 19 000 år sedan, då avsmältningen på norra halvklotet började. Havsytan låg då omkring 130 meter lägre än i dag, och Beringia var ett stort sammanhängande landområde.",
+      "debate_sv": null,
+      "why_sv": "Under maximum stängde isarna vägen söderut, så tidpunkten avgör när en vandring in i Amerika alls var möjlig.",
+      "sources": [
+        {"label": "Clark et al. 2009, Science", "url": "https://doi.org/10.1126/science.1172873", "kind": "primar"},
+        {"label": "Lambeck et al. 2014, PNAS", "url": "https://doi.org/10.1073/pnas.1411762111", "kind": "primar"}
+      ],
+      "verified": "USGS record of Clark 2009: nearly all ice sheets at LGM positions from 26.5 ka; NH deglaciation onset 19-20 ka. Lambeck 2014: fall to -134 m from 29 to 21 ka."
+    },
+    {
+      "id": "pacific-coast-deglaciation",
+      "kind": "miljo",
+      "status": "antytt",
+      "title_sv": "Kusten blir isfri",
+      "place_sv": "Alexanderarkipelagen, sydöstra Alaska",
+      "lat": 55.5,
+      "lon": -133.5,
+      "age_bp": {"from": 17500, "to": 16500, "show": 17000},
+      "ce": null,
+      "summary_sv": "Exponeringsdatering av stenblock på fyra öar i sydöstra Alaska visar att isen drog sig tillbaka därifrån för omkring 17 000 år sedan. Ben från ringsäl i en grotta i närheten tyder på att det snart fanns mat att hämta längs kusten.",
+      "debate_sv": "Studien gäller bara en del av kusten, och om hela kuststräckan var framkomlig samtidigt är inte visat. Spår av en tidig kustvandring kan i dag ligga under havet.",
+      "why_sv": "Gör en kustväg söderut möjlig flera tusen år innan inlandskorridoren öppnades.",
+      "sources": [
+        {"label": "Lesnek et al. 2018, Science Advances", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5976267", "kind": "primar"},
+        {"label": "EurekAlert 2018 (University at Buffalo)", "url": "https://www.eurekalert.org/news-releases/786185", "kind": "nyhet"}
+      ],
+      "verified": "EurekAlert release: ~17 000 ya, four islands of Alexander Archipelago, Science Advances 2018-05-30, ringed seal ~17 000 yrs, caveat on one coastline section. DOI not seen; PMC URL from search used. Coordinates approximate."
+    },
+    {
+      "id": "bolling-allerod",
+      "kind": "miljo",
+      "status": "belagt",
+      "title_sv": "Bølling-Allerød: plötslig värme",
+      "place_sv": "Norra halvklotet",
+      "lat": null,
+      "lon": null,
+      "age_bp": {"from": 14700, "to": 12900, "show": 14700},
+      "ce": null,
+      "summary_sv": "För omkring 14 700 år sedan blev klimatet på norra halvklotet snabbt varmare i den period som kallas Bølling-Allerød. Den varade fram till ungefär 12 900 år sedan och sammanföll med snabb issmältning och stigande hav.",
+      "debate_sv": null,
+      "why_sv": "Värmen öppnade landskap och kuster för människor, djur och växter.",
+      "sources": [
+        {"label": "Encyclopaedia Britannica, Younger Dryas", "url": "https://www.britannica.com/science/Younger-Dryas-climate-interval", "kind": "oversikt"}
+      ],
+      "verified": "Britannica: Bølling-Allerød began ~14 700 ya; Younger Dryas from ~12 900 ya (which ends B-A). Ice-core b2k boundary ages (INTIMATE) not verified."
+    },
+    {
+      "id": "meltwater-pulse-1a",
+      "kind": "miljo",
+      "status": "belagt",
+      "title_sv": "Smältvattenpuls 1A",
+      "place_sv": "Världshaven",
+      "lat": null,
+      "lon": null,
+      "age_bp": {"from": 14500, "to": 14000, "show": 14500},
+      "ce": null,
+      "summary_sv": "Mellan ungefär 14 500 och 14 000 år sedan steg världshavet med omkring 20 meter, med en takt på minst 40 millimeter per år. Stora kustområden, bland dem delar av Beringia och kontinentalsockeln längs Amerikas västkust, försvann under vatten.",
+      "debate_sv": null,
+      "why_sv": "Förklarar varför spår av tidiga kustbor sannolikt ligger på havsbotten i dag.",
+      "sources": [
+        {"label": "Lambeck et al. 2014, PNAS", "url": "https://doi.org/10.1073/pnas.1411762111", "kind": "primar"}
+      ],
+      "verified": "Lambeck 2014 full text (core.ac.uk PDF): MWP-1A 14.5-14.0 ka, ~20 m globally averaged, rate ~40 mm/yr or more."
+    },
+    {
+      "id": "ice-free-corridor-opens",
+      "kind": "miljo",
+      "status": "antytt",
+      "title_sv": "Inlandskorridoren öppnas",
+      "place_sv": "Mellan Kordillera- och Laurentideisen, västra Kanada",
+      "lat": 56.0,
+      "lon": -118.0,
+      "age_bp": {"from": 15000, "to": 13800, "show": 13800},
+      "ce": null,
+      "summary_sv": "Där Kordillera- och Laurentideisarna hade vuxit ihop öppnades så småningom en isfri passage mellan Alaska och de inre slätterna. Exponeringsdateringar visar att passagen slutligen blev isfri omkring 13 800 år sedan, alltså efter att människor redan fanns söder om isarna.",
+      "debate_sv": "Pedersen m.fl. 2016 anger att korridoren öppnades redan för 15 000 till 14 000 år sedan. Skillnaden beror på metod och var i korridoren man mäter.",
+      "why_sv": "Visar att korridoren knappast kan ha varit de allra första amerikanernas väg.",
+      "sources": [
+        {"label": "Clark et al. 2022, PNAS", "url": "https://doi.org/10.1073/pnas.2118558119", "kind": "primar"},
+        {"label": "Pedersen et al. 2016, Nature", "url": "https://doi.org/10.1038/nature19085", "kind": "primar"}
+      ],
+      "verified": "Popular Archaeology on Clark 2022: opening ~13 800 ya, PNAS 2022-03-21, DOI 10.1073/pnas.2118558119, peopling before 15 600 ya. ADS abstract: final opening well after pre-Clovis occupation. Pedersen 2016 abstract: corridor opened by ~15-14 cal kyr BP."
+    },
+    {
+      "id": "corridor-biologically-viable",
+      "kind": "miljo",
+      "status": "antytt",
+      "title_sv": "Korridoren blir beboelig",
+      "place_sv": "Inlandskorridoren, Alberta och British Columbia",
+      "lat": 56.0,
+      "lon": -118.0,
+      "age_bp": {"from": 12600, "to": 10000, "show": 12600},
+      "ce": null,
+      "summary_sv": "DNA i sjösediment från korridorens flaskhals visar att stäppvegetation, bison och mammut fanns där först för omkring 12 600 år sedan. Öppen skog med älg och kronhjort följde omkring 11 500 år sedan och barrskog omkring 10 000 år sedan.",
+      "debate_sv": "Att det inte finns äldre spår av liv betyder inte säkert att människor inte kunde ta sig igenom; studien säger själv att det är oklart när korridoren blev framkomlig för människor.",
+      "why_sv": "Talar emot att Clovis eller tidigare grupper kom genom korridoren, men den kan ha använts av senare grupper.",
+      "sources": [
+        {"label": "Pedersen et al. 2016, Nature", "url": "https://doi.org/10.1038/nature19085", "kind": "primar"}
+      ],
+      "verified": "IDEAS abstract: steppe vegetation, bison and mammoth by ~12.6 cal kyr BP; open forest ~11.5; boreal forest ~10; first Americans unlikely to have used route."
+    },
+    {
+      "id": "younger-dryas",
+      "kind": "miljo",
+      "status": "belagt",
+      "title_sv": "Yngre dryas: kylan återvänder",
+      "place_sv": "Norra halvklotet",
+      "lat": null,
+      "lon": null,
+      "age_bp": {"from": 12900, "to": 11600, "show": 12900},
+      "ce": null,
+      "summary_sv": "För omkring 12 900 år sedan föll temperaturen på norra halvklotet tillbaka till nästan istidsnivå under en period som kallas yngre dryas. Den slutade abrupt för ungefär 11 600 år sedan, då Grönlands temperatur steg med omkring 10 grader på ett decennium.",
+      "debate_sv": null,
+      "why_sv": "Sammanfaller med Clovistiden och med att många stora istidsdjur försvann i Nordamerika.",
+      "sources": [
+        {"label": "Encyclopaedia Britannica, Younger Dryas", "url": "https://www.britannica.com/science/Younger-Dryas-climate-interval", "kind": "oversikt"},
+        {"label": "NOAA NCEI, The Younger Dryas (2023)", "url": "https://www.ncei.noaa.gov/sites/g/files/anmtlf171/files/2023-01/3%20The%20Younger%20Dryas%20-Jan%202023.pdf", "kind": "oversikt"}
+      ],
+      "verified": "Britannica: start ~12 900, end ~11 600 ya. NOAA: end ~11 500 ya, Greenland +10 C in a decade. The commonly cited 11 700 end (ice-core b2k) was not verified."
+    },
+    {
+      "id": "bering-strait-floods",
+      "kind": "miljo",
+      "status": "belagt",
+      "title_sv": "Berings sund svämmar över",
+      "place_sv": "Berings sund och Tjuktjerhavet",
+      "lat": 65.8,
+      "lon": -168.9,
+      "age_bp": {"from": 11500, "to": 10500, "show": 11000},
+      "ce": null,
+      "summary_sv": "En väldaterad sedimentkärna från Herald Canyon norr om Berings sund visar att vatten från Stilla havet började strömma in i Ishavet för omkring 11 000 år sedan, i början av holocen. Därmed var landbryggan bruten och Asien och Amerika åter åtskilda av hav.",
+      "debate_sv": null,
+      "why_sv": "Efter detta krävdes båtar eller vinteris för att ta sig mellan kontinenterna.",
+      "sources": [
+        {"label": "Jakobsson et al. 2017, Climate of the Past", "url": "https://doi.org/10.5194/cp-13-991-2017", "kind": "primar"}
+      ],
+      "verified": "Copernicus abstract: initial opening ~11 cal ka BP in earliest Holocene, Herald Canyon core, coincides with MWP-1b. UCSC news on Farmer 2022 gives a broader 13 000-11 000 ya."
+    },
+    {
+      "id": "event-8-2-ka",
+      "kind": "miljo",
+      "status": "belagt",
+      "title_sv": "8 200-årshändelsen",
+      "place_sv": "Hudson Bay och Nordatlanten",
+      "lat": 60.0,
+      "lon": -85.0,
+      "age_bp": {"from": 8300, "to": 8100, "show": 8200},
+      "ce": null,
+      "summary_sv": "För omkring 8 200 år sedan kyldes stora delar av norra halvklotet av med 1 till 3 grader under ungefär 160 år. Orsaken var stora mängder smältvatten när Laurentideisens sista rester kring Hudson Bay kollapsade och de jättelika issjöarna Agassiz och Ojibway tömdes.",
+      "debate_sv": null,
+      "why_sv": "Markerar slutet på den stora nordamerikanska inlandsisen.",
+      "sources": [
+        {"label": "Matero et al. 2017, Earth and Planetary Science Letters", "url": "https://doi.org/10.1016/j.epsl.2017.06.011", "kind": "primar"},
+        {"label": "Wikipedia, 8.2-kiloyear event", "url": "https://en.wikipedia.org/wiki/8.2-kiloyear_event", "kind": "oversikt"}
+      ],
+      "verified": "ADS abstract (EPSL 473, 2017): 1-3 C cooling, ~160 years, ice saddle collapse over Hudson Bay as cause rather than only lake outburst. Wikipedia: onset ~8 200 BP, lakes Agassiz/Ojibway drainage. Author list of the EPSL paper not shown on ADS page; 'Matero' inferred from bibcode, verify."
+    },
+    {
+      "id": "laurentide-gone",
+      "kind": "miljo",
+      "status": "belagt",
+      "title_sv": "Laurentideisen försvinner",
+      "place_sv": "Nunavik, norra Québec",
+      "lat": 57.0,
+      "lon": -72.0,
+      "age_bp": {"from": 7000, "to": 6500, "show": 6500},
+      "ce": null,
+      "summary_sv": "De sista resterna av Laurentideisen smälte bort från Nunavik i norra Québec för omkring 6 500 år sedan. Därefter steg havsytan bara några få meter till, enligt havsnivårekonstruktioner omkring 4 meter under de senaste 6 700 åren.",
+      "debate_sv": null,
+      "why_sv": "Från och med nu liknade kontinentens kustlinjer och landskap ungefär dagens.",
+      "sources": [
+        {"label": "Wikipedia, Laurentide Ice Sheet", "url": "https://en.wikipedia.org/wiki/Laurentide_ice_sheet", "kind": "oversikt"},
+        {"label": "Lambeck et al. 2014, PNAS", "url": "https://doi.org/10.1073/pnas.1411762111", "kind": "primar"}
+      ],
+      "verified": "Wikiwand/Wikipedia Laurentide page: ice did not retreat from Nunavik until 6 500 ya. Lambeck 2014: total global rise past 6.7 ka ~4 m. The brief's '~7 ka' is not supported by these pages."
+    }
+  ],
+  "genetic_tree": {
+    "nodes": [
+      {
+        "id": "east-asians",
+        "label_sv": "Östasiater",
+        "parent": null,
+        "split_bp": null,
+        "status": "belagt",
+        "note_sv": "Den östasiatiskt besläktade befolkning som största delen av ursprungsamerikanernas anor kommer från.",
+        "sources": [{"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"}]
+      },
+      {
+        "id": "ancient-north-siberians-ane",
+        "label_sv": "Forntida nordsibirier / nordeurasier (Yana, Mal'ta)",
+        "parent": null,
+        "split_bp": {"from": 39000, "to": 37000, "show": 38000},
+        "status": "belagt",
+        "note_sv": "Paleolitisk nordlig befolkning, avlägset släkt med västeurasier, som bidrog med en del av ursprungsamerikanernas anor.",
+        "sources": [
+          {"label": "Sikora et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1279-z", "kind": "primar"},
+          {"label": "Raghavan et al. 2014, Nature", "url": "https://doi.org/10.1038/nature12736", "kind": "primar"}
+        ]
+      },
+      {
+        "id": "ancestral-native-americans",
+        "label_sv": "Ursprungsamerikanska förfäder",
+        "parent": "east-asians",
+        "split_bp": {"from": 37500, "to": 25000, "show": 36000},
+        "status": "antytt",
+        "note_sv": "Började skiljas från östasiater kring 36 000 år sedan med genflöde till ca 25 000 år sedan och formades som egen befolkning kring 25 000 år sedan.",
+        "sources": [
+          {"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"},
+          {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"}
+        ]
+      },
+      {
+        "id": "ancient-paleo-siberians",
+        "label_sv": "Forntida paleosibirier (Kolyma)",
+        "parent": "ancestral-native-americans",
+        "split_bp": {"from": 25000, "to": 23000, "show": 24000},
+        "status": "antytt",
+        "note_sv": "Sibirisk syskonlinje som är närmast besläktad med ursprungsamerikaner utanför Amerika; en 9 800 år gammal kvinna från Kolyma bär den.",
+        "sources": [
+          {"label": "Sikora et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1279-z", "kind": "primar"},
+          {"label": "PBS NOVA 2019", "url": "https://www.pbs.org/wgbh/nova/article/indigenous-americans-siberia", "kind": "nyhet"}
+        ]
+      },
+      {
+        "id": "ancient-beringians",
+        "label_sv": "Forntida beringier (USR1)",
+        "parent": "ancestral-native-americans",
+        "split_bp": {"from": 22000, "to": 18100, "show": 20900},
+        "status": "antytt",
+        "note_sv": "Gren som stannade i Alaska och saknar kända nu levande ättlingar.",
+        "sources": [
+          {"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"},
+          {"label": "Potter, Hay, Singh & Raff 2026, Curr. Opin. Genet. Dev.", "url": "https://doi.org/10.1016/j.gde.2026.102534", "kind": "oversikt"}
+        ]
+      },
+      {
+        "id": "nna",
+        "label_sv": "Nordlig gren (NNA)",
+        "parent": "ancestral-native-americans",
+        "split_bp": {"from": 17500, "to": 14600, "show": 15700},
+        "status": "antytt",
+        "note_sv": "Förfäder till bland annat algonkin-, na-dene- och andra nordamerikanska folk.",
+        "sources": [{"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"}]
+      },
+      {
+        "id": "na-dene",
+        "label_sv": "Na-dene-talande folk",
+        "parent": "nna",
+        "split_bp": null,
+        "status": "belagt",
+        "note_sv": "Nordliga ursprungsamerikaner som också bär paleo-inuitiskt besläktad anor.",
+        "sources": [{"label": "Flegontov et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1251-y", "kind": "primar"}]
+      },
+      {
+        "id": "sna",
+        "label_sv": "Sydlig gren (SNA)",
+        "parent": "ancestral-native-americans",
+        "split_bp": {"from": 17500, "to": 14600, "show": 15700},
+        "status": "antytt",
+        "note_sv": "Förfäder till de flesta folk i Mellan- och Sydamerika; Anzick-1 hör hit.",
+        "sources": [
+          {"label": "Moreno-Mayar et al. 2018, Nature", "url": "https://doi.org/10.1038/nature25173", "kind": "primar"},
+          {"label": "Rasmussen et al. 2014, Nature", "url": "https://doi.org/10.1038/nature13025", "kind": "primar"}
+        ]
+      },
+      {
+        "id": "south-american-lineages",
+        "label_sv": "Sydamerikanska grenar (Amazonas, Anderna, Chaco, Patagonien)",
+        "parent": "sna",
+        "split_bp": {"from": 13900, "to": 3000, "show": 13900},
+        "status": "omstritt",
+        "note_sv": "En studie daterar uppdelningen till 13 900 till 10 000 år sedan, en annan ser de flesta skiljas först för 5 000 till 3 000 år sedan.",
+        "sources": [
+          {"label": "Gusareva et al. 2025, Science", "url": "https://doi.org/10.1126/science.adk5081", "kind": "primar"},
+          {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"}
+        ]
+      },
+      {
+        "id": "population-y",
+        "label_sv": "Population Y / Ypykuéra (okänd källa)",
+        "parent": null,
+        "split_bp": null,
+        "status": "omstritt",
+        "note_sv": "Hypotetisk osamplad befolkning med australasisk släktskap som förklarar en liten signal hos vissa sydamerikanska folk.",
+        "sources": [
+          {"label": "Skoglund et al. 2015, Nature", "url": "https://doi.org/10.1038/nature14895", "kind": "primar"},
+          {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"}
+        ]
+      },
+      {
+        "id": "siberian-arctic-source",
+        "label_sv": "Sibirisk arktisk källa",
+        "parent": "east-asians",
+        "split_bp": null,
+        "status": "antytt",
+        "note_sv": "Sibiriska befolkningar som gav upphov till både paleo-inuiter och senare inuiter i separata vågor; exakt placering i trädet är förenklad här.",
+        "sources": [
+          {"label": "Flegontov et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1251-y", "kind": "primar"},
+          {"label": "Rasmussen et al. 2010, Nature", "url": "https://doi.org/10.1038/nature08835", "kind": "primar"}
+        ]
+      },
+      {
+        "id": "paleo-inuit",
+        "label_sv": "Paleo-inuiter (Saqqaq, Dorset)",
+        "parent": "siberian-arctic-source",
+        "split_bp": {"from": 5500, "to": 5000, "show": 5500},
+        "status": "belagt",
+        "note_sv": "Kom från Sibirien för omkring 5 500 till 5 000 år sedan och försvann som befolkning för omkring 700 år sedan.",
+        "sources": [
+          {"label": "Rasmussen et al. 2010, Nature", "url": "https://doi.org/10.1038/nature08835", "kind": "primar"},
+          {"label": "Raghavan et al. 2014, Science", "url": "https://doi.org/10.1126/science.1255832", "kind": "primar"}
+        ]
+      },
+      {
+        "id": "inuit",
+        "label_sv": "Inuiter och yupik (neo-inuiter, Thule)",
+        "parent": "siberian-arctic-source",
+        "split_bp": {"from": 1000, "to": 700, "show": 1000},
+        "status": "belagt",
+        "note_sv": "Ny våg från Alaska som ersatte paleo-inuiterna i östra Arktis för 1 000 till 700 år sedan.",
+        "sources": [
+          {"label": "Raghavan et al. 2014, Science", "url": "https://doi.org/10.1126/science.1255832", "kind": "primar"},
+          {"label": "Flegontov et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1251-y", "kind": "primar"}
+        ]
+      },
+      {
+        "id": "east-polynesians",
+        "label_sv": "Östpolynesier (Marquesas, Rapa Nui)",
+        "parent": null,
+        "split_bp": null,
+        "status": "belagt",
+        "note_sv": "Mottagare av ursprungsamerikanskt genflöde före européernas ankomst.",
+        "sources": [
+          {"label": "Ioannidis et al. 2020, Nature", "url": "https://doi.org/10.1038/s41586-020-2487-2", "kind": "primar"}
+        ]
+      }
+    ],
+    "admixtures": [
+      {
+        "from": "ancient-north-siberians-ane",
+        "to": "ancestral-native-americans",
+        "bp": {"from": 26000, "to": 20000, "show": 24000},
+        "proportion_note_sv": "ca 14-38 % av den ursprungsamerikanska anorn",
+        "status": "antytt",
+        "sources": [
+          {"label": "Raghavan et al. 2014, Nature", "url": "https://doi.org/10.1038/nature12736", "kind": "primar"},
+          {"label": "Sikora et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1279-z", "kind": "primar"}
+        ]
+      },
+      {
+        "from": "paleo-inuit",
+        "to": "na-dene",
+        "bp": {"from": 5000, "to": 700, "show": 5000},
+        "proportion_note_sv": "andel ej kontrollerad; anorn finns hos alla na-dene-talande folk",
+        "status": "belagt",
+        "sources": [{"label": "Flegontov et al. 2019, Nature", "url": "https://doi.org/10.1038/s41586-019-1251-y", "kind": "primar"}]
+      },
+      {
+        "from": "population-y",
+        "to": "south-american-lineages",
+        "bp": {"from": null, "to": 10400, "show": 10400},
+        "proportion_note_sv": "ca 1-3 % (ofta ca 2 %) hos vissa amazoniska och stillahavskustens folk; äldsta belägg 10 400 år",
+        "status": "omstritt",
+        "sources": [
+          {"label": "Skoglund et al. 2015, Nature", "url": "https://doi.org/10.1038/nature14895", "kind": "primar"},
+          {"label": "Castro e Silva et al. 2026, Nature", "url": "https://doi.org/10.1038/s41586-026-10406-w", "kind": "primar"}
+        ]
+      },
+      {
+        "from": "sna",
+        "to": "east-polynesians",
+        "bp": {"from": 750, "to": 520, "show": 750},
+        "proportion_note_sv": "ca 10 % hos Rapa Nui; källan närmast släkt med folk i dagens Colombia",
+        "status": "belagt",
+        "sources": [
+          {"label": "Ioannidis et al. 2020, Nature", "url": "https://doi.org/10.1038/s41586-020-2487-2", "kind": "primar"},
+          {"label": "Moreno-Mayar et al. 2024, Nature", "url": "https://doi.org/10.1038/s41586-024-07881-4", "kind": "primar"}
+        ]
+      },
+      {
+        "from": "ancestral-native-americans",
+        "to": "inuit",
+        "bp": {"from": 5100, "to": 700, "show": 3000},
+        "proportion_note_sv": "ca 28 % hos inuiter och ca 5 % hos korjaker (en studie)",
+        "status": "antytt",
+        "sources": [{"label": "Gusareva et al. 2025, Science", "url": "https://doi.org/10.1126/science.adk5081", "kind": "primar"}]
+      }
+    ]
+  },
+  "sea_level": {
+    "points": [
+      {"bp": 30000, "m": -106},
+      {"bp": 28000, "m": -115},
+      {"bp": 26000, "m": -122},
+      {"bp": 24000, "m": -130},
+      {"bp": 22000, "m": -126},
+      {"bp": 20000, "m": -118},
+      {"bp": 18000, "m": -113},
+      {"bp": 16000, "m": -98},
+      {"bp": 15000, "m": -87},
+      {"bp": 14000, "m": -77},
+      {"bp": 13000, "m": -66},
+      {"bp": 12000, "m": -51},
+      {"bp": 11000, "m": -36},
+      {"bp": 10000, "m": -25},
+      {"bp": 8000, "m": -9},
+      {"bp": 6000, "m": -4}
+    ],
+    "source": {"label": "Spratt & Lisiecki 2016, Climate of the Past (NOAA data file, column SeaLev_shortPC1, rounded to whole metres)", "url": "https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/spratt2016/spratt2016.txt"},
+    "anchors_lambeck_2014": [
+      {"bp": 21000, "m": -134, "note": "end of slow fall from 29 ka"},
+      {"bp": 14500, "m": null, "note": "MWP-1A begins; ~20 m rise until 14.0 ka"},
+      {"bp": 6700, "m": -4, "note": "derived: total global rise since 6.7 ka ~4 m"}
+    ],
+    "anchors_source": {"label": "Lambeck et al. 2014, PNAS", "url": "https://doi.org/10.1073/pnas.1411762111"},
+    "caveat": "The Spratt & Lisiecki stack is a smoothed 1-kyr-resolution global stack: it does not show MWP-1A as a step and its lowstand (~-130 m at 24 ka) is shallower and earlier than Lambeck's -134 m at 21 ka. Its 0 ka value is +8.5 m, showing a positive bias of several metres near the present. For drawing, either use these points and annotate MWP-1A separately, or replace with Lambeck 2014 Table S3 (not accessible in this run)."
+  },
+  "ice_margins": [
+    {
+      "bp": 21000,
+      "coastal_route_open": false,
+      "corridor_open": false,
+      "margin_points": [[57.0, -137.0], [52.0, -131.5], [48.5, -125.5], [47.0, -122.9], [47.7, -117.4], [47.5, -113.5], [48.5, -110.0], [46.5, -100.0], [43.0, -97.0], [41.6, -93.6], [39.5, -89.5], [39.1, -84.5], [41.0, -77.0], [40.7, -73.0], [41.0, -69.0]],
+      "note": "LGM. Cordilleran ice reached the outer coast/shelf and south to near Olympia, Spokane and western Montana and merged with the Laurentide at the Continental Divide; Laurentide reached ~38-39 N mid-continent (Ohio River area) and the New York area. Sourced anchors: Olympia, Spokane, W Montana (Wikipedia Cordilleran ice sheet), ~38 N mid-continent (Wikipedia Laurentide), Ohio River and New York (Wikipedia Wisconsin glaciation). Other points are the agent's schematic interpolation (error 100-300 km)."
+    },
+    {
+      "bp": 18000,
+      "coastal_route_open": false,
+      "corridor_open": false,
+      "margin_points": [[57.0, -137.0], [52.0, -131.5], [48.5, -125.5], [47.0, -122.9], [47.7, -117.4], [47.5, -113.5], [48.5, -110.0], [46.5, -100.0], [43.0, -97.0], [41.6, -93.6], [40.0, -89.0], [39.8, -84.5], [41.5, -77.0], [41.0, -73.0], [42.0, -69.0]],
+      "note": "Still close to maximum; deglaciation of the NH began 19-20 ka (Clark 2009). Coastal route not yet open (outer SE Alaska deglaciated ~17 ka per Lesnek 2018). SCHEMATIC: small southern retreat drawn by the agent, not digitized from Dalton 2020."
+    },
+    {
+      "bp": 16000,
+      "coastal_route_open": true,
+      "corridor_open": false,
+      "margin_points": [[56.0, -132.5], [52.0, -128.5], [49.0, -123.5], [47.5, -122.5], [48.5, -117.0], [49.0, -112.0], [48.5, -104.0], [45.5, -97.0], [42.5, -94.0], [41.8, -87.5], [41.5, -83.0], [42.5, -76.0], [43.5, -72.0], [44.0, -69.0]],
+      "note": "Outer Pacific coast ice-free since ~17 ka (Lesnek 2018), so a coastal route is plausible; Cordilleran and Laurentide still joined. SCHEMATIC points by the agent; verify against Dalton 2020 isochrones."
+    },
+    {
+      "bp": 14000,
+      "coastal_route_open": true,
+      "corridor_open": false,
+      "margin_points": [[57.0, -133.0], [53.0, -126.0], [50.0, -120.0], [52.0, -114.0], [51.0, -108.0], [49.0, -100.0], [47.0, -94.0], [45.0, -87.0], [44.5, -81.0], [45.0, -75.0], [46.0, -70.0], [45.5, -67.0]],
+      "note": "Corridor about to open: final opening ~13.8 ka (Clark 2022), but Pedersen 2016 says opened by ~15-14 ka, so mark as 'opening'. Coastal route open. SCHEMATIC points by the agent."
+    },
+    {
+      "bp": 13000,
+      "coastal_route_open": true,
+      "corridor_open": true,
+      "margin_points": [[58.0, -128.0], [55.0, -124.0], [52.0, -121.0], [55.0, -115.0], [53.0, -107.0], [50.0, -99.0], [48.0, -91.0], [46.5, -84.0], [46.0, -78.0], [46.5, -72.0], [46.0, -68.0]],
+      "note": "Corridor deglaciated (~13.8 ka, Clark 2022) but not yet biologically viable (first steppe, bison, mammoth ~12.6 ka, Pedersen 2016). Cordilleran ice shrinking to interior BC; Laurentide margin near the northern Great Lakes and St Lawrence. SCHEMATIC points by the agent."
+    },
+    {
+      "bp": 12000,
+      "coastal_route_open": true,
+      "corridor_open": true,
+      "margin_points": [[60.0, -122.0], [57.0, -113.0], [54.0, -104.0], [51.0, -96.0], [49.0, -89.0], [47.5, -82.0], [47.5, -75.0], [48.0, -69.0], [49.0, -66.0]],
+      "note": "Younger Dryas; corridor open and colonized by plants and animals. Cordilleran reduced to mountain ice caps. New York ice-free by ~12 ka (Wikipedia Laurentide: gone ~10 000 BC). SCHEMATIC points by the agent."
+    },
+    {
+      "bp": 10000,
+      "coastal_route_open": true,
+      "corridor_open": true,
+      "margin_points": [[66.0, -112.0], [61.0, -104.0], [57.0, -97.0], [53.0, -92.0], [50.5, -84.0], [49.0, -77.0], [49.5, -70.0], [52.0, -64.0], [55.0, -61.0]],
+      "note": "Laurentide reduced to the Canadian Shield; Lake Agassiz along its southern edge. Corridor fully open, boreal forest by ~10 ka (Pedersen 2016). SCHEMATIC points by the agent."
+    },
+    {
+      "bp": 8000,
+      "coastal_route_open": true,
+      "corridor_open": true,
+      "margin_points": [[63.0, -88.0], [60.0, -96.0], [56.0, -91.0], [53.0, -82.0], [52.0, -75.0], [55.0, -67.0], [58.0, -70.0], [61.0, -76.0], [63.0, -82.0]],
+      "note": "Closed loop of remnant ice around Hudson Bay and Quebec-Labrador just after the Hudson Bay saddle collapse and lake drainage tied to the 8.2 ka event; last ice in Nunavik ~6.5 ka. SCHEMATIC points by the agent; the Hudson Bay area itself became sea around this time."
+    }
+  ],
+  "unverified": [
+    "Potter et al. 2026 exact wording 'genetics favours entry 20-14 ka, likely before 15 ka': not seen verbatim; seen were 'no earlier than 21 kya', NNA/SNA split 'shortly before ~15.5 kya', and Live Science 'likely near end of LGM'.",
+    "Ioannidis et al. 2020 date range 1150-1230 CE: not seen; sources gave 'around AD 1200' (abstract) and South Marquesas ~1200 / Rapa Nui ~1380 (Smithsonian).",
+    "Pico et al. 2020 PNAS: no such 2020 paper found; the land-bridge-at-35.7-ka paper is Farmer, Pico et al., PNAS, Dec 2022 (doi 10.1073/pnas.2206742119).",
+    "Beringian standstill duration (e.g. Llamas 2016 numbers): abstract not accessible; no duration given in Tamm 2007 abstract.",
+    "Younger Dryas end 11 700 BP and Bølling onset 14 692 b2k (INTIMATE/GICC05): primary ice-core boundary ages not accessed; used Britannica (12 900-11 600; B-A from ~14 700) and NOAA (~11 500).",
+    "Laurentide gone ~7 ka: not supported; Wikipedia says Nunavik ice until ~6 500 ya.",
+    "DOIs not seen (URLs used instead): Moreno-Mayar et al. 2018 Science (Early human dispersals), Castro e Silva et al. 2021 PNAS, Lesnek et al. 2018 Science Advances, the 2025 Science Advances Colombia study.",
+    "Sikora 2019 exact timing of ANS/East Asian admixture forming ancestral Native Americans: preprint text gave a 20-11 kya window tied to Ancient Palaeo-Siberians and replacement; PBS gives Kolyma line / Native American split ~24 ka. Admixture window 26-20 ka in tree is from Raghavan 2014 (MA-1 at 24 ka) plus Moreno-Mayar 2018, not a single stated date.",
+    "Ice margin points for 18-8 ka: schematic, not digitized from Dalton et al. 2020 (QSR 234:106223, doi 10.1016/j.quascirev.2020.106223); full text/shapefiles not accessible here.",
+    "Science 2025 (Gusareva) primary page not opened; Koryak/Inuit 5% / 28% and 700-5 100 ya figures, and 38-80% declines, are from a blog quoting the paper's summary."
+  ],
+  "notes": "1) GENETICS VS ARCHAEOLOGY: Potter et al. 2026 put the genetic ceiling for the ancestors of today's Indigenous peoples at ~21 ka, while White Sands footprints are dated ~23-21 ka (Live Science reports ~23 ka). Show both; genetics cannot see populations that left no descendants. Clark 2022 also says peopling occurred before 15 600 ya, before the corridor opened (~13.8 ka), favouring a coastal route. 2) DATING CONFLICT inside genetics: South American lineage splits 13 900-10 000 ya (Gusareva 2025 Science) vs most pairs 5 000-3 000 ya (Castro e Silva 2026 Nature). NNA/SNA split given as 17.5-14.6 ka (2018), shortly before 15.5 ka (Potter 2026) and ~16 ka (Live Science). 3) The Nature 2026 paper (Castro e Silva, Nunes, Ribeiro ... Hünemeier; online 22 Apr 2026, cover 7 May 2026) reports 128 new high-coverage genomes (199 total, 53 populations), at least three dispersals into South America (Anzick-related first wave, second ~9 ka, third >= 1.3 ka from Mesoamerica), Ne declines 40-90 % over 10 ka, Australasian-linked 'Ypykuera' signal ~1-3 %, archaic alleles ~1.2 %. It does not give a new split date from East Asians; it says Indigenous American ancestry formed ~25 ka in/around Beringia, which is compatible with Moreno-Mayar 2018 (split ~36 ka with gene flow to ~25 ka) rather than a revision of it. 4) Dalton et al. 2020 time slices are labelled in UNCALIBRATED radiocarbon ka (e.g. their '18 ka' slice is roughly 21-22 cal ka BP); convert before matching to calibrated BP. 5) Australasian 'Population Y' must not be presented as evidence of a Pacific crossing; its source is unknown. 6) Calibrated BP used throughout; for recent events 'years ago' from press reports was treated as approximately BP. 7) Coordinates are representative map points, not exact site coordinates."
+}
