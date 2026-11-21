@@ -29,7 +29,7 @@ Tangentbord: mellanslag spelar och pausar, vänster och höger pil hoppar mellan
 går till början och slutet, plus och minus zoomar. Länkar kan peka på en tidpunkt och en händelse:
 `index.html?lang=en#t=14500&e=monte-verde`.
 
-Spelbar på GitHub Pages (när Pages är påslaget för repot):
+Spelbar på GitHub Pages:
 https://fbratten.github.io/interactive-pedagogicals/forsta-amerikanerna/
 
 ## Filmläge och video
@@ -38,6 +38,17 @@ https://fbratten.github.io/interactive-pedagogicals/forsta-amerikanerna/
 textrutor för varje händelse, förloppsstapel och slutskylt. Den spelas inte upp själv utan styrs en
 bildruta i taget av `tools/render_film.py`, som gör en MP4 i 1920x1080 och 30 bilder/s och ett
 synkat ljudspår (samma syntes som sidan, renderad offline). Längd ca 5 min 24 s.
+
+För YouTube normaliseras ljudet med `ffmpeg -af loudnorm=I=-16:TP=-1.5` och muxas in med `-c:v copy`.
+Miniatyrbilden görs i två steg: `tools/thumbnail_frame.py` tar en ren bildruta ur filmläget och
+`tools/make_thumbnail.py` lägger titeln på den. Titlar, beskrivningar, kapitel, taggar och
+inställningar för båda språkversionerna finns i `youtube/`.
+
+```bash
+python3 tools/render_film.py film-out sv en
+python3 tools/thumbnail_frame.py en 4800 bg-en.png
+python3 tools/make_thumbnail.py en bg-en.png youtube/thumbnail-en.jpg
+```
 
 ## Filer
 
@@ -60,6 +71,8 @@ synkat ljudspår (samma syntes som sidan, renderad offline). Längd ca 5 min 24 
 | `tools/build_geo.py` | Bygger `data/geo.js` ur Natural Earth GeoJSON (kräver `shapely`) |
 | `js/film.js` | Filmläget: deterministiskt schema, skyltar, textrutor och ljudspår för video |
 | `tools/render_film.py` | Renderar filmläget till MP4 per språk (Playwright + ffmpeg) |
+| `tools/thumbnail_frame.py`, `tools/make_thumbnail.py` | Ren bildruta ur filmläget och YouTube-miniatyr (Playwright, Pillow) |
+| `youtube/` | Titel, beskrivning, kapitel, taggar och miniatyr för den svenska och den engelska videon |
 | `tools/dev-globe.html` | Utvecklingsvy för att stämma av ismodellen vid en viss tidpunkt (`?bp=14000&lat=55&lon=-115&zoom=1.4`) |
 
 Bygg om data:
@@ -95,6 +108,7 @@ python3 -I tools/build_geo.py <mapp-med-geojson> data/geo.js
   nyhetsartikel i Science och är inte publicerad som studie.
 - Torrlagd havsbotten ritas inom 200-metersdjupet, vilket ger en ungefärlig bild.
 - Ljudet startar först efter ett klick (webbläsarnas regler för autouppspelning).
+- På smala mobiler (cirka 390 px) överlappar tidsetiketterna "år 0" och "1500 e.Kr." delvis.
 
 ## Ursprungsfolkens perspektiv
 
@@ -113,6 +127,7 @@ by side; genetic readings have their own layers, routes and a family tree.
 - 65 sourced events marked **established**, **suggested** or **disputed**, each linking to its sources.
 - Original SVG illustrations and sound synthesised with Web Audio; no external libraries or files.
 - Swedish and English (`?lang=en`).
+- Film mode (`?film=1`) for video, with tools for the YouTube versions and their texts in `youtube/`.
 
 Run it by opening `index.html`, or with `python3 -m http.server` in this folder. Keyboard: space plays
 and pauses, the arrow keys jump between events, plus and minus zoom.
