@@ -1,0 +1,20 @@
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><title>dev globe</title>
+<style>html,body{margin:0;background:#000;overflow:hidden}canvas{position:absolute;inset:0;width:100%;height:100%}</style></head>
+<body><canvas id="g"></canvas><canvas id="o"></canvas>
+<script src="../data/geo.js"></script><script src="../js/time.js"></script><script src="../js/ice.js"></script>
+<script src="../js/camera.js"></script><script src="../js/globe.js"></script><script src="../js/story.js"></script><script src="../js/overlay.js"></script>
+<script>
+var q = new URLSearchParams(location.search);
+var bp = +(q.get('bp')||21000), lat=+(q.get('lat')||55), lon=+(q.get('lon')||-120), zoom=+(q.get('zoom')||1);
+var dpr = 1, w = innerWidth, h = innerHeight;
+var gc = document.getElementById('g'), oc = document.getElementById('o');
+gc.width = w*dpr; gc.height = h*dpr;
+var t0 = performance.now();
+var globe = new FA.Globe(gc);
+var t1 = performance.now();
+var ov = new FA.Overlay(oc); ov.resize(w,h,dpr); ov.setRoutes(FA.STORY.routes);
+var view = {cx:w/2, cy:h/2, R:0.47*Math.min(w,h)*zoom, basis:FA.basis(lat,lon), dpr:dpr, bp:bp, zoom:zoom};
+globe.render(view);
+ov.render(view, bp, 1.0, [], {arkeologi:1,genetik:1,miljo:1,kontakt:1,routes:1,labels:1});
+document.title = 'ok build=' + Math.round(t1-t0) + 'ms tex=' + globe.textureSize;
+</script></body></html>
