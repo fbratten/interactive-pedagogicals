@@ -363,7 +363,7 @@ window.FA_EVENTS = [
   },
   "ce": null,
   "summary_sv": "Mitokondrie-DNA visade 2007 att amerikanernas grundarlinjer skilde sig från sina asiatiska syskonlinjer under en paus någonstans i Beringia, följd av en snabb spridning söderut. Senare helgenomstudier passar med en sådan lång period av isolering mellan genflödets slut och spridningen in i Amerika.",
-  "debate_sv": "Hur länge pausen varade och om den skedde i Beringia eller i Sibirien är omdiskuterat. Tamm m.fl. anger inga datum; tidsspannet här är härlett ur genomdateringarna och bör visas som osäkert.",
+  "debate_sv": "Hur länge pausen varade och om den skedde i Beringia eller i Sibirien är omdiskuterat. Tamm m.fl. angav inga datum; tidsspannet här bygger på senare genomdateringar och är osäkert.",
   "why_sv": "Förklarar hur en asiatisk befolkning kunde bli genetiskt unikt amerikansk innan den nådde kontinenten.",
   "sources": [
    {
@@ -1091,7 +1091,7 @@ window.FA_EVENTS = [
   "id": "fells-cave",
   "kind": "arkeologi",
   "status": "belagt",
-  "title_sv": "Fell-grottan och fisksjärtsspetsar",
+  "title_sv": "Fell-grottan och fiskstjärtsspetsar",
   "place_sv": "Magallanes, Chile",
   "lat": -52.0,
   "lon": -70.0,
@@ -1275,7 +1275,7 @@ window.FA_EVENTS = [
   },
   "ce": null,
   "summary_sv": "Vissa folk i Amazonas, och enligt senare studier även vid Stillahavskusten, delar något fler genvarianter med folk i Australien, Nya Guinea och på Andamanerna än andra ursprungsamerikaner. Signalen utgör omkring 1 till 3 procent av arvsmassan och finns redan hos en 10 400 år gammal individ från Lagoa Santa. Forskarna bakom Nature-studien 2026 tolkar den som spår av en okänd asiatisk befolkning, kallad Ypykuéra, och inte som någon resa över Stilla havet.",
-  "debate_sv": "Hur signalen uppstod är okänt, och den syns inte i alla dataset; en exomstudie 2020 fann den bara svagt och utan statistisk säkerhet och höll artefakt för möjlig. Den är inte belägg för en tidig sjöresa från Australasien.",
+  "debate_sv": "Hur signalen uppstod är okänt, och den syns inte i alla dataset; en exomstudie 2020 fann den bara svagt och utan statistisk säkerhet och bedömde att den kan vara en artefakt. Den är inte belägg för en tidig sjöresa från Australasien.",
   "why_sv": "Antyder att grundarbefolkningen var mer varierad än en enda enhetlig grupp.",
   "sources": [
    {
@@ -1511,7 +1511,7 @@ window.FA_EVENTS = [
   },
   "ce": null,
   "summary_sv": "Samma studie som kartlade de sydamerikanska grenarna fann att korjaker i nordöstra Sibirien bär omkring 5 procent och inuiter omkring 28 procent ursprungsamerikansk anor. Inblandningen dateras till mellan 5 100 och 700 år sedan, vilket visar att rörelserna över Berings sund gick åt båda hållen.",
-  "debate_sv": "Siffrorna kommer från en enda studie och har lästs via sammanfattningar, inte via själva artikeln. Hur de förhåller sig till paleo-inuiternas och inuiternas historia är inte utrett här.",
+  "debate_sv": "Siffrorna kommer från en enda studie och har här kontrollerats mot sammanfattningar av den, inte mot hela artikeln. Hur de förhåller sig till paleo-inuiternas och inuiternas historia är inte utrett här.",
   "why_sv": "Påminner om att Beringia inte var en enkelriktad port.",
   "sources": [
    {
@@ -1694,7 +1694,7 @@ window.FA_EVENTS = [
   },
   "ce": null,
   "summary_sv": "Genom från jägare och samlare på högslätten vid Bogotá, omkring 6 000 år gamla, tillhör en tidigare okänd linje som saknar ättlingar i senare grupper. Omkring 2 000 år sedan syns ett fullständigt befolkningsutbyte, då anor kopplade till chibcha-talande folk från Mellanamerika dyker upp.",
-  "debate_sv": "Studien bygger på 21 genom från fem platser, och exakt när och hur utbytet skedde är oklart. Primärartikelns DOI har inte kontrollerats.",
+  "debate_sv": "Studien bygger på 21 genom från fem platser, och exakt när och hur utbytet skedde är oklart.",
   "why_sv": "Visar att även sena förhistoriska skeden kunde innebära att hela befolkningar ersattes.",
   "sources": [
    {

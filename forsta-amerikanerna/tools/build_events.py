@@ -36,9 +36,14 @@ ART = {
     "polynesia-native-american-contact": "kanot", "rapa-nui-genomes-2024": "kanot",
     "inuit-replace-paleo-inuit": "umiak", "kennewick": "grotta", "columbus-1492": "none",
 }
-PATCH = {
+PATCH = {  # språkliga rättelser och arbetsanteckningar som inte hör hemma i läsarens text
     "kennewick": {"title_sv": "Den forntida (Kennewickmannen)"},
     "rapa-nui-genomes-2024": {"title_sv": "Rapa Nui: kontakt, ingen kollaps"},
+    "fells-cave": {"title_sv": "Fell-grottan och fiskstjärtsspetsar"},
+    "colombia-altiplano-turnover": {"debate_sv": "Studien bygger på 21 genom från fem platser, och exakt när och hur utbytet skedde är oklart."},
+    "beringian-standstill": {"debate_sv": "Hur länge pausen varade och om den skedde i Beringia eller i Sibirien är omdiskuterat. Tamm m.fl. angav inga datum; tidsspannet här bygger på senare genomdateringar och är osäkert."},
+    "population-y-ypykuera": {"debate_sv": "Hur signalen uppstod är okänt, och den syns inte i alla dataset; en exomstudie 2020 fann den bara svagt och utan statistisk säkerhet och bedömde att den kan vara en artefakt. Den är inte belägg för en tidig sjöresa från Australasien."},
+    "back-gene-flow-koryak-inuit": {"debate_sv": "Siffrorna kommer från en enda studie och har här kontrollerats mot sammanfattningar av den, inte mot hela artikeln. Hur de förhåller sig till paleo-inuiternas och inuiternas historia är inte utrett här."},
 }
 EXTRA_DEBATE = {
     "monte-verde": (
