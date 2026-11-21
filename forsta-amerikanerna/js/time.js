@@ -50,10 +50,10 @@
     return 1;
   };
 
-  // Svenska tal med hårt mellanslag som tusentalsavgränsare
+  // Tal: svenska med hårt mellanslag, engelska med komma som tusentalsavgränsare
   FA.num = function (n) {
     var s = String(Math.round(n));
-    return s.replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    return s.replace(/\B(?=(\d{3})+(?!\d))/g, FA.lang === "en" ? "," : "\u00a0");
   };
 
   FA.ceOf = function (bp) { return 1950 - bp; };
@@ -67,27 +67,31 @@
 
   // Huvudetikett för aktuell tid
   FA.formatNow = function (bp) {
-    var ce = FA.ceOf(bp);
+    var en = FA.lang === "en", ce = FA.ceOf(bp);
     if (ce >= 1) {
-      return { big: "år " + Math.round(ce) + " e.Kr.", small: "ca " + FA.num(roundAge(bp + 75)) + " år sedan" };
+      return en ? { big: Math.round(ce) + " CE", small: "c. " + FA.num(roundAge(bp + 75)) + " years ago" }
+        : { big: "år " + Math.round(ce) + " e.Kr.", small: "ca " + FA.num(roundAge(bp + 75)) + " år sedan" };
     }
     if (bp < 2500) {
-      return { big: "ca " + FA.num(roundAge(bp + 75)) + " år sedan", small: "ca " + FA.num(Math.round(-ce / 10) * 10) + " f.Kr." };
+      var bce = FA.num(Math.round(-ce / 10) * 10);
+      return en ? { big: "c. " + FA.num(roundAge(bp + 75)) + " years ago", small: "c. " + bce + " BCE" }
+        : { big: "ca " + FA.num(roundAge(bp + 75)) + " år sedan", small: "ca " + bce + " f.Kr." };
     }
-    return { big: FA.num(roundAge(bp)) + " år sedan", small: "kalibrerade år före 1950" };
+    return { big: FA.num(roundAge(bp)) + " " + FA.t("ago"), small: FA.t("cal") };
   };
 
   // Intervall för en händelse
   FA.formatRange = function (ev) {
+    var en = FA.lang === "en";
     if (ev.ce && ev.ce.from != null) {
-      if (ev.ce.to != null && ev.ce.to !== ev.ce.from) return ev.ce.from + "-" + ev.ce.to + " e.Kr.";
-      return "år " + ev.ce.from + " e.Kr.";
+      if (ev.ce.to != null && ev.ce.to !== ev.ce.from) return ev.ce.from + "-" + ev.ce.to + (en ? " CE" : " e.Kr.");
+      return en ? ev.ce.from + " CE" : "år " + ev.ce.from + " e.Kr.";
     }
     var a = ev.age_bp || {};
-    var f = a.from, t = a.to;
-    if (f != null && t != null && Math.abs(f - t) >= 50) return FA.num(roundAge(f)) + "-" + FA.num(roundAge(t)) + " år sedan";
-    if (a.show != null) return "ca " + FA.num(roundAge(a.show)) + " år sedan";
-    if (f != null) return "ca " + FA.num(roundAge(f)) + " år sedan";
+    var f = a.from, t = a.to, ago = " " + FA.t("ago"), ca = FA.t("ca") + " ";
+    if (f != null && t != null && Math.abs(f - t) >= 50) return FA.num(roundAge(f)) + "-" + FA.num(roundAge(t)) + ago;
+    if (a.show != null) return ca + FA.num(roundAge(a.show)) + ago;
+    if (f != null) return ca + FA.num(roundAge(f)) + ago;
     return "";
   };
 
@@ -136,12 +140,13 @@
 
   // Klimatfas för etikett
   FA.climatePhase = function (bp) {
-    if (bp > 26500) return { name: "Sen istid (MIS 3)", tone: "cold" };
-    if (bp > 19000) return { name: "Istidsmaximum (LGM)", tone: "cold" };
-    if (bp > 14700) return { name: "Avsmältningen börjar", tone: "cool" };
-    if (bp > 12900) return { name: "Bølling-Allerød, varmt", tone: "warm" };
-    if (bp > 11700) return { name: "Yngre dryas, bakslag", tone: "cold" };
-    if (bp > 8200) return { name: "Tidig holocen", tone: "warm" };
-    return { name: "Holocen", tone: "warm" };
+    var en = FA.lang === "en";
+    if (bp > 26500) return { name: en ? "Late Ice Age (MIS 3)" : "Sen istid (MIS 3)", tone: "cold" };
+    if (bp > 19000) return { name: en ? "Last Glacial Maximum" : "Istidsmaximum (LGM)", tone: "cold" };
+    if (bp > 14700) return { name: en ? "Deglaciation begins" : "Avsmältningen börjar", tone: "cool" };
+    if (bp > 12900) return { name: en ? "Bølling-Allerød, warm" : "Bølling-Allerød, varmt", tone: "warm" };
+    if (bp > 11700) return { name: en ? "Younger Dryas, cold snap" : "Yngre dryas, bakslag", tone: "cold" };
+    if (bp > 8200) return { name: en ? "Early Holocene" : "Tidig holocen", tone: "warm" };
+    return { name: en ? "Holocene" : "Holocen", tone: "warm" };
   };
 })(window.FA = window.FA || {});

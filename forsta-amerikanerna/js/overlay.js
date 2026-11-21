@@ -155,7 +155,7 @@
       }
     }
     // etikett vid ruttens mitt
-    if (r.label_sv && life > 0.5) {
+    if (FA.tx(r, "label") && life > 0.5) {
       var mid = r.labelAt != null ? r.labelAt : 0.5;
       if (p >= mid) {
         var mi = 0;
@@ -163,7 +163,7 @@
         var ms = FA.projectVec(view, r.pts[mi]);
         if (ms.z > 0.1) {
           ctx.globalAlpha = 0.95 * vis(ms.z) * life;
-          FA.drawTag(ctx, r.label_sv, ms.x, ms.y, color, r.status);
+          FA.drawTag(ctx, FA.tx(r, "label"), ms.x, ms.y, color, r.status);
         }
       }
     }
@@ -219,7 +219,7 @@
       ctx.globalAlpha = a * (L.alpha || 0.78);
       ctx.fillStyle = L.color || "#f3ead6";
       ctx.shadowColor = "rgba(0,0,0,0.65)"; ctx.shadowBlur = 6;
-      spacedText(ctx, L.text, s.x, s.y, (L.spacing != null ? L.spacing : size * 0.22) * FA.clamp(view.R / 380, 0.5, 1));
+      spacedText(ctx, FA.tx(L, "text"), s.x, s.y, (L.spacing != null ? L.spacing : size * 0.22) * FA.clamp(view.R / 380, 0.5, 1));
     });
     ctx.restore();
   };
@@ -273,7 +273,7 @@
       var la = Math.max(FA.smooth((fresh - 0.3) / 0.35), isSel || isHov ? 1 : 0);
       if (la > 0.02) {
         ctx.globalAlpha = a * la;
-        FA.drawTag(ctx, ev.title_sv, s.x, s.y, color, ev.status);
+        FA.drawTag(ctx, FA.tx(ev, "title"), s.x, s.y, color, ev.status);
       }
     });
     ctx.restore();
@@ -297,7 +297,7 @@
     ctx.fillStyle = g;
     ctx.beginPath(); ctx.arc(s.x, s.y, rad, 0, Math.PI * 2); ctx.fill();
     ctx.globalAlpha = env * vis(s.z);
-    FA.drawTag(ctx, S.label_sv, s.x - 20, s.y + rad * 0.55, TONES.genetic, S.status);
+    FA.drawTag(ctx, FA.tx(S, "label"), s.x - 20, s.y + rad * 0.55, TONES.genetic, S.status);
     ctx.restore();
   };
 

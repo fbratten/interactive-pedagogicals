@@ -41,7 +41,7 @@ body::before { content: ""; position: fixed; left: 0; right: 0; top: 0; height: 
   pointer-events: none; z-index: 5;
 }
 .brand h1 { font-family: var(--serif); font-weight: 600; font-size: 25px; letter-spacing: 0.01em; margin: 0; text-shadow: 0 2px 14px rgba(0,0,0,0.8); }
-.brand .sub { margin: 3px 0 0; color: var(--ink-2); font-size: 13px; text-shadow: 0 1px 8px rgba(0,0,0,0.9); }
+.brand .sub { margin: 3px 0 0; color: var(--ink-2); font-size: 13px; text-shadow: 0 1px 8px rgba(0,0,0,0.9); max-width: 300px; }
 .now { padding-left: 22px; border-left: 1px solid var(--line); }
 .now-big { font-family: var(--serif); font-size: 30px; line-height: 1.05; font-variant-numeric: tabular-nums; text-shadow: 0 2px 14px rgba(0,0,0,0.8); white-space: nowrap; }
 .now-small { color: var(--ink-3); font-size: 12px; margin-top: 3px; }
@@ -50,7 +50,7 @@ body::before { content: ""; position: fixed; left: 0; right: 0; top: 0; height: 
 .chip.warm { background: rgba(255,180,77,0.12); border-color: rgba(255,180,77,0.35); color: #ffe1b3; }
 .chip.cool { background: rgba(196,163,255,0.12); border-color: rgba(196,163,255,0.35); color: #e8dcff; }
 .chip.sea { background: rgba(82,227,198,0.10); border-color: rgba(82,227,198,0.3); color: #c8fff3; }
-.chapter { justify-self: end; max-width: 420px; text-align: right; }
+.chapter { justify-self: end; max-width: 420px; min-width: 250px; text-align: right; }
 .chapter-k { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber); }
 .chapter-title { font-family: var(--serif); font-size: 21px; margin-top: 2px; text-shadow: 0 2px 12px rgba(0,0,0,0.85); }
 .chapter-lead { margin: 6px 0 0; font-size: 13.5px; line-height: 1.45; color: var(--ink-2); text-shadow: 0 1px 8px rgba(0,0,0,0.95); }

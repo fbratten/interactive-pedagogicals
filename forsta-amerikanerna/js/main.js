@@ -31,6 +31,7 @@
       $("nogl").hidden = false;
       globe = null;
     }
+    FA.applyStatic();
     ui = new FA.UI(app);
     bindControls();
     bindPointer();
@@ -97,7 +98,7 @@
     if (on && app.u >= 1) app.seek(0);
     app.playing = on;
     $("play").classList.toggle("playing", on);
-    $("play").setAttribute("aria-label", on ? "Pausa" : "Spela upp");
+    $("play").setAttribute("aria-label", FA.t(on ? "pause" : "play"));
     if (on) { audio.init(); camera.toStory(); syncFollow(); }
     else updateHash();
   }
@@ -112,7 +113,7 @@
     var chapterChanged = ui.updateHud(bp);
     if (chapterChanged && app.playing) {
       var c = FA.STORY.chapters[ui.chapterIdx];
-      ui.toast("Kapitel " + (ui.chapterIdx + 1), c.title);
+      ui.toast(FA.t("chapter", { n: ui.chapterIdx + 1 }), FA.tx(c, "title"));
       audio.whoosh();
     }
     ui.updateCards(bp, crossing);
@@ -147,7 +148,7 @@
         app.dwellUntil = now + 1700;
         hits.forEach(function (e) {
           if (now - app.lastChime > 380) { audio.chime(e.kind, e.status, FA_EVENTS.indexOf(e)); app.lastChime = now; }
-          $("live").textContent = "Ny händelse: " + e.title_sv + ", " + FA.formatRange(e);
+          $("live").textContent = FA.t("new_event", { t: FA.tx(e, "title"), d: FA.formatRange(e) });
         });
       }
       afterTimeChange(hits.length > 0);
@@ -192,6 +193,13 @@
       audio.setEnabled(on);
     });
     $("follow").addEventListener("click", function () { camera.toStory(); syncFollow(); });
+    $("lang").addEventListener("click", function () {
+      FA.setLang(FA.lang === "sv" ? "en" : "sv");
+      $("play").setAttribute("aria-label", FA.t(app.playing ? "pause" : "play"));
+      ui.rebuild();
+      afterTimeChange(false);
+      if (app.selected) { overlay.selected = app.selected; ui.reveal(app.selected); }
+    });
     var lb = $("layersBtn"), pop = $("layers");
     lb.addEventListener("click", function (e) {
       e.stopPropagation();
