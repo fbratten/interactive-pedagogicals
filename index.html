@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Interactive Pedagogicals</title>
+  <meta name="description" content="Interactive, teaching-oriented web pages that make research visible. First page: The First Americans / De första amerikanerna.">
+  <style>
+    :root { color-scheme: dark; --bg: #060a14; --ink: #eef1f7; --ink2: #b9c3d6; --amber: #ffb44d; --line: rgba(190,205,235,.16); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(ellipse at 70% 0%, #12233f 0%, var(--bg) 60%); color: var(--ink);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; }
+    main { max-width: 860px; margin: 0 auto; padding: clamp(28px, 6vw, 72px) 20px; }
+    h1 { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; font-weight: 600;
+      font-size: clamp(32px, 6vw, 48px); line-height: 1.05; margin: 0 0 12px; }
+    p { color: var(--ink2); max-width: 64ch; }
+    .card { display: block; margin-top: 28px; padding: 22px; border: 1px solid var(--line); border-radius: 18px;
+      background: rgba(18,26,46,.72); text-decoration: none; color: inherit; }
+    .card:hover, .card:focus-visible { border-color: rgba(255,180,77,.6); outline: none; }
+    .card h2 { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; font-weight: 600; margin: 0 0 6px; font-size: 26px; }
+    .links { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+    .links a { color: #1d1206; background: linear-gradient(180deg, #ffd08a, #ff9f2e); padding: 10px 16px; border-radius: 12px;
+      text-decoration: none; font-weight: 600; }
+    .links a.ghost { background: none; color: var(--ink); border: 1px solid var(--line); font-weight: 500; }
+    footer { margin-top: 40px; font-size: 14px; color: #7f8aa3; }
+    footer a { color: #9fd0ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Interactive Pedagogicals</h1>
+    <p>Interactive, teaching-oriented web pages that make research visible: press play, time runs, and the evidence
+      appears where and when it belongs. No external libraries, fonts, images or audio files.</p>
+    <p lang="sv">Interaktiva, pedagogiska webbsidor som gör forskning synlig: tryck på play, tiden löper och beläggen dyker upp där och när de hör hemma.</p>
+    <div class="card">
+      <h2>The First Americans / De första amerikanerna</h2>
+      <p>How people reached the Americas, from the oldest traces the finds suggest to the year 1500. An interactive globe
+        and timeline with archaeology and genetics side by side, 65 sourced events and a genetic family tree.</p>
+      <div class="links">
+        <a href="forsta-amerikanerna/?lang=en">Play in English</a>
+        <a href="forsta-amerikanerna/?lang=sv" lang="sv">Spela på svenska</a>
+        <a class="ghost" href="https://github.com/fbratten/interactive-pedagogicals/tree/main/forsta-amerikanerna">Source and method</a>
+      </div>
+    </div>
+    <footer>
+      By <a href="https://fbratten.github.io/">Fredrik Brattén</a>. Code MIT, content CC BY 4.0, map data Natural Earth (public domain).
+      <a href="https://github.com/fbratten/interactive-pedagogicals">Repository</a>.
+    </footer>
+  </main>
+</body>
+</html>

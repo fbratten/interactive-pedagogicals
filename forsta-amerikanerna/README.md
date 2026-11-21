@@ -1,4 +1,6 @@
-# De första amerikanerna
+# De första amerikanerna / The First Americans
+
+*English summary further down.*
 
 Interaktiv glob och tidslinje om hur människor kom till Amerika, från de äldsta spår som fynden *antyder*
 till år 1500. Arkeologi och genetik visas sida vid sida, och genetiska tolkningar har egna lager, rutter
@@ -8,7 +10,8 @@ och ett eget släktträd.
 - Havet sjunker och stiger, Beringias landbrygga bildas och bryts, istäckena växer och smälter.
 - 65 källsatta händelser med statusmärkning: **belagt**, **antytt** eller **omstritt**.
 - Egna SVG-illustrationer och ljud som skapas i webbläsaren med Web Audio.
-- Inga externa bibliotek, typsnitt, bilder eller ljudfiler.
+- Svenska och engelska: knappen SV/EN, eller `?lang=sv` / `?lang=en` i adressen.
+- Inga externa bibliotek, typsnitt, bilder eller ljudfiler. En Content Security Policy tillåter bara sidans egna filer.
 
 ## Kör
 
@@ -24,13 +27,17 @@ Kräver WebGL för globen. Utan WebGL fungerar tidslinjen, korten och släktträ
 
 Tangentbord: mellanslag spelar och pausar, vänster och höger pil hoppar mellan händelser, Home och End
 går till början och slutet, plus och minus zoomar. Länkar kan peka på en tidpunkt och en händelse:
-`index.html#t=14500&e=monte-verde`.
+`index.html?lang=en#t=14500&e=monte-verde`.
+
+Spelbar på GitHub Pages (när Pages är påslaget för repot):
+https://fbratten.github.io/interactive-pedagogicals/forsta-amerikanerna/
 
 ## Filer
 
 | Sökväg | Innehåll |
 |---|---|
 | `index.html`, `css/style.css` | Sidan och dess stil |
+| `js/i18n.js` | Språk: gränssnittstexter på svenska och engelska, val av språk |
 | `js/time.js` | Tidsskala (berättelsetid mot år), havsnivå, landbrygga, klimatfaser |
 | `js/ice.js` | Förenklad ismodell: yttre isgräns vid istidsmaximum plus krympande isdomer |
 | `js/globe.js` | WebGL-glob: masktextur ur Natural Earth, ortografisk rendering per pixel |
@@ -41,7 +48,7 @@ går till början och slutet, plus och minus zoomar. Länkar kan peka på en tid
 | `js/art.js`, `js/audio.js`, `js/tree.js` | Illustrationer, ljud, släktträd |
 | `data/geo.js` | Kustlinjer, sjöar och 200-metersdjupkurvan (genererad) |
 | `data/events.js` | Händelserna (genererad ur `research/`) |
-| `research/*.json` | Forskningsunderlaget med källor och kontrollnoteringar per händelse |
+| `research/*.json` | Forskningsunderlaget med källor och kontrollnoteringar per händelse; `events_en.json` är den engelska översättningen av händelsetexterna |
 | `tools/build_events.py` | Bygger `data/events.js` ur `research/` (dubbletter, kartjusteringar, illustrationer) |
 | `tools/build_geo.py` | Bygger `data/geo.js` ur Natural Earth GeoJSON (kräver `shapely`) |
 | `tools/dev-globe.html` | Utvecklingsvy för att stämma av ismodellen vid en viss tidpunkt (`?bp=14000&lat=55&lon=-115&zoom=1.4`) |
@@ -85,3 +92,26 @@ python3 -I tools/build_geo.py <mapp-med-geojson> data/geo.js
 Många ursprungsfolk har egna historier om sitt ursprung. Sidan visar vad arkeologi och genetik antyder,
 vilket är ett perspektiv bland flera. Kennewickmannen kallas av de berörda stammarna för Den forntida.
 År 1492 är här bara en slutpunkt.
+
+## English summary
+
+*The First Americans* is an interactive globe and timeline about how people reached the Americas,
+from the oldest traces the finds *suggest* to the year 1500. Archaeology and genetics are shown side
+by side; genetic readings have their own layers, routes and a family tree.
+
+- Play button and time slider through 40,000 years, slowing down at every event.
+- Seas fall and rise, the Bering land bridge forms and breaks, ice sheets grow and melt.
+- 65 sourced events marked **established**, **suggested** or **disputed**, each linking to its sources.
+- Original SVG illustrations and sound synthesised with Web Audio; no external libraries or files.
+- Swedish and English (`?lang=en`).
+
+Run it by opening `index.html`, or with `python3 -m http.server` in this folder. Keyboard: space plays
+and pauses, the arrow keys jump between events, plus and minus zoom.
+
+Method in short: events were researched and checked against sources on 2026-11-21, then 16 of the
+most sensitive were spot-checked independently. Sea level follows Spratt and Lisiecki 2016; the land
+bridge forms about 35,700 years ago (Farmer, Pico et al. 2022) and breaks about 11,000 years ago
+(Jakobsson et al. 2017); the ice sheets are a simplified model following Dalton et al. 2020 and can
+be off by 100-300 km. Event texts were written in Swedish and translated into English.
+
+Licenses: code MIT, content CC BY 4.0, map data Natural Earth (public domain). See the repository root.

@@ -1,6 +1,7 @@
 """Slår ihop de källsatta forskningsfilerna till data/events.js.
 
-Indata:  research/archaeology_contacts.json, research/genetics_env.json (forskningsagenternas resultat)
+Indata:  research/archaeology_contacts.json, research/genetics_env.json (forskningsagenternas resultat),
+         research/events_en.json (engelsk översättning av de svenska texterna, valfri)
 Utdata:  data/events.js (window.FA_EVENTS, window.FA_ENV)
 
 Kurering som görs här (allt annat kommer oförändrat från forskningsfilerna):
@@ -99,6 +100,20 @@ for src in (A, G):
             e["debate_sv"] = (e.get("debate_sv") or "") + txt
             e["sources"] = list(e["sources"]) + [s]
         events.append(e)
+
+# Engelska texter (översättning av de svenska fälten, research/events_en.json)
+EN_PATH = os.path.join(ROOT, "research", "events_en.json")
+if os.path.exists(EN_PATH):
+    EN = json.load(open(EN_PATH, encoding="utf-8"))
+    missing = [e["id"] for e in events if e["id"] not in EN]
+    if missing:
+        sys.exit("Engelsk text saknas för: %s" % missing)
+    for e in events:
+        for k, v in EN[e["id"]].items():
+            if k in ("title_en", "place_en", "summary_en", "debate_en", "why_en"):
+                e[k] = v
+        if e.get("debate_sv") and not e.get("debate_en"):
+            sys.exit("debate_en saknas: " + e["id"])
 
 events.sort(key=lambda e: -e["age_bp"]["show"])
 

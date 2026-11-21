@@ -31,7 +31,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "USGS pubs record: Nature 544:479-483, DOI 10.1038/nature22065, 230Th/U age 130.7 +/- 9.4 ka; Baylor news: critique 'Contesting early archaeology in California', Nature Feb 2018 (natural damage, cobbles washed in). Coordinates approximate (San Diego).",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Prologue: the Cerutti mastodon",
+  "place_en": "California, USA",
+  "summary_en": "During road construction near San Diego, crushed mastodon bones were found together with large stones. The researchers dated the bones with the uranium-thorium method to roughly 130,000 years and argued that some unknown human species had broken them to get at the marrow.",
+  "debate_en": "Most archaeologists reject the interpretation. Critics show that similar bone fractures occur at sites where humans were never present and that the stones may have been washed there naturally.",
+  "why_en": "An example of how extraordinary claims require extraordinary evidence, and therefore only a prologue to the story."
  },
  {
   "id": "ana-split-from-east-asians",
@@ -59,7 +64,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Abstract via nature.com: split from East Asians ~36 +/- 1.5 ka, gene flow until ~25 +/- 1.1 ka.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "The ancestors split from East Asians",
+  "place_en": "Northeast Asia",
+  "summary_en": "Genome models from the infant USR1 in Alaska indicate that the population that became the ancestors of Indigenous Americans began to diverge from East Asians about 36,000 years ago. Gene exchange between the groups continued, however, until around 25,000 years ago, so the separation was gradual rather than a sharp break.",
+  "debate_en": "The dates come from population-genetic models with an assumed mutation rate and generation time, not from finds. More recent work (Castro e Silva et al. 2026, Potter et al. 2026) instead emphasizes that the Indigenous American population proper took shape only around 25,000 years ago.",
+  "why_en": "It sets an outer limit for when a distinct Indigenous American ancestral lineage could have existed at all."
  },
  {
   "id": "bering-land-bridge-emerges",
@@ -92,7 +102,12 @@ window.FA_EVENTS = [
   ],
   "verified": "UCSC news: Farmer (first) and Pico (corresponding), PNAS week of 2022-12-26, DOI 10.1073/pnas.2206742119, emergence ~35 700 ya, three cores. Note: the brief cited 'Pico et al. 2020'; the paper found is Farmer et al. 2022/2023.",
   "origin": "genetics_env",
-  "illustration": "mammut"
+  "illustration": "mammut",
+  "title_en": "The Bering land bridge emerges",
+  "place_en": "Bering Strait",
+  "summary_en": "Nitrogen isotopes in plankton from seafloor cores indicate that the land bridge between Siberia and Alaska became dry land only about 35,700 years ago, less than 10,000 years before the glacial maximum. This means that the ice sheets grew quickly and late during the last ice age.",
+  "debate_en": "Older reconstructions assumed that the bridge lay dry considerably longer. The result is based on a new method and a few drill cores, and the uncertainty is several thousand years (about 2,400 years in one direction and 3,300 in the other).",
+  "why_en": "The later the bridge emerged, the shorter the time between its appearance and the presence of the first Americans' ancestors in the area."
  },
  {
   "id": "yana-ancient-north-siberians",
@@ -120,7 +135,12 @@ window.FA_EVENTS = [
   ],
   "verified": "PubMed abstract (ANS, Ancient Palaeo-Siberians, Neo-Siberians; genomes 31 000-600 ya); bioRxiv full text: Yana ~31.6 kya, ANS diverged ~38 kya from West Eurasians. Coordinates approximate.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Yana: the Ancient North Siberians",
+  "place_en": "Yana, northeastern Siberia",
+  "summary_en": "Two baby teeth from Yana, far north of the Arctic Circle, yielded DNA from a previously unknown population, the Ancient North Siberians, from about 31,600 years ago. The group was distantly related to early West Eurasian hunter-gatherers and was later largely replaced by peoples related to East Asians.",
+  "debate_en": null,
+  "why_en": "Shows that humans lived in Arctic Siberia long before the coldest phase of the ice age and that a northern ancestral component was in place before the ancestors of the Americans took shape."
  },
  {
   "id": "arroyo-del-vizcaino",
@@ -148,7 +168,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "PMC3843831: Proc R Soc B 281:20132211, DOI 10.1098/rspb.2013.2211, pooled 29 14C ka = ~32.3-31.2 cal ka, ~40 cut-marked elements, authors call evidence suggestive, trampling noted. Coordinates approximate (near Sauce).",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Arroyo del Vizcaíno",
+  "place_en": "Canelones, Uruguay",
+  "summary_en": "In a dried-up streambed in southern Uruguay lie thousands of bones from giant sloths and other large ice age animals. Some forty bones have marks that resemble cuts from stone tools, and the layer has been dated to about 32,000-31,000 calendar years ago.",
+  "debate_en": "Even the authors call the evidence suggestive. The marks may have other explanations, such as trampling, and almost no definite tools have been found.",
+  "why_en": "One of several South American sites that, if they hold up, would mean humans long before the height of the ice age."
  },
  {
   "id": "chiquihuite",
@@ -186,7 +211,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Wikipedia Chiquihuite page and MSU news: Nature 584:87-92 DOI 10.1038/s41586-020-2509-0; up to 33 ka, 33-31 ka dispersal; Chatters 2021 geofact critique DOI; Ardelean 2022 reply DOI. Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Chiquihuite Cave",
+  "place_en": "Zacatecas, Mexico",
+  "summary_en": "High in the mountains of northern Mexico, a research team has excavated large quantities of limestone pieces that they interpret as tools, in layers dated as far back as about 33,000-31,000 years ago. The cave would then have been visited over a very long time, until about 13,000 years ago.",
+  "debate_en": "In 2021, a group of some twenty researchers argued that the stones are more likely naturally fractured limestone flakes, so-called geofacts. The excavators responded in 2022 with new use-wear analyses, but the question is unresolved.",
+  "why_en": "If the stones are tools, humans would have reached North America before the height of the last ice age."
  },
  {
   "id": "santa-elina",
@@ -219,7 +249,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Sci.News: Proc R Soc B, DOI 10.1098/rspb.2023.0316, Glossotherium osteoderms, ~25,100-27,400 yr. Critique wording is general (not a specific paper checked). Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Santa Elina - jewelry from giant sloths",
+  "place_en": "Mato Grosso, Brazil",
+  "summary_en": "In the Santa Elina rock shelter in central Brazil, bone plates from an extinct giant sloth have been found with drilled holes, polishing and wear marks. The researchers interpret them as pendants or ornaments made by humans about 27,000-25,000 years ago.",
+  "debate_en": "Skeptics ask whether the holes and wear could have arisen naturally, for example from gnawing or trampling, and whether the bones could have ended up in younger layers. The finds are accepted by some researchers but are not included in most secure chronologies.",
+  "why_en": "If the interpretation holds, humans were present deep inside South America long before the end of the last ice age."
  },
  {
   "id": "ana-formation-beringia-25ka",
@@ -252,7 +287,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Nature 2026 PDF (iris.unica.it repository copy): formation ~25 ka in/around Beringia. Live Science summary of Potter 2026: ~25 ka split into ancestral Native American, Ancient Beringian and ghost lineages.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Indigenous American ancestry takes shape",
+  "place_en": "Beringia and northeastern Siberia",
+  "summary_en": "Around 25,000 years ago, during the coldest part of the ice age, the population from which almost all living Indigenous Americans descend took shape, somewhere in or near Beringia. It carried both East Asian and older North Eurasian ancestry and soon split into several branches, among them the Ancient Beringians and unknown so-called ghost lineages.",
+  "debate_en": "Where the admixture and the standstill took place, in Beringia itself or farther west in Siberia, cannot be determined with current data. The map point is therefore only approximate.",
+  "why_en": "It is the starting point for the entire genetic story of the first Americans."
  },
  {
   "id": "bluefish-caves",
@@ -280,7 +320,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "PMC5218561: PLOS ONE 12(1) e0169486, horse mandible ~24,000 cal BP, coordinates 67 09 N 140 45 W. Younger bound 12 ka is approximate (site used later); critique wording general.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Bluefish Caves",
+  "place_en": "Yukon, Canada",
+  "summary_en": "In small caves in northern Yukon there are animal bones with cut marks. A new dating in 2017 gave a horse jaw with cut marks an age of about 24,000 years, which was interpreted as meaning that humans were present in eastern Beringia already during the height of the ice age.",
+  "debate_en": "Critics argue that the marks may come from predators, trampling or natural processes and that secure stone tools from the same period are lacking. The site is therefore often regarded as possible but not proven.",
+  "why_en": "The site supports the idea that humans may have waited in Beringia before the route south opened."
  },
  {
   "id": "malta-ane-contribution",
@@ -308,7 +353,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Abstract via nature.com: MA-1 ~24 000 years, 14-38% of Native American ancestry via gene flow from this population. Coordinates approximate.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "The Mal'ta boy and North Eurasian ancestry",
+  "place_en": "Mal'ta, near Lake Baikal",
+  "summary_en": "The genome of a boy from Mal'ta in southern Siberia, around 24,000 years old, showed that part of the ancestry of Indigenous Americans comes from an ancient North Eurasian population that is also related to West Eurasians. The researchers estimated that 14 to 38 percent of Indigenous American ancestry may derive from gene flow from this group.",
+  "debate_en": null,
+  "why_en": "Explains why Indigenous Americans are not genetically purely East Asian but carry a dual heritage."
  },
  {
   "id": "white-sands-fotspar",
@@ -346,7 +396,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Bennett et al. 2021 Science 373:1528-1531 DOI 10.1126/science.abg7586 (UArizona experts page); Pigati et al. 2023 Science 382:73-75 DOI 10.1126/science.adh5007 (USGS pubs: pollen + OSL support 23-21 ka); Holliday et al. 2025 Sci Adv DOI 10.1126/sciadv.adv4951, mud 20,700-22,400 yr (UArizona news, 18 Jun 2025). Critique on seeds and lack of artifacts per UArizona news.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Footprints at White Sands",
+  "place_en": "New Mexico, USA",
+  "summary_en": "In old lake sediments in White Sands National Park, human footprints have been found, including those of children and teenagers. Seeds (2021), pollen and luminescence dating (2023) and, in 2025, also the clay around the tracks itself give ages of about 23,000-20,700 years, that is, in the middle of the coldest phase of the ice age.",
+  "debate_en": "Critics have long argued that the seeds of aquatic plants can give ages that are too old and that no tools or campsites have been found in the same layers. The new datings of clay, pollen and seeds agree, but the question of why no finds accompany the tracks remains unanswered.",
+  "why_en": "If the dating holds, humans were present south of the ice sheets thousands of years before Clovis."
  },
  {
   "id": "beringian-standstill",
@@ -379,7 +434,12 @@ window.FA_EVENTS = [
   ],
   "verified": "DOAJ abstract of Tamm 2007 (pause in Beringia, founder lineages differentiated, swift southward migration; no dates). Nature 2018 abstract: results consistent with the Beringian standstill model. Age range is the agent's inference from Moreno-Mayar 2018 dates.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "The Beringian standstill",
+  "place_en": "Beringia",
+  "summary_en": "In 2007, mitochondrial DNA showed that the founding lineages of the Americans diverged from their Asian sister lineages during a pause somewhere in Beringia, followed by a rapid spread southward. Later whole-genome studies fit with such a long period of isolation between the end of gene flow and the spread into the Americas.",
+  "debate_en": "How long the pause lasted and whether it took place in Beringia or in Siberia is debated. Tamm et al. gave no dates; the time span here is based on later genome datings and is uncertain.",
+  "why_en": "Explains how an Asian population could become genetically uniquely American before it reached the continent."
  },
  {
   "id": "glyptodont-reconquista",
@@ -412,7 +472,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Sci.News 17 Jul 2024: PLOS ONE 19(7), DOI 10.1371/journal.pone.0304956, Neosclerocalyptus, ~21,000 yr, Reconquista River. Age bounds +/-500 are my approximation; debate wording general (no specific rebuttal checked). Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Butchered glyptodont, 21,000 years",
+  "place_en": "Buenos Aires Province, Argentina",
+  "summary_en": "By the Reconquista River near Buenos Aires, bones of a glyptodont, a gigantic armored animal, have been found with cut marks on the pelvis, tail and armor. The placement of the marks indicates butchering, and a dating of the pelvis gives an age of about 21,000 years (find published in 2024).",
+  "debate_en": "The evidence consists of cut marks on bone, which can be hard to distinguish from natural damage, and the find has not yet been tested as rigorously as older sites.",
+  "why_en": "One of several new finds that point toward humans in South America during the height of the ice age."
  },
  {
   "id": "last-glacial-maximum",
@@ -445,7 +510,12 @@ window.FA_EVENTS = [
   ],
   "verified": "USGS record of Clark 2009: nearly all ice sheets at LGM positions from 26.5 ka; NH deglaciation onset 19-20 ka. Lambeck 2014: fall to -134 m from 29 to 21 ka.",
   "origin": "genetics_env",
-  "illustration": "is"
+  "illustration": "is",
+  "title_en": "The Last Glacial Maximum",
+  "place_en": "Northern Hemisphere",
+  "summary_en": "Almost all ice sheets reached their greatest extent around 26,500 years ago and remained there until about 20,000 to 19,000 years ago, when the melting in the Northern Hemisphere began. Sea level was then about 130 meters lower than today, and Beringia was a large continuous landmass.",
+  "debate_en": null,
+  "why_en": "During the maximum, the ice closed the route south, so the timing determines when a migration into the Americas was possible at all."
  },
  {
   "id": "ancient-beringians-split",
@@ -478,7 +548,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Nature 2018 abstract: Ancient Beringians split ~22-18.1 ka. ScienceDirect page of Potter 2026: Ancient Beringians ~20.9 kya.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Ancient Beringians go their own way",
+  "place_en": "Beringia",
+  "summary_en": "A branch called the Ancient Beringians separated from the other Indigenous American ancestors about 22,000 to 18,000 years ago and stayed in the north. The branch is known only from ancient genomes in Alaska and has no known living descendants.",
+  "debate_en": "The timing is model-dependent; the review by Potter et al. 2026 gives about 20,900 years ago. Whether the split took place in Beringia or in Siberia is unclear.",
+  "why_en": "Shows that the first population was already divided into several groups before anyone went south."
  },
  {
   "id": "genetic-entry-window-potter-2026",
@@ -511,7 +586,12 @@ window.FA_EVENTS = [
   ],
   "verified": "ScienceDirect page: vol 101, art. 102534, online 2026-09-23; lineage diversification no earlier than 21 kya; NNA/SNA split shortly before ~15.5 kya. Live Science: White Sands ~23 ka, no significant genetic contribution detected, possibly sampling gaps. The '20-14 ka, likely before 15 ka' wording from the brief was not seen verbatim.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "The genetic time window for arrival",
+  "place_en": "North America south of the ice sheets",
+  "summary_en": "A 2026 review of the genetic evidence concludes that the ancestors of today's Indigenous peoples split into different lineages no earlier than 21,000 years ago. The northern and southern branches separated shortly before 15,500 years ago, according to earlier studies probably south of the ice sheets, so the arrival should have occurred in between.",
+  "debate_en": "The evidence has large gaps, and archaeological finds such as the White Sands footprints, dated to about 23,000 years ago, point to an earlier presence. Genetics can only see populations that left descendants, so an early group without descendants would be invisible in DNA.",
+  "why_en": "It is the clearest point where genetics and archaeology today give different answers."
  },
  {
   "id": "pacific-coast-deglaciation",
@@ -544,7 +624,12 @@ window.FA_EVENTS = [
   ],
   "verified": "EurekAlert release: ~17 000 ya, four islands of Alexander Archipelago, Science Advances 2018-05-30, ringed seal ~17 000 yrs, caveat on one coastline section. DOI not seen; PMC URL from search used. Coordinates approximate.",
   "origin": "genetics_env",
-  "illustration": "kelp"
+  "illustration": "kelp",
+  "title_en": "The coast becomes ice-free",
+  "place_en": "Alexander Archipelago, southeastern Alaska",
+  "summary_en": "Exposure dating of boulders on four islands in southeastern Alaska shows that the ice retreated from there about 17,000 years ago. Ringed seal bones in a nearby cave indicate that there was soon food to be had along the coast.",
+  "debate_en": "The study covers only part of the coast, and whether the entire coastline was passable at the same time has not been shown. Traces of an early coastal migration may today lie under the sea.",
+  "why_en": "Makes a coastal route south possible several thousand years before the inland corridor opened."
  },
  {
   "id": "coopers-ferry",
@@ -577,7 +662,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Sci.News: Science 365:891-897 DOI 10.1126/science.aax9830, ~16,000 yr, Japan similarity. Archaeology.org: 16,560-15,280 yr, horse, hearth. Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Cooper's Ferry",
+  "place_en": "Idaho, USA",
+  "summary_en": "By the Salmon River in western Idaho, stone tools, a hearth and bones of extinct horse have been found in layers dated to about 16,500-15,300 years ago. The tools resemble older finds from northeastern Asia, especially Japan.",
+  "debate_en": null,
+  "why_en": "The site is older than an ice-free land corridor through Canada, which favors an early route along the Pacific coast."
  },
  {
   "id": "nna-sna-split",
@@ -610,7 +700,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Nature 2018 abstract: NNA/SNA split ~17.5-14.6 ka, probably south of the North American ice sheets. Potter 2026 page: split shortly before ~15.5 kya. Live Science on Potter 2026: ~16 000 ya.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "The northern and southern branches split",
+  "place_en": "South of the ice sheets, North America",
+  "summary_en": "The Indigenous American ancestral lineage split into a northern branch (NNA, including the ancestors of Algonquian- and Na-Dene-speaking peoples) and a southern branch (SNA, ancestors of most peoples in Central and South America). The split is dated to about 17,500 to 14,600 years ago and probably took place south of the ice sheets.",
+  "debate_en": "Different studies give somewhat different point estimates, from shortly before 15,500 to about 16,000 years ago. The location is an inference from the models and is not established by finds; the map point is only illustrative.",
+  "why_en": "If the split happened south of the ice sheets, humans must have passed the ice sheets before about 15,000 years ago."
  },
  {
   "id": "friedkin-gault",
@@ -638,7 +733,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Wikipedia Buttermilk Creek complex: 13,200-15,500 BP OSL, DOI 10.1126/science.1201855, coordinates 30.892 -97.710, vertisol and OSL-error critique (Morrow et al. 2012), Gault 250 m upstream.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Buttermilk Creek (Friedkin and Gault)",
+  "place_en": "Texas, USA",
+  "summary_en": "At Buttermilk Creek in Texas, thousands of stone tools lie beneath a Clovis layer. Luminescence dating (OSL) of the sediments gives ages of about 15,500-13,200 years, and the nearby Gault site has similar older layers.",
+  "debate_en": "Critics point out that clay soils that swell and crack may have moved objects between layers, and that the OSL ages have large margins of error.",
+  "why_en": "A large body of tools indicating that Clovis grew out of older local traditions."
  },
  {
   "id": "huaca-prieta",
@@ -671,7 +771,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Sci.News: Sci Adv 3(5) e1602778, DOI 10.1126/sciadv.1602778, at least 15,000 yr, occupation to ~9,000 yr, no fishhooks or boats. Coordinates approximate (Chicama valley mouth). Same lead excavator as Monte Verde; not independently re-examined in sources I checked.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Huaca Prieta on the Peruvian coast",
+  "place_en": "La Libertad, Peru",
+  "summary_en": "On Peru's north coast, Tom Dillehay's team has found simple stone tools, fish bones, sea lions and plant remains from at least 15,000 years ago. The site was used for a long time, and later layers contain, among other things, baskets and dyed cotton.",
+  "debate_en": null,
+  "why_en": "Shows that early humans exploited the resources of the coast and wetlands in South America very early."
  },
  {
   "id": "bolling-allerod",
@@ -699,7 +804,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Britannica: Bølling-Allerød began ~14 700 ya; Younger Dryas from ~12 900 ya (which ends B-A). Ice-core b2k boundary ages (INTIMATE) not verified.",
   "origin": "genetics_env",
-  "illustration": "is"
+  "illustration": "is",
+  "title_en": "Bølling-Allerød: sudden warmth",
+  "place_en": "Northern Hemisphere",
+  "summary_en": "About 14,700 years ago, the climate in the Northern Hemisphere rapidly became warmer in the period known as the Bølling-Allerød. It lasted until about 12,900 years ago and coincided with rapid ice melt and rising seas.",
+  "debate_en": null,
+  "why_en": "The warmth opened landscapes and coasts to humans, animals and plants."
  },
  {
   "id": "page-ladson",
@@ -727,7 +837,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "PMC4928949: Sci Adv 2(5) e1600375, ~14,550 cal BP, 71 radiocarbon ages, Aucilla River sinkhole under 9 m water. Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Page-Ladson, mastodon in the river",
+  "place_en": "Florida, USA",
+  "summary_en": "At a depth of nine meters in a sinkhole in the Aucilla River, diving archaeologists have found stone tools and a mastodon tusk with traces of butchery. More than 70 radiocarbon dates show that humans were there about 14,550 years ago, by a pond that then lay on dry land.",
+  "debate_en": null,
+  "why_en": "A clear pre-Clovis find in southeastern North America, showing that humans had spread far east early."
  },
  {
   "id": "monte-verde",
@@ -770,7 +885,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "EurekAlert: Surovell et al., Science 19 Mar 2026, DOI 10.1126/science.adw9217, 4,200-8,200 yr, Lepue tephra ~11 ka, redeposited wood, surface formed after ~8,600 yr. CSFA PDF: eLetters by Waters et al. (5 May 2026), Dillehay et al. (4 May), Meltzer et al. (4 May). Live Science 12 May 2026: 30 researchers, no new excavation in critiques. Reuters 31 Aug 2026: defenses in PaleoAmerica; search result gives PaleoAmerica DOI 10.1080/20555563.2026.2699017 (title 'Archaeological and Geological Evidence at Monte Verde II, Chile, Supports a Human Occupation at ~14,500 Years Ago'; full text not fetched). UWyo June 2026: Surovell team replied in eLetters. Wikipedia: MV-II coords 41.505 S 73.204 W; CMN rejected permit complaint 8 Apr 2026. NOT verified: a new independent excavation reaffirming early dates (Science news 20 Oct 2026 'Archaeology fight reopens wounds...' exists in search results but could not be opened).",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Monte Verde - age questioned",
+  "place_en": "Los Lagos, Chile",
+  "summary_en": "For almost 30 years, Monte Verde II in southern Chile has been regarded as secure evidence of humans in South America about 14,500 years ago, with preserved wood remains, plants and seaweed. In March 2026, a group led by Todd Surovell claimed that the layers are instead 4,200-8,200 years old and that the old wood was washed there by a stream.",
+  "debate_en": "Surovell's group points to an approximately 11,000-year-old volcanic ash layer beneath the find layer and to redeposited ice age wood. Some thirty researchers, among them the excavators in Tom Dillehay's team, responded in 2026 that the samples were taken outside the site itself, that the ash has been misinterpreted and that the old age holds up; Surovell's group stands by its interpretation. According to a news article in Science (October 20, 2026), the defenders also described a new excavation, completed in the preceding weeks, which they believe confirms the older dates; at that time it was known only through news reporting.",
+  "why_en": "Monte Verde was the site that made the research community abandon the idea of Clovis as the first Americans, so a younger age would shake a cornerstone but not the whole picture."
  },
  {
   "id": "meltwater-pulse-1a",
@@ -798,7 +918,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Lambeck 2014 full text (core.ac.uk PDF): MWP-1A 14.5-14.0 ka, ~20 m globally averaged, rate ~40 mm/yr or more.",
   "origin": "genetics_env",
-  "illustration": "is"
+  "illustration": "is",
+  "title_en": "Meltwater Pulse 1A",
+  "place_en": "The world's oceans",
+  "summary_en": "Between about 14,500 and 14,000 years ago, global sea level rose by about 20 meters, at a rate of at least 40 millimeters per year. Large coastal areas, among them parts of Beringia and the continental shelf along the west coast of the Americas, disappeared under water.",
+  "debate_en": null,
+  "why_en": "Explains why traces of early coastal dwellers likely lie on the seafloor today."
  },
  {
   "id": "paisley-caves",
@@ -831,7 +956,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "USF repository abstract: Science 337, DOI 10.1126/science.1218443, coprolites from 12,450 14C BP, WST points 11,070-11,340 14C BP, blind-lab DNA confirmation. Archaeology.org: five coprolites >14,000 yr. Note some contamination debate existed (not re-checked). Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Paisley Caves",
+  "place_en": "Oregon, USA",
+  "summary_en": "In caves in the Oregon desert, fossil feces with human DNA older than 14,000 years have been found. The same layers contain Western Stemmed points, which are as old as or older than Clovis.",
+  "debate_en": null,
+  "why_en": "Shows that there were several early tool traditions in North America at the same time, not a single Clovis root."
  },
  {
   "id": "swan-point",
@@ -864,7 +994,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "UArizona experts page: Reuther et al. 2023 Radiocarbon DOI 10.1017/RDC.2023.30, site dates to 14,200 cal BP. Wikipedia: microblades, mammoth ivory ~14,000 cal BP. Younger bound approximate; coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Swan Point, oldest in eastern Beringia",
+  "place_en": "Alaska, USA",
+  "summary_en": "Swan Point in the Tanana Valley is the oldest well-dated occupation site in Alaska, with traces of humans from about 14,200 years ago. It has microblades, a technology with roots in Siberia, and worked mammoth ivory.",
+  "debate_en": null,
+  "why_en": "Shows that humans were present in Beringia, the gateway to the Americas, at the same time as the first secure sites farther south."
  },
  {
   "id": "holzman-alaska",
@@ -902,7 +1037,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "ScienceAlert 6 Feb 2026 gives DOI 10.1016/j.quaint.2025.110087 (Wygal et al.); Archaeology.org 3 Feb 2026: layers ~14,000 and ~13,700 yr, ivory, quartz tools, Clovis-like rod making. Publication year shown as 2026 in news; DOI suggests 2025 online. Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Holzman - an ivory workshop in Alaska",
+  "place_en": "Tanana Valley, Alaska",
+  "summary_en": "At the Holzman site in central Alaska there are layers from about 14,000 and 13,700 years ago with hearths, stone tools and worked mammoth ivory, including an almost complete tusk. In 2026 the researchers reported that the ivory rods had been made in a way that resembles Clovis.",
+  "debate_en": "That Clovis technology would have its roots here is an interpretation based on similarities in craftsmanship. Outside researchers have pointed out that the finds do not rule out earlier humans farther south, and that DNA and more climate data are needed.",
+  "why_en": "May be a link between the ice age hunters of Beringia and Clovis farther south."
  },
  {
   "id": "sa-lineages-split-gusareva-2025",
@@ -940,7 +1080,12 @@ window.FA_EVENTS = [
   ],
   "verified": "ScienceDaily (NTU release, 2025-05-16): 1 537 individuals, 139 groups, NW South America ~14 000 ya, four groups. SCELSE-hosted article and Dispatches blog quoting the summary: split ~13 900-10 000 ya. Nature 2026 PDF: cross-coalescence 5 000-3 000 ya, contrasts with 13 900-10 000. Science page itself could not be opened.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Four South American branches",
+  "place_en": "Northwestern South America",
+  "summary_en": "A large study of 1,537 living individuals from 139 population groups in northern Eurasia and the Americas found that humans reached South America via Central America and the Isthmus of Panama about 14,000 years ago. The South American lineage then split into four branches, in the Amazon, the Andes, the Chaco and Patagonia, about 13,900 to 10,000 years ago.",
+  "debate_en": "The 2026 Nature study instead finds that most South American groups separated much later, 5,000 to 3,000 years ago, and mentions the older figures as an independent but divergent estimate.",
+  "why_en": "Shows how quickly the continent was divided into regional populations and how uncertain such dates are."
  },
  {
   "id": "ice-free-corridor-opens",
@@ -973,7 +1118,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Popular Archaeology on Clark 2022: opening ~13 800 ya, PNAS 2022-03-21, DOI 10.1073/pnas.2118558119, peopling before 15 600 ya. ADS abstract: final opening well after pre-Clovis occupation. Pedersen 2016 abstract: corridor opened by ~15-14 cal kyr BP.",
   "origin": "genetics_env",
-  "illustration": "is"
+  "illustration": "is",
+  "title_en": "The inland corridor opens",
+  "place_en": "Between the Cordilleran and Laurentide ice sheets, western Canada",
+  "summary_en": "Where the Cordilleran and Laurentide ice sheets had grown together, an ice-free passage eventually opened between Alaska and the interior plains. Exposure dating shows that the passage finally became ice-free about 13,800 years ago, that is, after humans were already present south of the ice sheets.",
+  "debate_en": "Pedersen et al. 2016 state that the corridor opened as early as 15,000 to 14,000 years ago. The difference depends on method and on where in the corridor the measurements are made.",
+  "why_en": "Shows that the corridor can hardly have been the route of the very first Americans."
  },
  {
   "id": "clovis",
@@ -1001,7 +1151,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Sci.News: 'The age of Clovis - 13,050 to 12,750 cal yr B.P.', Sci Adv 6(43) eaaz0455, DOI 10.1126/sciadv.aaz0455, 10 sites, ~300 years. Coordinates: Blackwater Draw type site near Clovis NM, approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Clovis - and the end of Clovis First",
+  "place_en": "North America (type site New Mexico)",
+  "summary_en": "Clovis is a hunting culture with characteristic fluted spear points that spread across large parts of North America. New dates from ten sites show that it lasted only about 300 years, between 13,050 and 12,750 years ago.",
+  "debate_en": null,
+  "why_en": "For a long time Clovis was thought to be the first Americans, but many older sites now show that humans arrived earlier."
  },
  {
   "id": "calvert-fotspar",
@@ -1034,7 +1189,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "DOAJ record: PLOS ONE 13(3) e0193522, 29 footprints, >=3 sizes, ~13,000-yr paleosol, sea level 2-3 m lower. Science News: wood dated 13,317-12,633 yr. DOI not shown on page (so DOAJ URL used). Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Footprints on Calvert Island",
+  "place_en": "British Columbia, Canada",
+  "summary_en": "Beneath the sand on a beach on Calvert Island, archaeologists have uncovered 29 footprints from at least three people, some of them children. Wood in the clay gives an age of about 13,300-12,600 years, when sea level there was only a few meters lower than today.",
+  "debate_en": null,
+  "why_en": "A direct trace of humans along the Pacific coast, the route many researchers believe the first Americans followed."
  },
  {
   "id": "arlington-springs",
@@ -1062,7 +1222,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "NPS page: femur fragment found 1959 by Phil Orr, ~13,000 calendar years, watercraft in use. No primary dating paper fetched; +/-100 bounds are my approximation. Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Arlington Springs - by boat to the island",
+  "place_en": "Santa Rosa Island, California",
+  "summary_en": "A femur found on Santa Rosa Island in 1959 has been dated to about 13,000 calendar years and is among the oldest human remains in the Americas. The island already lay out at sea at that time, so the people must have come there by boat.",
+  "debate_en": null,
+  "why_en": "Shows that boats were used along the California coast, which makes a coastal route south credible."
  },
  {
   "id": "younger-dryas",
@@ -1095,7 +1260,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Britannica: start ~12 900, end ~11 600 ya. NOAA: end ~11 500 ya, Greenland +10 C in a decade. The commonly cited 11 700 end (ice-core b2k) was not verified.",
   "origin": "genetics_env",
-  "illustration": "is"
+  "illustration": "is",
+  "title_en": "Younger Dryas: the cold returns",
+  "place_en": "Northern Hemisphere",
+  "summary_en": "About 12,900 years ago, temperatures in the Northern Hemisphere fell back to almost ice age levels during a period known as the Younger Dryas. It ended abruptly about 11,600 years ago, when Greenland's temperature rose by about 10 degrees Celsius in a decade.",
+  "debate_en": null,
+  "why_en": "Coincides with the Clovis period and with the disappearance of many large ice age animals in North America."
  },
  {
   "id": "fells-cave",
@@ -1123,7 +1293,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "USF repository: American Antiquity 80(2), DOI 10.7183/0002-7316.80.2.376, Fishtail ~12,800-12,100 cal BP, type site for Fishtail point, matches other Southern Cone sites. Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Fell's Cave and fishtail points",
+  "place_en": "Magallanes, Chile",
+  "summary_en": "Fell's Cave, near the Strait of Magellan, is where the type of spear point shaped like a fishtail was defined. New dates of the hearths show that the points were made about 12,800-12,100 years ago, and the same type occurs at other sites in the southern part of South America.",
+  "debate_en": null,
+  "why_en": "Shows that humans had reached the southern tip of South America at roughly the same time as Clovis existed in the north."
  },
  {
   "id": "anzick-1-genome",
@@ -1151,7 +1326,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Nature 2014 page: 12 707-12 556 cal BP (10 705 +/- 35 14C BP), directly associated with Clovis tools, closest to Central/Southern Native Americans. Live Science on Potter 2026: still the oldest sampled genome. Coordinates approximate.",
   "origin": "genetics_env",
-  "illustration": "spets"
+  "illustration": "spets",
+  "title_en": "Anzick-1: the Clovis child",
+  "place_en": "Anzick, Montana",
+  "summary_en": "A small child buried with Clovis tools in Montana about 12,600 years ago has yielded the oldest complete genome from the Americas south of the ice sheets. The child was more closely related to all living Indigenous Americans than to any other group, and most closely to peoples in Central and South America.",
+  "debate_en": null,
+  "why_en": "Links the Clovis people directly to today's Indigenous peoples and dismisses ideas that Clovis came from Europe."
  },
  {
   "id": "corridor-biologically-viable",
@@ -1179,7 +1359,12 @@ window.FA_EVENTS = [
   ],
   "verified": "IDEAS abstract: steppe vegetation, bison and mammoth by ~12.6 cal kyr BP; open forest ~11.5; boreal forest ~10; first Americans unlikely to have used route.",
   "origin": "genetics_env",
-  "illustration": "mammut"
+  "illustration": "mammut",
+  "title_en": "The corridor becomes habitable",
+  "place_en": "The inland corridor, Alberta and British Columbia",
+  "summary_en": "DNA in lake sediments from the corridor's bottleneck shows that steppe vegetation, bison and mammoth were not present there until about 12,600 years ago. Open forest with moose and elk followed about 11,500 years ago, and coniferous forest about 10,000 years ago.",
+  "debate_en": "The absence of older traces of life does not necessarily mean that humans could not get through; the study itself says it is unclear when the corridor became passable for humans.",
+  "why_en": "Argues against Clovis or earlier groups having come through the corridor, but it may have been used by later groups."
  },
  {
   "id": "usr1-upward-sun-river",
@@ -1207,7 +1392,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Nature 2018 abstract: two infants ~11.5 ka. Coordinates approximate (Tanana valley).",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "USR1: the infant at Upward Sun River",
+  "place_en": "Upward Sun River, Alaska",
+  "summary_en": "Two infants buried at Upward Sun River in interior Alaska about 11,500 years ago yielded the first genome from the Ancient Beringian group. The analysis showed that they belonged to a separate branch of the founding population, distinct from all living Indigenous Americans.",
+  "debate_en": null,
+  "why_en": "USR1 is the key find behind today's model of a founding population that split early."
  },
  {
   "id": "bering-strait-floods",
@@ -1235,7 +1425,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Copernicus abstract: initial opening ~11 cal ka BP in earliest Holocene, Herald Canyon core, coincides with MWP-1b. UCSC news on Farmer 2022 gives a broader 13 000-11 000 ya.",
   "origin": "genetics_env",
-  "illustration": "is"
+  "illustration": "is",
+  "title_en": "The Bering Strait floods",
+  "place_en": "Bering Strait and Chukchi Sea",
+  "summary_en": "A well-dated sediment core from Herald Canyon north of the Bering Strait shows that water from the Pacific began flowing into the Arctic Ocean about 11,000 years ago, at the beginning of the Holocene. With that, the land bridge was broken and Asia and the Americas were once again separated by sea.",
+  "debate_en": null,
+  "why_en": "After this, boats or winter ice were needed to travel between the continents."
  },
  {
   "id": "rapid-dispersal-spirit-cave-lagoa-santa",
@@ -1268,7 +1463,12 @@ window.FA_EVENTS = [
   ],
   "verified": "EurekAlert release: Spirit Cave ~10 600 yrs, Lagoa Santa ~10 400 yrs, rapid dispersal, Lagoa Santa closer to Native Americans than to any other group. DOI of the Science paper not seen, so the PDF URL from search is used.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Rapid spread southward",
+  "place_en": "Spirit Cave (Nevada) and Lagoa Santa (Brazil)",
+  "summary_en": "Genomes from Spirit Cave in Nevada, about 10,600 years old, and Lagoa Santa in Brazil, about 10,400 years old, are closely related to each other despite a distance of thousands of kilometers. This indicates that the southern branch spread across both continents in a short time, and that early South Americans with divergent skull shapes nonetheless belonged to the same people.",
+  "debate_en": null,
+  "why_en": "Shows that the spread from North America to South America was fast and dismisses the idea of a separate, older people behind the early skulls."
  },
  {
   "id": "population-y-ypykuera",
@@ -1306,7 +1506,12 @@ window.FA_EVENTS = [
   ],
   "verified": "ADS abstract of Skoglund 2015 (some Amazonians closer to Australians/New Guineans/Andamanese; absent in Clovis genome). EurekAlert 2021 release on Castro e Silva PNAS (signal also on Pacific coast; entered via Pacific coastal route). Nature 2026 PDF: ~1-3%, comparable to 10 400-yr Sumidouro, Ypykuera. Frontiers in Genetics 2020 (Ribeiro-dos-Santos et al.): weak, not significant, artefact possible. PNAS 2021 DOI not seen; PMC URL from search used.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Population Y: an Australasian signal",
+  "place_en": "The Amazon and the Pacific coast, South America",
+  "summary_en": "Some peoples in the Amazon, and according to later studies also on the Pacific coast, share somewhat more genetic variants with peoples in Australia, New Guinea and the Andaman Islands than other Indigenous Americans do. The signal makes up about 1 to 3 percent of the genome and is already present in a 10,400-year-old individual from Lagoa Santa. The researchers behind the 2026 Nature study interpret it as a trace of an unsampled ancient Asian population, which they call Ypykuéra.",
+  "debate_en": "How the signal arose is unknown, and it does not appear in all datasets; a 2020 exome study found it only weakly and without statistical certainty and judged that it may be an artifact. It is not evidence of an early sea voyage from Australasia.",
+  "why_en": "Suggests that the founding population was more varied than a single uniform group."
  },
  {
   "id": "sa-second-stream-9ka",
@@ -1344,7 +1549,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Posth 2018 abstract: 49 individuals >= ~9 ka, replacement began at least 9 000 ya, gene flow to Central Andes by ~4 200 ya. Potter 2026: ~9 kya second SNA-related lineage without Anzick association entered South America. Nature 2026: second dispersal arriving ~9 000 ya. Moreno-Mayar 2018 Science release: movement from Mesoamerica ~8 000 ya.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "New population stream into South America",
+  "place_en": "Central America and South America",
+  "summary_en": "From about 9,000 years ago, large parts of the oldest South American ancestry, the one shared with Anzick-1, were replaced by another branch within the southern lineage. Several independent studies see the same pattern, and after that, long continuity is visible in many regions.",
+  "debate_en": null,
+  "why_en": "Shows that South America was not populated in a single wave, but that later movements shaped today's peoples."
  },
  {
   "id": "kennewick",
@@ -1372,7 +1582,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Illinois experts page: Nature 523:455-458, DOI 10.1038/nature14625, 8,340-9,200 cal BP, closer to Native Americans than any other population, Colville. 'Ancient One' name used by tribes (general knowledge). Coordinates approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "The Ancient One (Kennewick Man)",
+  "place_en": "Washington, USA",
+  "summary_en": "A skeleton found by the Columbia River in 1996 has been dated to about 9,200-8,300 years ago. His genome shows that he is closer to today's Indigenous Americans than to any other population, especially tribes in the same region.",
+  "debate_en": null,
+  "why_en": "The genome settled a long dispute over his origins and shows continuity in the region for at least 8,000 years."
  },
  {
   "id": "event-8-2-ka",
@@ -1405,7 +1620,12 @@ window.FA_EVENTS = [
   ],
   "verified": "ADS abstract (EPSL 473, 2017): 1-3 C cooling, ~160 years, ice saddle collapse over Hudson Bay as cause rather than only lake outburst. Wikipedia: onset ~8 200 BP, lakes Agassiz/Ojibway drainage. Author list of the EPSL paper not shown on ADS page; 'Matero' inferred from bibcode, verify.",
   "origin": "genetics_env",
-  "illustration": "is"
+  "illustration": "is",
+  "title_en": "The 8,200-year event",
+  "place_en": "Hudson Bay and the North Atlantic",
+  "summary_en": "About 8,200 years ago, large parts of the Northern Hemisphere cooled by 1 to 3 degrees Celsius for about 160 years. The cause was large amounts of meltwater when the last remnants of the Laurentide ice sheet around Hudson Bay collapsed and the giant glacial lakes Agassiz and Ojibway drained.",
+  "debate_en": null,
+  "why_en": "Marks the end of the great North American ice sheet."
  },
  {
   "id": "laurentide-gone",
@@ -1438,7 +1658,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Wikiwand/Wikipedia Laurentide page: ice did not retreat from Nunavik until 6 500 ya. Lambeck 2014: total global rise past 6.7 ka ~4 m. The brief's '~7 ka' is not supported by these pages.",
   "origin": "genetics_env",
-  "illustration": "is"
+  "illustration": "is",
+  "title_en": "The Laurentide ice sheet disappears",
+  "place_en": "Nunavik, northern Quebec",
+  "summary_en": "The last remnants of the Laurentide ice sheet melted away from Nunavik in northern Quebec about 6,500 years ago. After that, sea level rose only a few more meters, according to sea-level reconstructions about 4 meters over the last 6,700 years.",
+  "debate_en": null,
+  "why_en": "From then on, the continent's coastlines and landscapes looked roughly like today's."
  },
  {
   "id": "sa-population-declines",
@@ -1471,7 +1696,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Dispatches blog quoting Gusareva summary: declines 38-80% in all four lineages. Nature 2026 PDF: Ne declined 40-90% over past 10 000 years, post-contact bottleneck, precolonial expansions, lowland Ne exceeding Mesoamerica ~1 500-500 ya. FAPESP release: inbreeding in Sirionó, Suruí, Karitiana.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Shrinking populations in South America",
+  "place_en": "South America",
+  "summary_en": "The genomes show that the effective population size of the South American branches has declined sharply over the last 10,000 years, by 38 to 90 percent according to different studies. In addition, a clear bottleneck is visible during the last five centuries, after European colonization, with traces of inbreeding among the Suruí and Karitiana, among others.",
+  "debate_en": "Effective population size is a model measure and not the same as the number of people. The 2026 Nature study also sees periods of growth, for example in the lowlands 1,500 to 500 years ago.",
+  "why_en": "Explains why the genetic diversity of today's Indigenous peoples is smaller than it once was."
  },
  {
   "id": "southern-cone-holocene-2026",
@@ -1504,7 +1734,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Ancient Pages: DOI 10.1016/j.cub.2026.03.081, 52 individuals, 31 sites, 6 000-150 yrs, three lineages 8 200-4 200 ya, lineage spread by ~5 500 ya. Cell.com page could not be opened.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Pampas and Patagonia on the move",
+  "place_en": "The Pampas, Patagonia and Uruguay",
+  "summary_en": "A 2026 study of 52 individuals from 31 sites in Argentina and Uruguay shows that at least three genetic lineages lived side by side in the Pampas 8,200 to 4,200 years ago. A lineage of unknown origin had spread in the region by about 5,500 years ago and became more common in later times.",
+  "debate_en": "Where the new lineage came from is unknown, and how much the movements explain cultural changes is still debated.",
+  "why_en": "Shows that even the southernmost parts of the continent were affected by later population movements."
  },
  {
   "id": "back-gene-flow-koryak-inuit",
@@ -1537,7 +1772,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Dispatches blog quotes the Science summary: Koryaks and Inuit 5% and 28% Native American ancestry, gene flow 700-5 100 ya. Not confirmed on science.org (fetch failed). Coordinates approximate.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Gene flow back toward Asia",
+  "place_en": "Kamchatka, Chukotka and the Arctic",
+  "summary_en": "The same study that mapped the South American branches found that Koryaks in northeastern Siberia carry about 5 percent and Inuit about 28 percent Indigenous American ancestry. The admixture is dated to between 5,100 and 700 years ago, which shows that movements across the Bering Strait went in both directions.",
+  "debate_en": "The figures come from a single study and have been checked here against summaries of it, not against the full article. How they relate to the history of the Paleo-Inuit and the Inuit is not investigated here.",
+  "why_en": "A reminder that Beringia was not a one-way gate."
  },
  {
   "id": "paleo-inuit-ankomst",
@@ -1570,7 +1810,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "MPI SHH release: Flegontov et al. 2019 Nature 570:236-240, DOI 10.1038/s41586-019-1251-y, arrival ~5,000 yr ago, admixture 5,000-4,000 yr, Na-Dene link. Paleo-Inuit Wikipedia: ASTt source in East Siberia. Coordinates approximate (Seward Peninsula).",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Paleo-Inuit cross the Bering Strait",
+  "place_en": "Alaska, USA",
+  "summary_en": "About 5,000 years ago, a new group came from Siberia to Alaska, the so-called Paleo-Inuit or Paleo-Eskimos, with small, finely flaked stone tools. They soon mixed with peoples who already lived there, and their heritage is found today among, for example, Na-Dene-speaking peoples.",
+  "debate_en": null,
+  "why_en": "Shows that immigration to the Americas was not a single event but continued in several waves."
  },
  {
   "id": "paleo-inuit-na-dene",
@@ -1598,7 +1843,12 @@ window.FA_EVENTS = [
   ],
   "verified": "IDEAS/RePEc abstract: American Arctic first settled 5 000 ya by Palaeo-Eskimos; Palaeo-Eskimo-related ancestry ubiquitous among Na-Dene and Eskimo-Aleut speakers; 48 ancient individuals; single Palaeo-Eskimo-related Siberian source. Exact admixture date not in abstract; window is 5 000 ya to ~700 ya when Paleo-Inuit vanished.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Paleo-Inuit ancestry in Na-Dene peoples",
+  "place_en": "Alaska and northwestern Canada",
+  "summary_en": "Paleo-Inuit populated large parts of the American Arctic about 5,000 years ago. A study of 48 ancient individuals from Chukotka and eastern Siberia showed that ancestry related to the Paleo-Inuit is found in all Na-Dene-speaking peoples as well as in Aleuts, Yupik and Inuit.",
+  "debate_en": null,
+  "why_en": "Explains why Na-Dene-speaking peoples differ genetically from other northern Indigenous Americans."
  },
  {
   "id": "saqqaq-gronland",
@@ -1631,7 +1881,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Wikipedia Saqqaq: c. 2500-800 BCE, genome of 'Inuk' ~4,000 yr (Rasmussen 2010 Nature DOI 10.1038/nature08835), NE Siberian affinity, not ancestors of Kalaallit; Raghavan 2014 Science DOI 10.1126/science.1255832. Paleo-Inuit Wikipedia: Greenland reached by 4,500 yr; Dorset 500 BCE-1400 CE (intro says ~1500), replaced by Thule by 1300 CE.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Saqqaq - the first people in Greenland",
+  "place_en": "Disko Bay, Greenland",
+  "summary_en": "Descendants of the Paleo-Inuit immigrants reached Greenland about 4,500 years ago and formed the Saqqaq culture. The genome of a 4,000-year-old Saqqaq man shows kinship with peoples in northeastern Siberia. Later came the Dorset culture, which survived in the Arctic until around the 1300s-1400s.",
+  "debate_en": null,
+  "why_en": "The Saqqaq are not ancestors of today's Greenlanders, which shows that the Arctic was populated in several rounds."
  },
  {
   "id": "saqqaq-genome",
@@ -1659,7 +1914,12 @@ window.FA_EVENTS = [
   ],
   "verified": "IDEAS/RePEc abstract: ~4 000-year-old permafrost hair, first culture to settle Greenland, migration from Siberia ~5 500 ya independent of Native Americans and Inuit. 'First ancient genome' wording from Live Science (first ancient Indigenous genome, 2010). Coordinates approximate (Disko Bay area).",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "Saqqaq: the first ancient genome",
+  "place_en": "West Greenland",
+  "summary_en": "A hair sample from a man of the Saqqaq culture in Greenland, about 4,000 years old and preserved in permafrost, became in 2010 the first nearly complete genome from an ancient human. It showed that the Paleo-Inuit came from Siberia in a separate migration about 5,500 years ago, independent of the ancestors of today's Indigenous Americans and Inuit.",
+  "debate_en": null,
+  "why_en": "Opened the era of ancient genomes and showed that the Arctic was populated in several separate waves."
  },
  {
   "id": "lapita-tonga",
@@ -1687,7 +1947,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Sci.News: Burley et al. 2012 PLOS ONE 7(11) e48769, DOI 10.1371/journal.pone.0048769, founder event 2838 +/- 8 BP (2,830-2,846). Sci.News headline says 826 BC, inconsistent with its BP figures; use BP. 'Corals' = U/Th dating (title 'High precision U/Th dating').",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "The Lapita people reach Tonga",
+  "place_en": "Tongatapu, Tonga",
+  "summary_en": "The ancestors of the Polynesians, the Lapita people, reached Tonga about 2,840 years ago, according to very precise datings of corals at the Nukuleka settlement site. From there and from Samoa, the later voyages east across the Pacific would set out.",
+  "debate_en": null,
+  "why_en": "The background to the Polynesian seafaring that much later reached the vicinity of the Americas."
  },
  {
   "id": "colombia-altiplano-turnover",
@@ -1720,7 +1985,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Live Science: Checua ~6 000 yrs (7 genomes), Herrera ~2 000 yrs, Muisca 1 200-500, Guane ~530; complete exchange; Chibchan-related markers from ~2 000 ya; Science Advances, 2025. Primary DOI not seen.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "The Bogotá plain: a vanished lineage",
+  "place_en": "Altiplano Cundiboyacense, Colombia",
+  "summary_en": "Genomes from hunter-gatherers on the high plateau near Bogotá, about 6,000 years old, belong to a previously unknown lineage that has no descendants in later groups. Around 2,000 years ago a complete population turnover is visible, when ancestry linked to Chibcha-speaking peoples from Central America appears.",
+  "debate_en": "The study is based on 21 genomes from five sites, and exactly when and how the turnover happened is unclear.",
+  "why_en": "Shows that even late prehistoric phases could involve the replacement of entire populations."
  },
  {
   "id": "third-dispersal-1300",
@@ -1756,7 +2026,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Nature 2026 PDF: at least three dispersals, third >= 1 300 ya. EurekAlert and FAPESP releases: third wave ~1 300 ya from Mesoamerica to South America and Caribbean. Portside (2026-04-27): Cosimo Posth caveat on missing source population. CE range = agent's conversion of 1 300-500 BP.",
   "origin": "genetics_env",
-  "illustration": "none"
+  "illustration": "none",
+  "title_en": "A third wave from Mesoamerica",
+  "place_en": "Mesoamerica, South America and the Caribbean",
+  "summary_en": "The 2026 Nature study, with 128 newly sequenced genomes from 45 Indigenous peoples, found traces of at least three waves of dispersal into South America. The third, visible from at least 1,300 years ago, is linked to Mesoamerica and reached both South America and the Caribbean.",
+  "debate_en": "The source population is unknown and the wave still lacks direct evidence in ancient DNA from its place of origin, as outside researchers have pointed out. The study is based mainly on living people.",
+  "why_en": "If it is correct, late movements have shaped today's South American peoples more than previously thought."
  },
  {
   "id": "norrona-gronland",
@@ -1792,7 +2067,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "PMC10151458: Borreggine et al. 2023 PNAS DOI 10.1073/pnas.2209615120: arrival ~985 CE, Western Settlement abandoned ~1350, Eastern mid-15th century. Schmid et al. 2017 Quat Geochron 40:56-66 (Edinburgh AAM PDF): Landnam tephra AD 877 +/- 1, a few SW sites predate it. Causes of abandonment debated (sea level, drought, trade) but not part of event.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "The Norse in Greenland",
+  "place_en": "Southwestern Greenland",
+  "summary_en": "After settling Iceland from around 877, the Norse founded colonies in Greenland around 985. The Western Settlement was abandoned around 1350 and the Eastern Settlement about a hundred years later, around the mid-1400s.",
+  "debate_en": null,
+  "why_en": "Greenland was the springboard that made the first known European voyages to North America possible."
  },
  {
   "id": "batat-kumara",
@@ -1833,7 +2113,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Wikipedia 'Sweet potato cultivation in Polynesia': Mangaia fragments dated 988-1155 AD (Hather & Kirch 1991 Antiquity DOI 10.1017/S0003598X00080613); Munoz-Rodriguez 2018 Curr Biol DOI 10.1016/j.cub.2018.03.020, Banks 1769 specimen, divergence >=111,500 yr, natural dispersal. SMC NZ: Matisoo-Smith & Knapp criticise degraded single herbarium specimen, aDNA methods, and note kumara derives from a Quechuan word.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "The sweet potato in Polynesia",
+  "place_en": "Mangaia, Cook Islands",
+  "summary_en": "The sweet potato, kumara, is an American plant that was cultivated in Polynesia long before the arrival of Europeans. The oldest remains, from Mangaia in the Cook Islands, are dated to roughly 988-1155, and the Polynesian word kumara is thought to derive from a Quechua word.",
+  "debate_en": "Many researchers see the plant and the word as signs of human contact with South America. A 2018 genetic study instead claimed natural dispersal across the ocean long before humans, but critics argue that it was based on a single damaged herbarium specimen from 1769.",
+  "why_en": "The crop was the classic circumstantial evidence of contact, long before DNA could test the question."
  },
  {
   "id": "lanse-aux-meadows",
@@ -1864,7 +2149,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "PMC8770119: Nature 601:388-391, DOI 10.1038/s41586-021-03972-8, three wood items converge on AD 1021 felling via AD 993 radiocarbon anomaly; very brief occupation. Archaeology.org 20 Oct 2021: wood cut with metal tools, which Norse used but local Indigenous people did not; sagas written down in 13th century.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "L'Anse aux Meadows in 1021",
+  "place_en": "Newfoundland, Canada",
+  "summary_en": "At L'Anse aux Meadows in Newfoundland lie the remains of a Norse settlement. Three pieces of wood cut with metal tools, which the Indigenous population of the area did not use, have been dated to the exact year with the help of a spike in carbon-14 from a cosmic radiation event in 993: the trees were felled in 1021.",
+  "debate_en": null,
+  "why_en": "The oldest securely dated evidence of Europeans in North America south of Greenland, nearly 500 years before Columbus."
  },
  {
   "id": "ostpolynesien",
@@ -1900,7 +2190,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "ANU portal: Wilmshurst 2011 PNAS 108(5):1815-1820, DOI 10.1073/pnas.1015876108, Society Is. AD 1025-1120, remote East Polynesia AD 1190-1290. Oxford CHG page + ANID record: Ioannidis 2021 Nature 597, DOI 10.1038/s41586-021-03902-8, sequence Samoa-Rarotonga-Society-Tuamotu/Austral-Marquesas/Raivavae/Rapa Nui (~AD 1200). Dates differ between methods (genetic vs radiocarbon).",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "East Polynesia is settled",
+  "place_en": "Society Islands, French Polynesia",
+  "summary_en": "After a long pause in western Polynesia, people sailed east and reached the Society Islands around 1025-1120. Within a couple of hundred years, roughly 1190-1290, they had also reached the most remote islands, such as Hawaii and Rapa Nui. Genetic studies point to a chain via the Cook Islands, the Tuamotus and the Marquesas.",
+  "debate_en": null,
+  "why_en": "This rapid expansion brought Polynesian sailors so far east that contact with the Americas became possible."
  },
  {
   "id": "thule-inuit",
@@ -1936,7 +2231,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "OpenPolar abstract: Friesen & Arnold 2008, early Thule sites no earlier than 13th century AD, rapid migration (replacing AD 1000 view). Paleo-Inuit Wikipedia (citing Raghavan 2014): by 1300 CE Paleo-Eskimos replaced. Exact Greenland arrival year not verified; coordinates are a central marker.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "The Thule people spread east",
+  "place_en": "Canadian Arctic to Greenland",
+  "summary_en": "The ancestors of today's Inuit, the Thule people, came from the Bering Strait region and spread very rapidly across the entire Canadian Arctic to Greenland. Dates from early settlements indicate that the migration took place in the 1200s, and by around 1300 they had replaced the older Paleo-Inuit.",
+  "debate_en": null,
+  "why_en": "The last major immigration to the Americas before the Europeans, and the one that gave rise to today's Inuit."
  },
  {
   "id": "polynesia-native-american-contact",
@@ -1972,7 +2272,12 @@ window.FA_EVENTS = [
   ],
   "verified": "IDEAS abstract: single contact in eastern Polynesia ~AD 1200, before Rapa Nui settlement, source closest to present-day Colombia. Stanford news: 807 participants, 17 islands, 15 Native American groups. Smithsonian: South Marquesas ~1200, Rapa Nui ~1380, direction disputed. The 1150-1230 range in the brief was not seen.",
   "origin": "genetics_env",
-  "illustration": "kanot"
+  "illustration": "kanot",
+  "title_en": "Contact between Polynesia and the Americas",
+  "place_en": "Eastern Polynesia (southern Marquesas Islands)",
+  "summary_en": "Genomes from 807 people on 17 Polynesian islands and along the Pacific coast of the Americas show a single early contact event between Polynesians and an Indigenous American group most closely related to peoples in present-day Colombia. The contact is dated to around 1200, and on Rapa Nui the admixture appears around 1380. Where the encounter took place and who traveled is still an open question.",
+  "debate_en": null,
+  "why_en": "The only established genetic encounter between the Americas and Oceania before the Europeans."
  },
  {
   "id": "aotearoa",
@@ -2008,7 +2313,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Te Ara: 'generally accepted date of 1250-1300'; rat-gnawed snail shells only after 1250. Wilmshurst 2011 includes NZ in remote East Polynesia 1190-1290.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "Aotearoa / New Zealand is settled",
+  "place_en": "New Zealand",
+  "summary_en": "New Zealand, or Aotearoa in Māori, was one of the last large landmasses that humans reached. The generally accepted date for the first Polynesian settlers is 1250-1300, and early traces of rats appear only after 1250.",
+  "debate_en": null,
+  "why_en": "Shows how late and how quickly the Polynesian voyages filled out the entire Pacific, at the same time as the contact with the Americas."
  },
  {
   "id": "inuit-replace-paleo-inuit",
@@ -2044,7 +2354,12 @@ window.FA_EVENTS = [
   ],
   "verified": "PSU portal abstract of Raghavan 2014: single Paleo-Eskimo metapopulation >4 000 years in near-isolation, vanished ~700 ya, replaced by ancestors of Inuit, with evidence of past gene flow. Flegontov 2019: displaced ~1 000 ya by Inuit and Yup'ik ancestors. CE range is the agent's rounding of 'around 1 000' and '~700 years ago'.",
   "origin": "genetics_env",
-  "illustration": "umiak"
+  "illustration": "umiak",
+  "title_en": "The Inuit replace the Paleo-Inuit",
+  "place_en": "Canadian Arctic and Greenland",
+  "summary_en": "The Paleo-Inuit lived almost in isolation as a continuous population for more than 4,000 years and disappeared about 700 years ago. They were replaced by a new population, the ancestors of today's Inuit, who spread east from Alaska.",
+  "debate_en": null,
+  "why_en": "Shows a clear genetic population replacement in recent times, long after the first migrations."
  },
  {
   "id": "rapa-nui-genomes-2024",
@@ -2075,7 +2390,12 @@ window.FA_EVENTS = [
   ],
   "verified": "Univie portal abstract: Nature 633, 389-397; 15 individuals 1670-1950 CE; no severe 1600s bottleneck; ~10% Native American admixture dated ~1250-1430 CE.",
   "origin": "genetics_env",
-  "illustration": "kanot"
+  "illustration": "kanot",
+  "title_en": "Rapa Nui: contact, no collapse",
+  "place_en": "Rapa Nui (Easter Island)",
+  "summary_en": "Fifteen radiocarbon-dated individuals from Rapa Nui, who lived between 1670 and 1950, had their whole genomes sequenced. They show no severe population crash in the 1600s, and about 10 percent Indigenous American ancestry that was mixed in sometime between 1250 and 1430, that is, before the arrival of Europeans.",
+  "debate_en": null,
+  "why_en": "Independently confirms the precolonial contact with the Americas and calls into question the narrative of a self-inflicted collapse."
  },
  {
   "id": "columbus-1492",
@@ -2106,7 +2426,12 @@ window.FA_EVENTS = [
    }
   ],
   "verified": "Britannica: departure 3 Aug 1492 from Palos, landfall 12 Oct 1492, Guanahani hotly disputed, San Salvador (Watlings) generally preferred. Coordinates San Salvador approximate.",
-  "origin": "archaeology_contacts"
+  "origin": "archaeology_contacts",
+  "title_en": "End marker: Columbus 1492",
+  "place_en": "The Bahamas",
+  "summary_en": "On October 12, 1492, Columbus's expedition reached an island in the Bahamas that its inhabitants called Guanahani. Exactly which island it was is disputed, but San Salvador is most often considered the most likely. The event marks the end of the period this page describes.",
+  "debate_en": null,
+  "why_en": "The beginning of lasting contact between the continents, with enormous consequences for the Indigenous peoples of the Americas."
  }
 ];
 window.FA_ENV = {"sea_level": [[30000, -106], [28000, -115], [26000, -122], [24000, -130], [22000, -126], [20000, -118], [18000, -113], [16000, -98], [15000, -87], [14000, -77], [13000, -66], [12000, -51], [11000, -36], [10000, -25], [8000, -9], [6000, -4], [0, 0]], "sea_level_source": {"label": "Spratt & Lisiecki 2016, Climate of the Past (NOAA data file, column SeaLev_shortPC1, rounded to whole metres)", "url": "https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/spratt2016/spratt2016.txt"}, "notes": "1) GENETICS VS ARCHAEOLOGY: Potter et al. 2026 put the genetic ceiling for the ancestors of today's Indigenous peoples at ~21 ka, while White Sands footprints are dated ~23-21 ka (Live Science reports ~23 ka). Show both; genetics cannot see populations that left no descendants. Clark 2022 also says peopling occurred before 15 600 ya, before the corridor opened (~13.8 ka), favouring a coastal route. 2) DATING CONFLICT inside genetics: South American lineage splits 13 900-10 000 ya (Gusareva 2025 Science) vs most pairs 5 000-3 000 ya (Castro e Silva 2026 Nature). NNA/SNA split given as 17.5-14.6 ka (2018), shortly before 15.5 ka (Potter 2026) and ~16 ka (Live Science). 3) The Nature 2026 paper (Castro e Silva, Nunes, Ribeiro ... Hünemeier; online 22 Apr 2026, cover 7 May 2026) reports 128 new high-coverage genomes (199 total, 53 populations), at least three dispersals into South America (Anzick-related first wave, second ~9 ka, third >= 1.3 ka from Mesoamerica), Ne declines 40-90 % over 10 ka, Australasian-linked 'Ypykuera' signal ~1-3 %, archaic alleles ~1.2 %. It does not give a new split date from East Asians; it says Indigenous American ancestry formed ~25 ka in/around Beringia, which is compatible with Moreno-Mayar 2018 (split ~36 ka with gene flow to ~25 ka) rather than a revision of it. 4) Dalton et al. 2020 time slices are labelled in UNCALIBRATED radiocarbon ka (e.g. their '18 ka' slice is roughly 21-22 cal ka BP); convert before matching to calibrated BP. 5) Australasian 'Population Y' must not be presented as evidence of a Pacific crossing; its source is unknown. 6) Calibrated BP used throughout; for recent events 'years ago' from press reports was treated as approximately BP. 7) Coordinates are representative map points, not exact site coordinates."};

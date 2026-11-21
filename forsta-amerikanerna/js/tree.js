@@ -29,7 +29,7 @@
     T.lineages.forEach(function (l) { rows = Math.max(rows, l.row); });
     this.H = this.top + (rows + 1) * this.rowH + 26;
     var svg = this.svg = el("svg", { viewBox: "0 0 " + this.W + " " + this.H, class: "tree-svg", role: "img",
-      "aria-label": "Genetiskt släktträd för folken i Amerika, som växer med tiden" });
+      "aria-label": FA.t("tree_aria") });
     var defs = el("defs", {}, svg);
     var mk = el("marker", { id: "fa_arrow", viewBox: "0 0 10 10", refX: "8", refY: "5", markerWidth: "7", markerHeight: "7", orient: "auto-start-reverse" }, defs);
     el("path", { d: "M0 0 L10 5 L0 10 z", fill: "#f1e6cf" }, mk);
@@ -43,7 +43,7 @@
       if (bp === 12500 || bp === 26000) t.style.display = "none";
     });
     var cap = el("text", { x: this.W - this.padR, y: 12, class: "tree-tick", "text-anchor": "end" }, svg);
-    cap.textContent = "k = tusental år sedan, 950 = år e.Kr.";
+    cap.textContent = FA.t("tree_cap");
     this.gLines = el("g", {}, svg);
     this.gAdmix = el("g", {}, svg);
     this.gLabels = el("g", {}, svg);
@@ -55,8 +55,8 @@
       var x0 = self.x(l.from), y = self.y(l.row);
       var path = el("path", { class: "tree-line", stroke: l.color, "stroke-dasharray": dashOf(l.status), fill: "none" }, self.gLines);
       var label = el("text", { class: "tree-label", fill: l.color }, self.gLabels);
-      label.textContent = l.label;
-      var title = el("title", {}, path); title.textContent = l.label + (l.note ? ": " + l.note : "");
+      label.textContent = FA.tx(l, "label");
+      var title = el("title", {}, path); title.textContent = FA.tx(l, "label") + (FA.tx(l, "note") ? ": " + FA.tx(l, "note") : "");
       var dot = parent ? el("circle", { r: 3.4, cx: x0, cy: self.y(parent.row), fill: l.color, class: "tree-node" }, self.gLines) : null;
       self.items.push({ l: l, parent: parent, path: path, label: label, dot: dot, x0: x0, y: y });
     });
@@ -67,9 +67,9 @@
       var x = self.x(a.bp), y1 = self.y(from.row), y2 = self.y(to.row);
       var p = el("path", { d: "M" + x + " " + y1 + " C" + (x + 18) + " " + (y1 + (y2 - y1) * 0.3) + " " + (x + 18) + " " + (y1 + (y2 - y1) * 0.7) + " " + (x + 2) + " " + (y2 + (y2 > y1 ? -4 : 4)),
         class: "tree-admix", "stroke-dasharray": dashOf(a.status) || "", "marker-end": "url(#fa_arrow)" }, self.gAdmix);
-      var tl = el("title", {}, p); tl.textContent = a.label;
+      var tl = el("title", {}, p); tl.textContent = FA.tx(a, "label");
       var lab = el("text", { x: x + 22, y: (y1 + y2) / 2 + 3, class: "tree-admix-label" }, self.gAdmix);
-      lab.textContent = a.label + (a.status === "omstritt" ? " ?" : "");
+      lab.textContent = FA.tx(a, "label") + (a.status === "omstritt" ? " ?" : "");
       self.items.push({ admix: a, el: p, lab: lab });
     });
     this.host.innerHTML = "";
@@ -111,7 +111,7 @@
       it.label.setAttribute("y", it.y - 6);
       it.label.setAttribute("text-anchor", late ? "end" : "start");
       it.label.style.opacity = 1;
-      it.label.textContent = l.label + (ended && l.endLabel ? " (" + l.endLabel + ")" : "") + (l.status === "omstritt" ? " ?" : "");
+      it.label.textContent = FA.tx(l, "label") + (ended && FA.tx(l, "endLabel") ? " (" + FA.tx(l, "endLabel") + ")" : "") + (l.status === "omstritt" ? " ?" : "");
     });
   };
 
