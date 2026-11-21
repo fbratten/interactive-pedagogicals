@@ -70,13 +70,13 @@ window.FA_EVENTS = [
   "lat": 65.8,
   "lon": -168.9,
   "age_bp": {
-   "from": 36000,
-   "to": 35000,
+   "from": 39000,
+   "to": 33300,
    "show": 35700
   },
   "ce": null,
   "summary_sv": "Kväveisotoper i plankton från havsbottenkärnor tyder på att landbryggan mellan Sibirien och Alaska blev torrlagd först för omkring 35 700 år sedan, mindre än 10 000 år före istidens maximum. Det innebär att isarna växte snabbt och sent under den sista istiden.",
-  "debate_sv": "Äldre rekonstruktioner antog att bryggan låg torr betydligt längre. Resultatet bygger på en ny metod och tre kärnor.",
+  "debate_sv": "Äldre rekonstruktioner antog att bryggan låg torr betydligt längre. Resultatet bygger på en ny metod och ett fåtal borrkärnor, och osäkerheten är flera tusen år (cirka 2 400 år åt ena hållet och 3 300 åt det andra).",
   "why_sv": "Ju senare bryggan uppstod, desto kortare tid fanns mellan dess tillkomst och de första amerikanernas förfäder i området.",
   "sources": [
    {
@@ -384,19 +384,19 @@ window.FA_EVENTS = [
  {
   "id": "glyptodont-reconquista",
   "kind": "arkeologi",
-  "status": "omstritt",
+  "status": "antytt",
   "title_sv": "Slaktad glyptodont, 21 000 år",
   "place_sv": "Buenos Aires-provinsen, Argentina",
   "lat": -34.6,
   "lon": -58.8,
   "age_bp": {
-   "from": 21500,
-   "to": 20500,
+   "from": 21090,
+   "to": 20811,
    "show": 21000
   },
   "ce": null,
-  "summary_sv": "Vid Reconquistafloden nära Buenos Aires har man hittat ben av en glyptodont, ett jättelikt pansardjur, med skärmärken på bäcken, svans och pansar. Märkenas placering tyder på styckning, och benen är omkring 21 000 år gamla (fynd publicerat 2024).",
-  "debate_sv": "Fyndet saknar stenredskap, och skärmärken på ben är svåra att skilja från naturliga skador. Det har ännu inte prövats lika hårt som äldre platser.",
+  "summary_sv": "Vid Reconquistafloden nära Buenos Aires har man hittat ben av en glyptodont, ett jättelikt pansardjur, med skärmärken på bäcken, svans och pansar. Märkenas placering tyder på styckning, och en datering av bäckenet ger en ålder på omkring 21 000 år (fynd publicerat 2024).",
+  "debate_sv": "Beläggen är skärmärken på ben, som kan vara svåra att skilja från naturliga skador, och fyndet har ännu inte prövats lika hårt som äldre platser.",
   "why_sv": "Ett av flera nya fynd som pekar mot människor i Sydamerika under istidens höjdpunkt.",
   "illustration": "ben",
   "sources": [
@@ -494,8 +494,8 @@ window.FA_EVENTS = [
    "show": 20000
   },
   "ce": null,
-  "summary_sv": "En översikt från 2026 av samtliga publicerade gamla genom drar slutsatsen att förfäderna till dagens ursprungsfolk delade upp sig i olika linjer tidigast för 21 000 år sedan. Eftersom norra och södra grenen skildes söder om isarna strax före 15 500 år sedan måste ankomsten ha skett däremellan, troligen mot slutet av istidens maximum.",
-  "debate_sv": "Arkeologiska fynd som fotspåren i White Sands, daterade till omkring 23 000 år sedan, pekar på tidigare närvaro. Genetiken kan bara se befolkningar som lämnat ättlingar, så en tidig grupp utan ättlingar skulle vara osynlig i DNA.",
+  "summary_sv": "En översikt från 2026 av det genetiska underlaget drar slutsatsen att förfäderna till dagens ursprungsfolk delade upp sig i olika linjer tidigast för 21 000 år sedan. Norra och södra grenen skildes strax före 15 500 år sedan, enligt tidigare studier troligen söder om isarna, så ankomsten bör ha skett däremellan.",
+  "debate_sv": "Underlaget har stora luckor, och arkeologiska fynd som fotspåren i White Sands, daterade till omkring 23 000 år sedan, pekar på tidigare närvaro. Genetiken kan bara se befolkningar som lämnat ättlingar, så en tidig grupp utan ättlingar skulle vara osynlig i DNA.",
   "why_sv": "Det är den tydligaste punkten där genetik och arkeologi i dag ger olika svar.",
   "sources": [
    {
@@ -744,7 +744,7 @@ window.FA_EVENTS = [
   },
   "ce": null,
   "summary_sv": "Monte Verde II i södra Chile har i snart 30 år räknats som ett säkert bevis för människor i Sydamerika för omkring 14 500 år sedan, med bevarade trärester, växter och sjögräs. I mars 2026 hävdade en grupp ledd av Todd Surovell att lagren i stället är 4 200-8 200 år gamla och att det gamla träet har spolats dit av en bäck.",
-  "debate_sv": "Surovells grupp pekar på ett cirka 11 000 år gammalt vulkaniskt asklager under fyndlagret och på omlagrat istida trä. Ett trettiotal forskare, bland dem utgrävarna kring Tom Dillehay, svarade 2026 att proverna tagits utanför själva platsen, att askan är feltolkad och att den höga åldern står sig; Surovells grupp står fast vid sin tolkning. Enligt en nyhetsartikel i Science (20 oktober 2026) från en konferens i Santa Fe beskrev försvararna också en ny utgrävning, avslutad veckorna innan, som de menar bekräftar de äldre dateringarna.",
+  "debate_sv": "Surovells grupp pekar på ett cirka 11 000 år gammalt vulkaniskt asklager under fyndlagret och på omlagrat istida trä. Ett trettiotal forskare, bland dem utgrävarna kring Tom Dillehay, svarade 2026 att proverna tagits utanför själva platsen, att askan är feltolkad och att den höga åldern står sig; Surovells grupp står fast vid sin tolkning. Enligt en nyhetsartikel i Science (20 oktober 2026) beskrev försvararna också en ny utgrävning, avslutad veckorna innan, som de menar bekräftar de äldre dateringarna; den var då bara känd genom nyhetsrapportering.",
   "why_sv": "Monte Verde var platsen som fick forskarvärlden att överge tanken på Clovis som de första amerikanerna, så en yngre ålder skulle rubba en hörnsten men inte hela bilden.",
   "illustration": "lager",
   "sources": [
@@ -881,7 +881,7 @@ window.FA_EVENTS = [
   },
   "ce": null,
   "summary_sv": "På Holzmanplatsen i centrala Alaska finns lager från omkring 14 000 och 13 700 år sedan med eldstäder, stenredskap och bearbetat mammutelfenben, bland annat en nästan hel bete. Forskarna publicerade 2026 att elfenbensstavarna tillverkats på ett sätt som liknar Clovis.",
-  "debate_sv": "Att Clovis teknik skulle ha sina rötter här är en tolkning byggd på likheter i hantverket. Forskarna själva påpekar att det inte utesluter tidigare människor söderut, och att DNA och mer klimatdata behövs.",
+  "debate_sv": "Att Clovis teknik skulle ha sina rötter här är en tolkning byggd på likheter i hantverket. Utomstående forskare har påpekat att fynden inte utesluter tidigare människor längre söderut, och att DNA och mer klimatdata behövs.",
   "why_sv": "Kan vara en länk mellan istidens jägare i Beringia och Clovis längre söderut.",
   "illustration": "mammut",
   "sources": [
@@ -893,6 +893,11 @@ window.FA_EVENTS = [
    {
     "label": "Archaeology Magazine, feb 2026",
     "url": "https://archaeology.org/news/2026/02/03/did-ancestors-of-the-clovis-people-camp-in-central-alaska/",
+    "kind": "nyhet"
+   },
+   {
+    "label": "ScienceAlert 2026 (utomstående kommentarer)",
+    "url": "https://www.sciencealert.com/?p=190943",
     "kind": "nyhet"
    }
   ],
@@ -913,7 +918,7 @@ window.FA_EVENTS = [
    "show": 13900
   },
   "ce": null,
-  "summary_sv": "En stor studie av 1 537 nu levande personer från 139 folkgrupper i Sydamerika och Nordostasien fann att människor nådde Sydamerikas nordvästra hörn kring 14 000 år sedan. Där delades de i fyra grenar, i Amazonas, Anderna, Chaco och Patagonien, för omkring 13 900 till 10 000 år sedan.",
+  "summary_sv": "En stor studie av 1 537 nu levande personer från 139 folkgrupper i norra Eurasien och Amerika fann att människor nådde Sydamerika via Mellanamerika och Panamanäset för omkring 14 000 år sedan. Den sydamerikanska linjen delades sedan i fyra grenar, i Amazonas, Anderna, Chaco och Patagonien, för omkring 13 900 till 10 000 år sedan.",
   "debate_sv": "Nature-studien 2026 ser i stället att de flesta sydamerikanska grupper skildes åt mycket senare, för 5 000 till 3 000 år sedan, och nämner de äldre siffrorna som en oberoende men avvikande skattning.",
   "why_sv": "Visar hur snabbt kontinenten delades upp i regionala befolkningar och hur osäkra sådana dateringar är.",
   "sources": [
@@ -926,6 +931,11 @@ window.FA_EVENTS = [
     "label": "Castro e Silva et al. 2026, Nature",
     "url": "https://doi.org/10.1038/s41586-026-10406-w",
     "kind": "primar"
+   },
+   {
+    "label": "EurekAlert 2025 (NTU Singapore)",
+    "url": "https://www.eurekalert.org/news-releases/1083389",
+    "kind": "nyhet"
    }
   ],
   "verified": "ScienceDaily (NTU release, 2025-05-16): 1 537 individuals, 139 groups, NW South America ~14 000 ya, four groups. SCELSE-hosted article and Dispatches blog quoting the summary: split ~13 900-10 000 ya. Nature 2026 PDF: cross-coalescence 5 000-3 000 ya, contrasts with 13 900-10 000. Science page itself could not be opened.",
@@ -1274,7 +1284,7 @@ window.FA_EVENTS = [
    "show": 10400
   },
   "ce": null,
-  "summary_sv": "Vissa folk i Amazonas, och enligt senare studier även vid Stillahavskusten, delar något fler genvarianter med folk i Australien, Nya Guinea och på Andamanerna än andra ursprungsamerikaner. Signalen utgör omkring 1 till 3 procent av arvsmassan och finns redan hos en 10 400 år gammal individ från Lagoa Santa. Forskarna bakom Nature-studien 2026 tolkar den som spår av en okänd asiatisk befolkning, kallad Ypykuéra, och inte som någon resa över Stilla havet.",
+  "summary_sv": "Vissa folk i Amazonas, och enligt senare studier även vid Stillahavskusten, delar något fler genvarianter med folk i Australien, Nya Guinea och på Andamanerna än andra ursprungsamerikaner. Signalen utgör omkring 1 till 3 procent av arvsmassan och finns redan hos en 10 400 år gammal individ från Lagoa Santa. Forskarna bakom Nature-studien 2026 tolkar den som spår av en osamplad forntida asiatisk befolkning, som de kallar Ypykuéra.",
   "debate_sv": "Hur signalen uppstod är okänt, och den syns inte i alla dataset; en exomstudie 2020 fann den bara svagt och utan statistisk säkerhet och bedömde att den kan vara en artefakt. Den är inte belägg för en tidig sjöresa från Australasien.",
   "why_sv": "Antyder att grundarbefolkningen var mer varierad än en enda enhetlig grupp.",
   "sources": [
@@ -1701,6 +1711,11 @@ window.FA_EVENTS = [
     "label": "Live Science 2025 (om Science Advances-studie)",
     "url": "https://www.livescience.com/archaeology/ancient-dna-reveals-mysterious-indigenous-group-from-colombia-that-disappeared-2-000-years-ago",
     "kind": "nyhet"
+   },
+   {
+    "label": "Krettek et al. 2025, Science Advances",
+    "url": "https://doi.org/10.1126/sciadv.ads6284",
+    "kind": "primar"
    }
   ],
   "verified": "Live Science: Checua ~6 000 yrs (7 genomes), Herrera ~2 000 yrs, Muisca 1 200-500, Guane ~530; complete exchange; Chibchan-related markers from ~2 000 ya; Science Advances, 2025. Primary DOI not seen.",
@@ -1839,7 +1854,7 @@ window.FA_EVENTS = [
   },
   "summary_sv": "Vid L'Anse aux Meadows på Newfoundland finns resterna av en nordisk boplats. Tre träbitar som huggits med metallverktyg, som urbefolkningen i området inte använde, har daterats på året med hjälp av en topp i kol-14 från en kosmisk strålningshändelse år 993: träden fälldes år 1021.",
   "debate_sv": null,
-  "why_sv": "Det äldsta säkert daterade beviset för européer i Amerika, nästan 500 år före Columbus.",
+  "why_sv": "Det äldsta säkert daterade beviset för européer i Nordamerika söder om Grönland, nästan 500 år före Columbus.",
   "illustration": "knarr",
   "sources": [
    {
@@ -2004,7 +2019,7 @@ window.FA_EVENTS = [
   "lat": 70.0,
   "lon": -85.0,
   "age_bp": {
-   "from": 1000,
+   "from": 950,
    "to": 650,
    "show": 700
   },

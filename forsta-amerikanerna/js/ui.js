@@ -244,7 +244,7 @@
       "<li>Istäcken: en förenklad, egen modell som följer huvuddragen i Dalton m.fl. 2020 (kustvägen isfri ca 17 000-16 000 år sedan, korridoren ca 14 000-13 500, Hudson Bay öppnas ca 8 200, isen borta ca 6 500 år sedan). Gränserna kan avvika 100-300 km.</li>" +
       "<li>Ljudet skapas i webbläsaren med Web Audio. Inga ljudfiler eller externa bibliotek används.</li></ul>" +
       "<h3>Ursprungsfolkens perspektiv</h3><p>Många ursprungsfolk har egna historier om sitt ursprung, knutna till sina länder. Sidan visar vad arkeologi och genetik antyder, vilket är ett perspektiv bland flera. Kennewickmannen kallas av de berörda stammarna för Den forntida. År 1492 är här bara en slutpunkt, ingen upptäckt.</p>" +
-      "<h3>Hur sidan togs fram</h3><p>Uppgifterna samlades in och kontrollerades mot källor i november 2026 (senaste kontroll 2026-11-21). Varje kort länkar till sina källor. Rådata finns i mappen research/ i projektet.</p>" +
+      "<h3>Hur sidan togs fram</h3><p>Uppgifterna samlades in och kontrollerades mot källor i november 2026 (senaste kontroll 2026-11-21), och 16 av de känsligaste händelserna stickprovsgranskades därefter oberoende mot sina källor. Varje kort länkar till sina källor. Rådata finns i mappen research/ i projektet.</p>" +
       "<h3>Alla källor (" + list.length + ")</h3><ol class=\"srcs\">" + src + "</ol>";
   };
 
