@@ -41,6 +41,8 @@
     $("panel").addEventListener("transitionend", function (e) { if (e.propertyName === "height") app.layoutChanged(); });
     if (!app.selected && window.matchMedia && window.matchMedia("(max-width: 900px)").matches) $("panel").classList.add("collapsed");
     camera.update(FA.ageAt(app.u), 0, true);
+    app.camera = camera;
+    if (FA.isFilm) { $("intro").hidden = true; resize(); if (FA.film) FA.film.ready(app); return; }
     tick.last = performance.now();
     requestAnimationFrame(tick);
     setTimeout(resize, 50);
@@ -51,6 +53,8 @@
     W = window.innerWidth; H = window.innerHeight;
     var dpr = window.devicePixelRatio || 1;
     var gdpr = Math.min(dpr, W < 900 ? 2 : 1.6);
+    var gs = /[?&]gscale=([\d.]+)/.exec(location.search);
+    if (FA.isFilm && gs) gdpr = FA.clamp(+gs[1], 0.4, 2);
     if (globe) {
       var gc = $("globe");
       gc.width = Math.round(W * gdpr); gc.height = Math.round(H * gdpr);
@@ -61,7 +65,9 @@
   }
   app.layoutChanged = function () {
     var dock = $("dock").getBoundingClientRect(), panel = $("panel").getBoundingClientRect(), hud = $("hud").getBoundingClientRect();
-    if (W > 900) {
+    if (FA.isFilm) {
+      area = { x: 0, y: 30, w: W, h: H - 60 };
+    } else if (W > 900) {
       area = { x: 0, y: 0, w: Math.max(200, panel.left - 10), h: Math.max(200, dock.top - 6) };
     } else {
       var top = hud.bottom + 4, bottom = Math.min(panel.top, dock.top) - 4;
@@ -131,6 +137,20 @@
     }
     return out;
   }
+
+  /* ---------- Filmläge: en bildruta i taget, styrd utifrån ---------- */
+  app.setU = function (u) { app.u = FA.clamp(u, 0, 1); afterTimeChange(false); };
+  app.renderFrame = function (dt, t) {
+    var bp = FA.ageAt(app.u);
+    camera.update(bp, dt, false);
+    var view = camera.view(area);
+    view.dpr = app.gdpr || 1; view.bp = bp; view.ice = true; view.grid = true;
+    if (globe) globe.render(view);
+    overlay.render(view, bp, t, FA_EVENTS, app.filters);
+    app.view = view;
+    return view;
+  };
+  app.ui = function () { return ui; };
 
   /* ---------- Loop ---------- */
   function tick(now) {

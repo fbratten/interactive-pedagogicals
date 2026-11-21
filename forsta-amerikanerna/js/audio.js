@@ -7,11 +7,12 @@
 
   function Audio() { this.ctx = null; this.enabled = true; this.volume = 0.7; }
 
-  Audio.prototype.init = function () {
-    if (this.ctx) { if (this.ctx.state === "suspended") this.ctx.resume(); return true; }
+  // ctx: valfri färdig kontext (t.ex. OfflineAudioContext för filmens ljudspår)
+  Audio.prototype.init = function (given) {
+    if (this.ctx) { if (this.ctx.state === "suspended" && this.ctx.resume) this.ctx.resume(); return true; }
     var AC = window.AudioContext || window.webkitAudioContext;
-    if (!AC) return false;
-    var ctx = this.ctx = new AC();
+    if (!given && !AC) return false;
+    var ctx = this.ctx = given || new AC();
     this.master = ctx.createGain(); this.master.gain.value = 0;
     var comp = ctx.createDynamicsCompressor();
     comp.threshold.value = -18; comp.ratio.value = 3;
@@ -82,9 +83,9 @@
   };
 
   // glacial 0..1, ocean 0..1, playing bool
-  Audio.prototype.update = function (glacial, ocean, playing) {
+  Audio.prototype.update = function (glacial, ocean, playing, when) {
     if (!this.ctx || !this.enabled) return;
-    var t = this.ctx.currentTime, k = playing ? 1 : 0.55;
+    var t = when != null ? when : this.ctx.currentTime, k = playing ? 1 : 0.55;
     this.windGain.gain.setTargetAtTime((0.04 + 0.2 * glacial) * k, t, 1.2);
     this.seaGain.gain.setTargetAtTime((0.03 + 0.22 * ocean) * k, t, 1.2);
     this.droneGain.gain.setTargetAtTime((0.05 + 0.07 * glacial) * k, t, 1.5);
@@ -97,9 +98,9 @@
     g.gain.exponentialRampToValueAtTime(0.0001, t + a + dec);
   }
 
-  Audio.prototype.chime = function (kind, status, idx) {
+  Audio.prototype.chime = function (kind, status, idx, when) {
     if (!this.ctx || !this.enabled) return;
-    var ctx = this.ctx, t = ctx.currentTime + 0.02;
+    var ctx = this.ctx, t = (when != null ? when : ctx.currentTime) + 0.02;
     var f = SCALE[Math.abs(idx || 0) % SCALE.length];
     var out = ctx.createGain(); out.gain.value = status === "omstritt" ? 0.55 : 0.8;
     out.connect(this.master); out.connect(this.verb);
@@ -137,9 +138,9 @@
     nodes.forEach(function (n) { n.start(t); n.stop(t + 3.2); });
   };
 
-  Audio.prototype.whoosh = function () {
+  Audio.prototype.whoosh = function (when) {
     if (!this.ctx || !this.enabled) return;
-    var ctx = this.ctx, t = ctx.currentTime + 0.02;
+    var ctx = this.ctx, t = (when != null ? when : ctx.currentTime) + 0.02;
     var s = ctx.createBufferSource(); s.buffer = this.noise;
     var f = ctx.createBiquadFilter(); f.type = "bandpass"; f.Q.value = 1.2;
     f.frequency.setValueAtTime(200, t); f.frequency.exponentialRampToValueAtTime(2200, t + 1.1); f.frequency.exponentialRampToValueAtTime(500, t + 2.2);

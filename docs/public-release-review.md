@@ -60,8 +60,8 @@ Do these in order on github.com. The agent's access cannot read or change reposi
    require a pull request before merging, block force pushes, restrict deletions.
 4. **Security**: Settings > Security (Advanced Security / Code security):
    enable *Private vulnerability reporting*, *Dependabot alerts*, *Secret scanning* and *Push protection*.
-5. **Actions**: Settings > Actions > General. There are no workflows; choose *Allow fbratten actions and
-   reusable workflows* or *Disable actions*, and set workflow permissions to read-only.
+5. **Actions**: Settings > Actions > General. Keep Actions **enabled**: GitHub Pages builds from a branch
+   through GitHub's built-in Pages workflow. Set workflow permissions to read-only.
 6. **Visibility**: Settings > General > Danger Zone > Change visibility > Public.
 7. **Pages**: Settings > Pages > Build and deployment > Source *Deploy from a branch*, branch `main`,
    folder `/ (root)`, Save. Tick *Enforce HTTPS* when offered.

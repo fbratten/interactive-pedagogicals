@@ -32,6 +32,13 @@ går till början och slutet, plus och minus zoomar. Länkar kan peka på en tid
 Spelbar på GitHub Pages (när Pages är påslaget för repot):
 https://fbratten.github.io/interactive-pedagogicals/forsta-amerikanerna/
 
+## Filmläge och video
+
+`index.html?film=1&lang=sv` (eller `en`) visar en filmversion utan reglage: titelskylt, kapitelskyltar,
+textrutor för varje händelse, förloppsstapel och slutskylt. Den spelas inte upp själv utan styrs en
+bildruta i taget av `tools/render_film.py`, som gör en MP4 i 1920x1080 och 30 bilder/s och ett
+synkat ljudspår (samma syntes som sidan, renderad offline). Längd ca 5 min 24 s.
+
 ## Filer
 
 | Sökväg | Innehåll |
@@ -51,6 +58,8 @@ https://fbratten.github.io/interactive-pedagogicals/forsta-amerikanerna/
 | `research/*.json` | Forskningsunderlaget med källor och kontrollnoteringar per händelse; `events_en.json` är den engelska översättningen av händelsetexterna |
 | `tools/build_events.py` | Bygger `data/events.js` ur `research/` (dubbletter, kartjusteringar, illustrationer) |
 | `tools/build_geo.py` | Bygger `data/geo.js` ur Natural Earth GeoJSON (kräver `shapely`) |
+| `js/film.js` | Filmläget: deterministiskt schema, skyltar, textrutor och ljudspår för video |
+| `tools/render_film.py` | Renderar filmläget till MP4 per språk (Playwright + ffmpeg) |
 | `tools/dev-globe.html` | Utvecklingsvy för att stämma av ismodellen vid en viss tidpunkt (`?bp=14000&lat=55&lon=-115&zoom=1.4`) |
 
 Bygg om data:
