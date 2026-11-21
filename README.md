@@ -49,25 +49,6 @@ python3 -m http.server 8000     # or just open index.html in a browser
 
 Each page folder has its own README with structure, data sources, method and known limitations.
 
-## Next steps (possible next MVPs)
-
-Ordered roughly by value for the effort. None of these is started.
-
-| # | MVP | What it adds | Why |
-|---|---|---|---|
-| 1 | **Digitized ice margins** | Replace the simplified ice-dome model with the published Dalton et al. 2020 ice-sheet reconstructions (converted from radiocarbon to calendar years) | Ice margins become exact instead of approximate (today they can be off by 100-300 km) |
-| 2 | **Real sea-floor depth** | A bathymetry grid (for example a GEBCO or ETOPO subset) so coasts flood depth by depth | Beringia and other shelves drown realistically instead of through the 200 m contour proxy |
-| 3 | **Culture areas around 500 CE** | An optional layer with hunter-gatherers, farmers, chiefdoms and high cultures, as in classic school atlases | Connects the migrations to the societies that followed |
-| 4 | **Level switch** | A second text level for pupils aged about 10-15, next to the current adult level | Makes the page usable in school |
-| 5 | **Narration** | Spoken narration for the film mode and the YouTube versions, in Swedish and English | Better for viewing without reading |
-| 6 | **Teacher pack** | Quiz, printable worksheet and a lesson plan linked to the timeline | Ready-made classroom use |
-| 7 | **More sites** | Pedra Furada, Taima-Taima, Triquet Island, Broken Mammoth and other sites not yet researched | Wider coverage, especially of South America |
-| 8 | **Indigenous voices** | Links to, and ideally collaboration with, Indigenous-authored sources and histories | The science is one perspective among several |
-| 9 | **Quality gates in CI** | Headless browser smoke test, data validation and a source link checker on every pull request | Keeps the page working and the sources alive |
-| 10 | **Low-power mode** | Lower render resolution and a 2D fallback map for old phones and browsers without WebGL | Wider reach |
-| 11 | **Source freshness check** | A scheduled review of the live disputes (Monte Verde, early South American sites, genetic dating) | Fast-moving field; 2026 findings will be followed by replies |
-| 12 | **More pages** | The same engine for Oceania (Lapita and Polynesian voyaging) and Africa | The atlas spread that inspired this page covers Oceania, the Americas and Africa |
-
 ## License
 
 - Code: MIT, see [LICENSE](LICENSE).
@@ -97,10 +78,3 @@ CSS och JavaScript utan externa bibliotek, typsnitt, bilder eller ljudfiler.
 - ställa genetik bredvid arkeologi,
 - vara kontrollerbar, eftersom varje händelse länkar till sina källor och rådata ligger i repot,
 - vara fri att återanvända (MIT för kod, CC BY 4.0 för innehåll).
-
-**Nästa steg** finns i tabellen ovan, *Next steps*. De viktigaste är:
-- digitaliserade isgränser (Dalton m.fl. 2020),
-- verkligt havsdjup,
-- ett lager med kulturområden kring år 500,
-- en nivåväljare för skolelever,
-- berättarröst, lärarmaterial och fler fyndplatser.
