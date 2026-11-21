@@ -1,4 +1,4 @@
-# interactive-pedagocicals
+# Interactive Pedagogicals
 Interaktiva, pedagogiska webbsidor. Varje sida ligger i en egen mapp och fungerar utan externa bibliotek.
 
 | Sida | Innehåll |
